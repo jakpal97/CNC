@@ -1,0 +1,345 @@
+{
+	"nav": {
+		"home": "Startseite",
+		"services": "Dienstleistungen",
+		"capabilities": "Maschinen",
+		"about": "Über uns",
+		"contact": "Kontakt",
+		"getQuote": "Angebot anfordern"
+	},
+	"hero": {
+		"title": "Präzise CNC-Bearbeitung",
+		"titleHighlight": "Lösungen",
+		"subtitle": "Hochwertige CNC-bearbeitete Teile mit engen Toleranzen und außergewöhnlichen Oberflächengüten für Industrien weltweit.",
+		"requestQuote": "Angebot anfordern",
+		"ourCapabilities": "Unsere Fähigkeiten",
+		"simulator": "CNC-Maschinen-Simulator",
+		"running": "Läuft: Teil #EC-4829",
+		"efficiency": "100% Effizienz",
+		"years": "Jahre Erfahrung",
+		"parts": "Produzierte Teile"
+	},
+	"trusted": {
+		"title": "Vertrauen von Branchenführern"
+	},
+	"services": {
+		"tag": "UNSERE DIENSTLEISTUNGEN",
+		"title": "Präzisions-CNC-Bearbeitungsdienstleistungen",
+		"subtitle": "Wir sind spezialisiert auf hochpräzise CNC-Bearbeitungsdienstleistungen für Industrien, die enge Toleranzen und außergewöhnliche Qualität erfordern.",
+		"milling": {
+			"title": "CNC-Fräsen",
+			"description": "Hochpräzises 3-5-Achs-Fräsen mit Toleranzen bis ±0.0005\" für komplexe Geometrien und Prototypen.",
+			"features": [
+				"3-, 4- & 5-Achs-Fähigkeiten",
+				"Aluminium, Stahl, Titan, Kunststoffe",
+				"Vom Prototyp bis zur Serienproduktion"
+			]
+		},
+		"turning": {
+			"title": "CNC-Drehen",
+			"description": "Präzisionsdreharbeiten mit angetriebenen Werkzeugen für komplexe Drehteile und Großserienproduktion.",
+			"features": [
+				"Schweizer-Art und Mehrachsen-Drehen",
+				"Stangendurchmesser von 0.020\" bis 3\"",
+				"Sekundäroperationen inbegriffen"
+			]
+		},
+		"edm": {
+			"title": "EDM-Bearbeitung",
+			"description": "Funkenerosion für harte Metalle und komplexe Formen, die konventionelle Bearbeitung nicht bewältigen kann.",
+			"features": ["Draht- und Senk-EDM-Fähigkeiten", "Toleranzen bis ±0.0001\"", "Gehärtete Stähle bis 65 HRC"]
+		}
+	},
+	"capabilities": {
+		"tag": "UNSERE MASCHINEN",
+		"title": "Fortschrittliche CNC-Maschinen",
+		"subtitle": "Wir verwenden modernste CNC-Maschinen, um höchste Qualität und Präzision in der Bearbeitung zu gewährleisten.",
+		"services": [
+			{
+				"title": "5-Achsen CNC-Fräsmaschinen",
+				"description": "Fortschrittliche 5-Achsen CNC-Fräsmaschinen DMG MORI und HAAS mit Arbeitsbereich 1000x600x500mm und Präzision ±0.003mm.",
+				"learnMore": "Mehr erfahren"
+			},
+			{
+				"title": "CNC-Drehmaschinen",
+				"description": "Professionelle CNC-Drehmaschinen MAZAK und OKUMA mit angetriebenen Werkzeugen, max. Drehdurchmesser Ø500mm.",
+				"learnMore": "Mehr erfahren"
+			},
+			{
+				"title": "Bearbeitungszentren",
+				"description": "Multifunktionale Bearbeitungszentren für umfassende Teileproduktion mit voller 24/7-Automatisierung.",
+				"learnMore": "Mehr erfahren"
+			},
+			{
+				"title": "Messsysteme",
+				"description": "Fortschrittliche Qualitätskontrollsysteme mit 3D-Messungen und metrologischer Analyse gemäß ISO 9001.",
+				"learnMore": "Mehr erfahren"
+			}
+		]
+	},
+	"portfolio": {
+		"tag": "UNSERE ARBEIT",
+		"title": "Präzisions-CNC-bearbeitete Teile",
+		"subtitle": "Durchsuchen Sie unser Portfolio präzise bearbeiteter Komponenten für verschiedene Branchen.",
+		"viewDetails": "Details anzeigen",
+		"viewFull": "Vollständiges Portfolio anzeigen",
+		"parts": {
+			"aerospace": {
+				"title": "Luft- und Raumfahrthalterung",
+				"description": "5-Achs-bearbeitete Titankomponente für strukturelle Luftfahrtanwendungen."
+			},
+			"medical": {
+				"title": "Medizinisches Implantat",
+				"description": "Präzise bearbeitetes Kobalt-Chrom-Orthopädieimplantat mit polierter Oberfläche."
+			},
+			"automotive": {
+				"title": "Automobilventil",
+				"description": "CNC-gedrehte Edelstahlkomponente für Kraftstoffsysteme mit EDM-Merkmalen."
+			},
+			"optical": {
+				"title": "Optische Halterung",
+				"description": "Aluminium 6061-T6 Präzisions-Optikkomponente mit schwarzer Eloxierung."
+			},
+			"hydraulic": {
+				"title": "Hydraulikblock",
+				"description": "Komplexer Hydraulikverteilerblock mit präzise gebohrten Kanälen."
+			},
+			"robotic": {
+				"title": "Roboterarmkomponente",
+				"description": "Hochfestes Aluminium-Robotergelenk mit Präzisions-Lagerflächen."
+			}
+		}
+	},
+	"about": {
+		"tag": "ÜBER UNS",
+		"title": "Präzisions-CNC-Bearbeitung seit 2005",
+		"description": "ExactCut Parts wurde mit dem Engagement gegründet, CNC-bearbeitete Komponenten höchster Qualität mit unübertroffener Präzision und Zuverlässigkeit zu liefern.",
+		"features": {
+			"certified": {
+				"title": "ISO 9001:2015 zertifiziert",
+				"description": "Unser Qualitätsmanagementsystem gewährleistet konstante Exzellenz bei jedem von uns produzierten Teil."
+			},
+			"skilled": {
+				"title": "Qualifizierte Maschinisten",
+				"description": "Unser Team verfügt über durchschnittlich 15+ Jahre Erfahrung in der Präzisions-CNC-Bearbeitung in verschiedenen Branchen."
+			},
+			"improvement": {
+				"title": "Kontinuierliche Verbesserung",
+				"description": "Wir investieren in die neueste Technologie und Schulung, um an der Spitze der CNC-Bearbeitungsinnovation zu bleiben."
+			}
+		},
+		"stats": {
+			"years": "Jahre im Geschäft",
+			"parts": "Produzierte Teile"
+		}
+	},
+	"testimonials": {
+		"tag": "KUNDENBEWERTUNGEN",
+		"title": "Was unsere Kunden sagen",
+		"reviews": [
+			{
+				"text": "ExactCut ist unsere bevorzugte Werkstatt für Luft- und Raumfahrtkomponenten. Ihre Liebe zum Detail und Fähigkeit, enge Toleranzen konstant einzuhalten, ist unübertroffen.",
+				"author": "Michael Thompson",
+				"position": "Leiter Technik, AeroTech"
+			},
+			{
+				"text": "Wir haben mit vielen Werkstätten gearbeitet, aber ExactCut zeichnet sich durch ihre technische Expertise und problemlösenden Ansatz aus. Sie haben uns unzählige Stunden Neugestaltung erspart.",
+				"author": "Sarah Johnson",
+				"position": "Produktmanagerin, MedDevice Co."
+			},
+			{
+				"text": "Ihre Durchlaufzeiten sind beeindruckend ohne Qualitätsverlust. Wir haben unsere Partnerschaft mit ExactCut auf alle unsere CNC-Bearbeitungsbedürfnisse ausgeweitet.",
+				"author": "David Chen",
+				"position": "VP Operations, AutoParts Inc."
+			}
+		]
+	},
+	"cta": {
+		"title": "Transformieren Sie Ihre Operationen heute! Entdecken Sie unsere CNC-Lösungen",
+		"subtitle": "Handeln Sie, indem Sie die transformative Wirkung von CNC-Maschinen auf Geschäftsprozesse hervorheben.",
+		"requestQuote": "Kontaktieren Sie uns",
+		"learnMore": "Mehr erfahren"
+	},
+	"contact": {
+		"tag": "KONTAKTIEREN SIE UNS",
+		"title": "Kontaktieren Sie uns",
+		"subtitle": "Haben Sie Fragen zu unseren CNC-Bearbeitungsfähigkeiten oder benötigen Sie Unterstützung bei Ihrem Projekt? Unser Team ist bereit zu helfen.",
+		"info": {
+			"location": {
+				"title": "Unser Standort",
+				"address": "Industrieparkstraße 123\n12345 Berlin"
+			},
+			"phone": {
+				"title": "Telefon",
+				"main": "Hauptnummer: (555) 123-4567",
+				"sales": "Vertrieb: (555) 123-4568"
+			},
+			"email": {
+				"title": "E-Mail",
+				"sales": "verkauf@exactcutparts.de",
+				"support": "support@exactcutparts.de"
+			},
+			"hours": {
+				"title": "Öffnungszeiten",
+				"weekdays": "Montag - Freitag: 7:00 - 17:00 Uhr",
+				"weekend": "Samstag - Sonntag: Geschlossen"
+			}
+		},
+		"form": {
+			"title": "Senden Sie uns eine Nachricht",
+			"name": "Name",
+			"email": "E-Mail",
+			"phone": "Telefon",
+			"company": "Firma",
+			"subject": "Betreff",
+			"message": "Nachricht",
+			"file": "Dateien hochladen (CAD-Zeichnungen, Spezifikationen, PDF)",
+			"submit": "Nachricht senden",
+			"required": "*"
+		}
+	},
+	"footer": {
+		"description": "Präzisions-CNC-Bearbeitungsdienstleistungen für Industrien, die enge Toleranzen und außergewöhnliche Qualität erfordern.",
+		"quickLinks": "Schnelllinks",
+		"services": "Dienstleistungen",
+		"newsletter": {
+			"title": "Newsletter",
+			"description": "Abonnieren Sie unseren Newsletter für die neuesten Updates und Brancheneinblicke.",
+			"placeholder": "Ihre E-Mail"
+		},
+		"servicesList": {
+			"milling": "CNC-Fräsen",
+			"turning": "CNC-Drehen",
+			"edm": "EDM-Bearbeitung",
+			"prototyping": "Prototyping",
+			"production": "Serienproduktion"
+		},
+		"legal": {
+			"privacy": "Datenschutzrichtlinie",
+			"terms": "Nutzungsbedingungen",
+			"sitemap": "Sitemap",
+			"copyright": "© 2023 ExactCut Parts. Alle Rechte vorbehalten."
+		}
+	},
+	"machinesPage": {
+		"hero": {
+			"badge": "Unsere CNC-Maschinen",
+			"title": "Fortschrittliche Fertigungstechnologien",
+			"subtitle": "Wir verwenden modernste CNC-Maschinen von renommierten Herstellern, um höchste Qualität und Bearbeitungspräzision zu gewährleisten.",
+			"stats": [
+				{ "value": "10+", "label": "CNC-Maschinen" },
+				{ "value": "±0.003mm", "label": "Präzision" },
+				{ "value": "24/7", "label": "Produktion" },
+				{ "value": "1000+", "label": "Projekte" }
+			]
+		},
+		"machines": {
+			"tag": "Unsere Technologien",
+			"title": "Maschinenpark",
+			"subtitle": "Entdecken Sie unseren fortschrittlichen Maschinenpark, der die Umsetzung auch der anspruchsvollsten Projekte ermöglicht.",
+			"list": [
+				{
+					"name": "5-Achsen CNC-Fräsmaschinen",
+					"shortDesc": "Präzises mehrachsiges Fräsen für komplexe Geometrien",
+					"manufacturer": "DMG MORI & HAAS",
+					"icon": "fa-cogs",
+					"specs": [
+						"Arbeitsbereich: 1000x600x500mm",
+						"Positioniergenauigkeit: ±0.003mm",
+						"Automatischer Werkzeugwechsler: 40 Positionen",
+						"Spindeldrehzahl: bis 24.000 U/min"
+					]
+				},
+				{
+					"name": "CNC-Drehmaschinen",
+					"shortDesc": "Professionelles Drehen mit angetriebenen Werkzeugen",
+					"manufacturer": "MAZAK & OKUMA",
+					"icon": "fa-sync",
+					"specs": [
+						"Drehdurchmesser: max Ø500mm",
+						"Bearbeitungslänge: bis 1000mm",
+						"Antriebswerkzeuge",
+						"Vollständige Prozessautomatisierung"
+					]
+				},
+				{
+					"name": "Bearbeitungszentren",
+					"shortDesc": "Multifunktionale Zentren für umfassende Produktion",
+					"manufacturer": "DMG MORI",
+					"icon": "fa-cube",
+					"specs": [
+						"24/7 Bearbeitung",
+						"Integriertes Messsystem",
+						"5-Achsen-Bearbeitungsfähigkeit",
+						"Automatischer Palettenwechsler"
+					]
+				},
+				{
+					"name": "Messsysteme",
+					"shortDesc": "Fortschrittliche Qualitätskontrolle und 3D-Messungen",
+					"manufacturer": "ZEISS & MITUTOYO",
+					"icon": "fa-ruler-combined",
+					"specs": ["3D-Koordinatenmessungen", "Genauigkeit: ±0.001mm", "3D-Laserscanning", "ISO 9001 konform"]
+				}
+			]
+		},
+		"projects": {
+			"tag": "Unsere Leistungen",
+			"title": "Projektportfolio",
+			"subtitle": "Sehen Sie Beispielprojekte, die auf unseren CNC-Maschinen realisiert wurden",
+			"viewDetails": "Details anzeigen",
+			"loadMore": "Mehr Projekte laden",
+			"categories": [
+				{ "id": "all", "name": "Alle" },
+				{ "id": "aerospace", "name": "Luftfahrt" },
+				{ "id": "automotive", "name": "Automobil" },
+				{ "id": "medical", "name": "Medizin" },
+				{ "id": "industrial", "name": "Industrie" }
+			],
+			"items": [
+				{
+					"title": "Flugzeugmotor-Komponenten",
+					"description": "Präzise Turbinenelemente aus Titanlegierung",
+					"category": "aerospace",
+					"categoryName": "Luftfahrt",
+					"specs": ["Material: Titan Grade 5", "Toleranz: ±0.005mm", "Oberfläche: Ra 0.8"]
+				},
+				{
+					"title": "Rennmotor-Block",
+					"description": "Leichter Aluminium-Motorblock für Motorsport",
+					"category": "automotive",
+					"categoryName": "Automobil",
+					"specs": ["Material: Aluminium 7075", "Gewicht: -30% vs Standard", "Leistung: +15%"]
+				},
+				{
+					"title": "Medizinische Implantate",
+					"description": "Biokompatible orthopädische Elemente",
+					"category": "medical",
+					"categoryName": "Medizin",
+					"specs": ["Material: Chirurgischer Stahl", "Zertifikat: ISO 13485", "Sterilität: Klasse A"]
+				},
+				{
+					"title": "Spritzgussform",
+					"description": "Präzise Form für Serienproduktion",
+					"category": "industrial",
+					"categoryName": "Industrie",
+					"specs": ["Werkzeugstahl", "Lebensdauer: 100k Zyklen", "Kühlung: 8 Kanäle"]
+				},
+				{
+					"title": "Fahrwerk-Komponenten",
+					"description": "Haltbare Fahrwerkskomponenten",
+					"category": "automotive",
+					"categoryName": "Automobil",
+					"specs": ["CrMo-Stahl", "Belastung: bis 2000kg", "Beschichtung: Verzinkung"]
+				},
+				{
+					"title": "Turbinenschaufeln",
+					"description": "Aerodynamische Profile aus Superlegierungen",
+					"category": "aerospace",
+					"categoryName": "Luftfahrt",
+					"specs": ["Inconel 718", "Betriebstemp: 850°C", "5-Achsen-Profil"]
+				}
+			]
+		}
+	}
+}

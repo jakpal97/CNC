@@ -1,0 +1,341 @@
+{
+	"nav": {
+		"home": "Home",
+		"services": "Services",
+		"capabilities": "Machines",
+		"about": "About",
+		"contact": "Contact",
+		"getQuote": "Get a Quote"
+	},
+	"hero": {
+		"title": "Precision CNC Machining",
+		"titleHighlight": "Solutions",
+		"subtitle": "High-quality CNC machined parts with tight tolerances and exceptional surface finishes for industries worldwide.",
+		"requestQuote": "Request a Quote",
+		"ourCapabilities": "Our Capabilities",
+		"simulator": "CNC Machine Simulator",
+		"running": "Running: Part #EC-4829",
+		"efficiency": "100% Efficiency",
+		"years": "Years of Experience",
+		"parts": "Produced Parts"
+	},
+	"trusted": {
+		"title": "Trusted by industry leaders"
+	},
+	"services": {
+		"tag": "OUR SERVICES",
+		"title": "Precision CNC Machining Services",
+		"subtitle": "We specialize in high-precision CNC machining services for industries requiring tight tolerances and exceptional quality.",
+		"milling": {
+			"title": "CNC Milling",
+			"description": "High-precision 3-5 axis milling with tolerances down to ±0.0005\" for complex geometries and prototypes.",
+			"features": ["3, 4 & 5-axis capabilities", "Aluminum, steel, titanium, plastics", "Prototype to production runs"]
+		},
+		"turning": {
+			"title": "CNC Turning",
+			"description": "Precision lathe work with live tooling for complex turned parts and high-volume production.",
+			"features": [
+				"Swiss-style and multi-axis turning",
+				"Bar diameters from 0.020\" to 3\"",
+				"Secondary operations included"
+			]
+		},
+		"edm": {
+			"title": "EDM Machining",
+			"description": "Electrical Discharge Machining for hard metals and complex shapes that conventional machining can't handle.",
+			"features": ["Wire and sinker EDM capabilities", "Tolerances to ±0.0001\"", "Hardened steels up to 65 HRC"]
+		}
+	},
+	"capabilities": {
+		"tag": "OUR MACHINES",
+		"title": "Advanced CNC Machines",
+		"subtitle": "We use state-of-the-art CNC machines to ensure the highest quality and precision in machining.",
+		"services": [
+			{
+				"title": "5-Axis CNC Milling Machines",
+				"description": "Advanced 5-axis CNC milling machines DMG MORI and HAAS with working area 1000x600x500mm and precision ±0.003mm.",
+				"learnMore": "Learn More"
+			},
+			{
+				"title": "CNC Lathes",
+				"description": "Professional CNC lathes MAZAK and OKUMA with live tooling, max turning diameter Ø500mm.",
+				"learnMore": "Learn More"
+			},
+			{
+				"title": "Machining Centers",
+				"description": "Multi-functional machining centers for comprehensive parts production with full 24/7 automation.",
+				"learnMore": "Learn More"
+			},
+			{
+				"title": "Measurement Systems",
+				"description": "Advanced quality control systems with 3D measurements and metrological analysis compliant with ISO 9001.",
+				"learnMore": "Learn More"
+			}
+		]
+	},
+	"portfolio": {
+		"tag": "OUR WORK",
+		"title": "Precision CNC Machined Parts",
+		"subtitle": "Browse our portfolio of precision machined components for various industries.",
+		"viewDetails": "View Details",
+		"viewFull": "View Full Portfolio",
+		"parts": {
+			"aerospace": {
+				"title": "Aerospace Bracket",
+				"description": "5-axis machined titanium component for aircraft structural applications."
+			},
+			"medical": {
+				"title": "Medical Implant",
+				"description": "Precision machined cobalt-chrome orthopedic implant with polished finish."
+			},
+			"automotive": {
+				"title": "Automotive Valve",
+				"description": "CNC turned stainless steel fuel system component with EDM features."
+			},
+			"optical": {
+				"title": "Optical Mount",
+				"description": "Aluminum 6061-T6 precision optical component with black anodize."
+			},
+			"hydraulic": {
+				"title": "Hydraulic Manifold",
+				"description": "Complex hydraulic manifold block with precision bored passages."
+			},
+			"robotic": {
+				"title": "Robotic Arm Component",
+				"description": "High-strength aluminum robotic joint with precision bearing surfaces."
+			}
+		}
+	},
+	"about": {
+		"tag": "ABOUT US",
+		"title": "Precision CNC Machining Since 2005",
+		"description": "ExactCut Parts was founded with a commitment to delivering the highest quality CNC machined components with unparalleled precision and reliability.",
+		"features": {
+			"certified": {
+				"title": "ISO 9001:2015 Certified",
+				"description": "Our quality management system ensures consistent excellence in every part we produce."
+			},
+			"skilled": {
+				"title": "Skilled Machinists",
+				"description": "Our team averages 15+ years of experience in precision CNC machining across various industries."
+			},
+			"improvement": {
+				"title": "Continuous Improvement",
+				"description": "We invest in the latest technology and training to stay at the forefront of CNC machining innovation."
+			}
+		},
+		"stats": {
+			"years": "Years in Business",
+			"parts": "Parts Produced"
+		}
+	},
+	"testimonials": {
+		"tag": "CLIENT TESTIMONIALS",
+		"title": "What Our Clients Say",
+		"reviews": [
+			{
+				"text": "ExactCut has been our go-to machine shop for aerospace components. Their attention to detail and ability to hold tight tolerances consistently is unmatched.",
+				"author": "Michael Thompson",
+				"position": "Director of Engineering, AeroTech"
+			},
+			{
+				"text": "We've worked with many machine shops, but ExactCut stands out for their technical expertise and problem-solving approach. They've saved us countless hours of redesign.",
+				"author": "Sarah Johnson",
+				"position": "Product Manager, MedDevice Co."
+			},
+			{
+				"text": "Their turnaround times are impressive without sacrificing quality. We've expanded our partnership with ExactCut to include all our CNC machining needs.",
+				"author": "David Chen",
+				"position": "VP Operations, AutoParts Inc."
+			}
+		]
+	},
+	"cta": {
+		"title": "Transform Your Operations Today! Explore Our CNC Solutions",
+		"subtitle": "Drive action by emphasizing the transformative impact of CNC machines on business operations.",
+		"requestQuote": "Contact Us",
+		"learnMore": "Learn More"
+	},
+	"contact": {
+		"tag": "CONTACT US",
+		"title": "Get In Touch",
+		"subtitle": "Have questions about our CNC machining capabilities or need assistance with your project? Our team is ready to help.",
+		"info": {
+			"location": {
+				"title": "Our Location",
+				"address": "123 Industrial Park Drive\nSpringfield, MA 01101"
+			},
+			"phone": {
+				"title": "Phone",
+				"main": "Main: (555) 123-4567",
+				"sales": "Sales: (555) 123-4568"
+			},
+			"email": {
+				"title": "Email",
+				"sales": "sales@exactcutparts.com",
+				"support": "support@exactcutparts.com"
+			},
+			"hours": {
+				"title": "Hours",
+				"weekdays": "Monday - Friday: 7:00 AM - 5:00 PM",
+				"weekend": "Saturday - Sunday: Closed"
+			}
+		},
+		"form": {
+			"title": "Send Us a Message",
+			"name": "Name",
+			"email": "Email",
+			"phone": "Phone",
+			"company": "Company",
+			"subject": "Subject",
+			"message": "Message",
+			"file": "Upload Files (CAD drawings, specs, PDF)",
+			"submit": "Send Message",
+			"required": "*"
+		}
+	},
+	"footer": {
+		"description": "Precision CNC machining services for industries requiring tight tolerances and exceptional quality.",
+		"quickLinks": "Quick Links",
+		"services": "Services",
+		"newsletter": {
+			"title": "Newsletter",
+			"description": "Subscribe to our newsletter for the latest updates and industry insights.",
+			"placeholder": "Your email"
+		},
+		"servicesList": {
+			"milling": "CNC Milling",
+			"turning": "CNC Turning",
+			"edm": "EDM Machining",
+			"prototyping": "Prototyping",
+			"production": "Production Runs"
+		},
+		"legal": {
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Service",
+			"sitemap": "Sitemap",
+			"copyright": "© 2023 ExactCut Parts. All rights reserved."
+		}
+	},
+	"machinesPage": {
+		"hero": {
+			"badge": "Our CNC Machines",
+			"title": "Advanced Manufacturing Technologies",
+			"subtitle": "We use state-of-the-art CNC machines from renowned manufacturers to ensure the highest quality and machining precision.",
+			"stats": [
+				{ "value": "10+", "label": "CNC Machines" },
+				{ "value": "±0.003mm", "label": "Precision" },
+				{ "value": "24/7", "label": "Production" },
+				{ "value": "1000+", "label": "Projects" }
+			]
+		},
+		"machines": {
+			"tag": "Our Technologies",
+			"title": "Machine Park",
+			"subtitle": "Discover our advanced machine park that enables the implementation of even the most demanding projects.",
+			"list": [
+				{
+					"name": "5-Axis CNC Milling Machines",
+					"shortDesc": "Precise multi-axis milling for complex geometries",
+					"manufacturer": "DMG MORI & HAAS",
+					"icon": "fa-cogs",
+					"specs": [
+						"Working area: 1000x600x500mm",
+						"Positioning accuracy: ±0.003mm",
+						"Automatic tool changer: 40 positions",
+						"Spindle speed: up to 24,000 RPM"
+					]
+				},
+				{
+					"name": "CNC Lathes",
+					"shortDesc": "Professional turning with live tooling",
+					"manufacturer": "MAZAK & OKUMA",
+					"icon": "fa-sync",
+					"specs": [
+						"Turning diameter: max Ø500mm",
+						"Machining length: up to 1000mm",
+						"Live tooling",
+						"Full process automation"
+					]
+				},
+				{
+					"name": "Machining Centers",
+					"shortDesc": "Multi-functional centers for comprehensive production",
+					"manufacturer": "DMG MORI",
+					"icon": "fa-cube",
+					"specs": [
+						"24/7 machining",
+						"Integrated measurement system",
+						"5-axis machining capability",
+						"Automatic pallet changer"
+					]
+				},
+				{
+					"name": "Measurement Systems",
+					"shortDesc": "Advanced quality control and 3D measurements",
+					"manufacturer": "ZEISS & MITUTOYO",
+					"icon": "fa-ruler-combined",
+					"specs": ["3D coordinate measurements", "Accuracy: ±0.001mm", "3D laser scanning", "ISO 9001 compliant"]
+				}
+			]
+		},
+		"projects": {
+			"tag": "Our Achievements",
+			"title": "Project Portfolio",
+			"subtitle": "See sample projects completed on our CNC machines",
+			"viewDetails": "View details",
+			"loadMore": "Load more projects",
+			"categories": [
+				{ "id": "all", "name": "All" },
+				{ "id": "aerospace", "name": "Aerospace" },
+				{ "id": "automotive", "name": "Automotive" },
+				{ "id": "medical", "name": "Medical" },
+				{ "id": "industrial", "name": "Industrial" }
+			],
+			"items": [
+				{
+					"title": "Aircraft Engine Components",
+					"description": "Precision turbine elements made of titanium alloy",
+					"category": "aerospace",
+					"categoryName": "Aerospace",
+					"specs": ["Material: Titanium Grade 5", "Tolerance: ±0.005mm", "Surface: Ra 0.8"]
+				},
+				{
+					"title": "Racing Engine Block",
+					"description": "Lightweight aluminum engine block for motorsport",
+					"category": "automotive",
+					"categoryName": "Automotive",
+					"specs": ["Material: Aluminum 7075", "Weight: -30% vs standard", "Power: +15%"]
+				},
+				{
+					"title": "Medical Implants",
+					"description": "Biocompatible orthopedic elements",
+					"category": "medical",
+					"categoryName": "Medical",
+					"specs": ["Material: Surgical steel", "Certificate: ISO 13485", "Sterility: Class A"]
+				},
+				{
+					"title": "Injection Mold",
+					"description": "Precision mold for serial production",
+					"category": "industrial",
+					"categoryName": "Industrial",
+					"specs": ["Tool steel", "Lifespan: 100k cycles", "Cooling: 8 channels"]
+				},
+				{
+					"title": "Suspension Components",
+					"description": "Durable suspension components",
+					"category": "automotive",
+					"categoryName": "Automotive",
+					"specs": ["CrMo steel", "Load: up to 2000kg", "Coating: Zinc plating"]
+				},
+				{
+					"title": "Turbine Blades",
+					"description": "Aerodynamic profiles from superalloys",
+					"category": "aerospace",
+					"categoryName": "Aerospace",
+					"specs": ["Inconel 718", "Operating temp: 850°C", "5-axis profile"]
+				}
+			]
+		}
+	}
+}

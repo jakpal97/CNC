@@ -1,0 +1,350 @@
+{
+	"nav": {
+		"home": "Strona główna",
+		"services": "Usługi",
+		"capabilities": "Park maszyn",
+		"about": "O nas",
+		"contact": "Kontakt",
+		"getQuote": "Uzyskaj wycenę"
+	},
+	"hero": {
+		"title": "Precyzyjne rozwiązania",
+		"titleHighlight": "obróbki CNC",
+		"subtitle": "Wysokiej jakości części obrabiane CNC z ciasłymi tolerancjami i wyjątkowym wykończeniem powierzchni dla przemysłu na całym świecie.",
+		"requestQuote": "Zapytaj o wycenę",
+		"ourCapabilities": "Nasze możliwości",
+		"simulator": "Symulator maszyny CNC",
+		"running": "W trakcie: Część #EC-4829",
+		"efficiency": "100% wydajności",
+		"years": "Lat doświadczenia",
+		"parts": "Wyprodukowanych części"
+	},
+	"trusted": {
+		"title": "Zaufali nam liderzy branży"
+	},
+	"services": {
+		"tag": "NASZE USŁUGI",
+		"title": "Usługi precyzyjnej obróbki CNC",
+		"subtitle": "Specjalizujemy się w wysokoprecyzyjnych usługach obróbki CNC dla przemysłu wymagającego ciasłych tolerancji i wyjątkowej jakości.",
+		"milling": {
+			"title": "Frezowanie CNC",
+			"description": "Wysokoprecyzyjne frezowanie 3-5 osiowe z tolerancjami do ±0.0005\" dla złożonych geometrii i prototypów.",
+			"features": [
+				"Możliwości 3, 4 i 5 osi",
+				"Aluminium, stal, tytan, tworzywa sztuczne",
+				"Od prototypu do produkcji seryjnej"
+			]
+		},
+		"turning": {
+			"title": "Toczenie CNC",
+			"description": "Precyzyjna obróbka tokarska z narzędziami napędzanymi dla złożonych części toczonych i produkcji wielkoseryjnej.",
+			"features": [
+				"Toczenie szwajcarskie i wieloosiowe",
+				"Średnice prętów od 0.020\" do 3\"",
+				"Operacje wtórne włączone"
+			]
+		},
+		"edm": {
+			"title": "Obróbka EDM",
+			"description": "Elektroerozyjna obróbka metali twardych i złożonych kształtów, których konwencjonalna obróbka nie może obsłużyć.",
+			"features": ["Możliwości drutu i elektroody", "Tolerancje do ±0.0001\"", "Stale utwardzone do 65 HRC"]
+		}
+	},
+	"capabilities": {
+		"tag": "NASZE MASZYNY",
+		"title": "Zaawansowane maszyny CNC",
+		"subtitle": "Wykorzystujemy najnowocześniejsze maszyny CNC do zapewnienia najwyższej jakości i precyzji obróbki.",
+		"services": [
+			{
+				"title": "Frezarki CNC 5-osiowe",
+				"description": "Zaawansowane frezarki CNC 5-osiowe DMG MORI i HAAS z obszarem roboczym 1000x600x500mm i precyzją ±0.003mm.",
+				"learnMore": "Dowiedz się więcej"
+			},
+			{
+				"title": "Tokarki CNC",
+				"description": "Profesjonalne tokarki CNC MAZAK i OKUMA z narzędziami napędzanymi, średnica toczenia max Ø500mm.",
+				"learnMore": "Dowiedz się więcej"
+			},
+			{
+				"title": "Centra obróbcze",
+				"description": "Wielofunkcyjne centra obróbcze do kompleksowej produkcji części z pełną automatyzacją 24/7.",
+				"learnMore": "Dowiedz się więcej"
+			},
+			{
+				"title": "Systemy pomiarowe",
+				"description": "Zaawansowane systemy kontroli jakości z pomiarami 3D i analizą metrologiczną zgodną z ISO 9001.",
+				"learnMore": "Dowiedz się więcej"
+			}
+		]
+	},
+	"portfolio": {
+		"tag": "NASZA PRACA",
+		"title": "Precyzyjnie obrobione części CNC",
+		"subtitle": "Przeglądaj nasze portfolio precyzyjnie obrobionych komponentów dla różnych branż.",
+		"viewDetails": "Zobacz szczegóły",
+		"viewFull": "Zobacz pełne portfolio",
+		"parts": {
+			"aerospace": {
+				"title": "Wspornik lotniczy",
+				"description": "Komponent tytanowy obrabiany 5-osiowo dla zastosowań konstrukcyjnych samolotów."
+			},
+			"medical": {
+				"title": "Implant medyczny",
+				"description": "Precyzyjnie obrabiany implant ortopedyczny z kobaltu-chromu z polerowanym wykończeniem."
+			},
+			"automotive": {
+				"title": "Zawór samochodowy",
+				"description": "Komponent systemu paliwowego ze stali nierdzewnej toczony CNC z cechami EDM."
+			},
+			"optical": {
+				"title": "Mocowanie optyczne",
+				"description": "Precyzyjny komponent optyczny z aluminium 6061-T6 z czarnym anodowaniem."
+			},
+			"hydraulic": {
+				"title": "Blok hydrauliczny",
+				"description": "Złożony blok hydrauliczny z precyzyjnie wywierczonymi kanałami."
+			},
+			"robotic": {
+				"title": "Komponent ramienia robota",
+				"description": "Wysokowytrzymałe aluminiowe połączenie robota z precyzyjnymi powierzchniami łożysk."
+			}
+		}
+	},
+	"about": {
+		"tag": "O NAS",
+		"title": "Precyzyjna obróbka CNC od 2005",
+		"description": "ExactCut Parts została założona z zaangażowaniem w dostarczanie komponentów obrabianych CNC najwyższej jakości z niezrównaną precyzją i niezawodnością.",
+		"features": {
+			"certified": {
+				"title": "Certyfikat ISO 9001:2015",
+				"description": "Nasz system zarządzania jakością zapewnia stałą doskonałość w każdej produkowanej części."
+			},
+			"skilled": {
+				"title": "Wykwalifikowani operatorzy",
+				"description": "Nasz zespół ma średnio ponad 15 lat doświadczenia w precyzyjnej obróbce CNC w różnych branżach."
+			},
+			"improvement": {
+				"title": "Ciągłe doskonalenie",
+				"description": "Inwestujemy w najnowszą technologię i szkolenia, aby pozostać na czele innowacji w obróbce CNC."
+			}
+		},
+		"stats": {
+			"years": "Lat działalności",
+			"parts": "Wyprodukowanych części"
+		}
+	},
+	"testimonials": {
+		"tag": "OPINIE KLIENTÓW",
+		"title": "Co mówią nasi klienci",
+		"reviews": [
+			{
+				"text": "ExactCut jest naszym ulubionym zakładem obróbki dla komponentów lotniczych. Ich dbałość o szczegóły i umiejętność utrzymywania ciasłych tolerancji jest niezrównana.",
+				"author": "Michael Thompson",
+				"position": "Dyrektor Inżynierii, AeroTech"
+			},
+			{
+				"text": "Współpracowaliśmy z wieloma zakładami obróbki, ale ExactCut wyróżnia się swoją wiedzą techniczną i podejściem do rozwiązywania problemów. Zaoszczędzili nam niezliczonych godzin przeprojektowania.",
+				"author": "Sarah Johnson",
+				"position": "Menedżer Produktu, MedDevice Co."
+			},
+			{
+				"text": "Ich czas realizacji jest imponujący bez utraty jakości. Rozszerzyliśmy nasze partnerstwo z ExactCut na wszystkie nasze potrzeby związane z obróbką CNC.",
+				"author": "David Chen",
+				"position": "VP Operacji, AutoParts Inc."
+			}
+		]
+	},
+	"cta": {
+		"title": "Transformuj swoje operacje już dziś! Odkryj nasze rozwiązania CNC",
+		"subtitle": "Podejmij działanie, podkreślając transformacyjny wpływ maszyn CNC na operacje biznesowe.",
+		"requestQuote": "Skontaktuj się z nami",
+		"learnMore": "Dowiedz się więcej"
+	},
+	"contact": {
+		"tag": "SKONTAKTUJ SIĘ",
+		"title": "Skontaktuj się z nami",
+		"subtitle": "Masz pytania dotyczące naszych możliwości obróbki CNC lub potrzebujesz pomocy przy projekcie? Nasz zespół jest gotowy do pomocy.",
+		"info": {
+			"location": {
+				"title": "Nasza lokalizacja",
+				"address": "ul. Przemysłowa 123\n00-001 Warszawa"
+			},
+			"phone": {
+				"title": "Telefon",
+				"main": "Główny: (555) 123-4567",
+				"sales": "Sprzedaż: (555) 123-4568"
+			},
+			"email": {
+				"title": "Email",
+				"sales": "sprzedaz@exactcutparts.pl",
+				"support": "wsparcie@exactcutparts.pl"
+			},
+			"hours": {
+				"title": "Godziny pracy",
+				"weekdays": "Poniedziałek - Piątek: 7:00 - 17:00",
+				"weekend": "Sobota - Niedziela: Zamknięte"
+			}
+		},
+		"form": {
+			"title": "Wyślij nam wiadomość",
+			"name": "Imię i nazwisko",
+			"email": "Email",
+			"phone": "Telefon",
+			"company": "Firma",
+			"subject": "Temat",
+			"message": "Wiadomość",
+			"file": "Prześlij pliki (rysunki CAD, specyfikacje, PDF)",
+			"submit": "Wyślij wiadomość",
+			"required": "*"
+		}
+	},
+	"footer": {
+		"description": "Usługi precyzyjnej obróbki CNC dla przemysłu wymagającego ciasłych tolerancji i wyjątkowej jakości.",
+		"quickLinks": "Szybkie linki",
+		"services": "Usługi",
+		"newsletter": {
+			"title": "Newsletter",
+			"description": "Zapisz się do naszego newslettera, aby otrzymywać najnowsze informacje i spostrzeżenia branżowe.",
+			"placeholder": "Twój email"
+		},
+		"servicesList": {
+			"milling": "Frezowanie CNC",
+			"turning": "Toczenie CNC",
+			"edm": "Obróbka EDM",
+			"prototyping": "Prototypowanie",
+			"production": "Serie produkcyjne"
+		},
+		"legal": {
+			"privacy": "Polityka prywatności",
+			"terms": "Warunki świadczenia usług",
+			"sitemap": "Mapa strony",
+			"copyright": "© 2023 ExactCut Parts. Wszelkie prawa zastrzeżone."
+		}
+	},
+	"machinesPage": {
+		"hero": {
+			"badge": "Nasze Maszyny CNC",
+			"title": "Zaawansowane technologie produkcyjne",
+			"subtitle": "Wykorzystujemy najnowocześniejsze maszyny CNC od renomowanych producentów, aby zapewnić najwyższą jakość i precyzję obróbki.",
+			"stats": [
+				{ "value": "10+", "label": "Maszyn CNC" },
+				{ "value": "±0.003mm", "label": "Precyzja" },
+				{ "value": "24/7", "label": "Produkcja" },
+				{ "value": "1000+", "label": "Projektów" }
+			]
+		},
+		"machines": {
+			"tag": "Nasze Technologie",
+			"title": "Park maszynowy",
+			"subtitle": "Poznaj nasz zaawansowany park maszynowy, który umożliwia realizację nawet najbardziej wymagających projektów.",
+			"list": [
+				{
+					"name": "Frezarki CNC 5-osiowe",
+					"shortDesc": "Precyzyjne frezowanie wieloosiowe dla złożonych geometrii",
+					"manufacturer": "DMG MORI & HAAS",
+					"icon": "fa-cogs",
+					"specs": [
+						"Obszar roboczy: 1000x600x500mm",
+						"Precyzja pozycjonowania: ±0.003mm",
+						"Automatyczna wymiana narzędzi: 40 pozycji",
+						"Prędkość obrotowa wrzeciona: do 24,000 RPM"
+					]
+				},
+				{
+					"name": "Tokarki CNC",
+					"shortDesc": "Profesjonalne toczenie z narzędziami napędzanymi",
+					"manufacturer": "MAZAK & OKUMA",
+					"icon": "fa-sync",
+					"specs": [
+						"Średnica toczenia: max Ø500mm",
+						"Długość obróbki: do 1000mm",
+						"Narzędzia napędzane",
+						"Pełna automatyzacja procesu"
+					]
+				},
+				{
+					"name": "Centra obróbcze",
+					"shortDesc": "Wielofunkcyjne centra do kompleksowej produkcji",
+					"manufacturer": "DMG MORI",
+					"icon": "fa-cube",
+					"specs": [
+						"Obróbka 24/7",
+						"Zintegrowany system pomiaru",
+						"Możliwość obróbki 5-osiowej",
+						"Automatyczna wymiana palet"
+					]
+				},
+				{
+					"name": "Systemy pomiarowe",
+					"shortDesc": "Zaawansowana kontrola jakości i pomiary 3D",
+					"manufacturer": "ZEISS & MITUTOYO",
+					"icon": "fa-ruler-combined",
+					"specs": [
+						"Pomiary współrzędnościowe 3D",
+						"Dokładność: ±0.001mm",
+						"Skanowanie laserowe 3D",
+						"Zgodność z ISO 9001"
+					]
+				}
+			]
+		},
+		"projects": {
+			"tag": "Nasze Realizacje",
+			"title": "Portfolio projektów",
+			"subtitle": "Zobacz przykładowe projekty zrealizowane na naszych maszynach CNC",
+			"viewDetails": "Zobacz szczegóły",
+			"loadMore": "Załaduj więcej projektów",
+			"categories": [
+				{ "id": "all", "name": "Wszystkie" },
+				{ "id": "aerospace", "name": "Lotnictwo" },
+				{ "id": "automotive", "name": "Motoryzacja" },
+				{ "id": "medical", "name": "Medycyna" },
+				{ "id": "industrial", "name": "Przemysł" }
+			],
+			"items": [
+				{
+					"title": "Komponenty silnika lotniczego",
+					"description": "Precyzyjne elementy turbiny ze stopu tytanu",
+					"category": "aerospace",
+					"categoryName": "Lotnictwo",
+					"specs": ["Materiał: Tytan Grade 5", "Tolerancja: ±0.005mm", "Powierzchnia: Ra 0.8"]
+				},
+				{
+					"title": "Blok silnika wyścigowego",
+					"description": "Lekki blok silnika z aluminium dla motorsportu",
+					"category": "automotive",
+					"categoryName": "Motoryzacja",
+					"specs": ["Materiał: Aluminium 7075", "Waga: -30% vs standard", "Moc: +15%"]
+				},
+				{
+					"title": "Implanty medyczne",
+					"description": "Biokompatybilne elementy ortopedyczne",
+					"category": "medical",
+					"categoryName": "Medycyna",
+					"specs": ["Materiał: Stal chirurgiczna", "Certyfikat: ISO 13485", "Sterylność: Klasa A"]
+				},
+				{
+					"title": "Forma wtryskowa",
+					"description": "Precyzyjna forma do produkcji seryjnej",
+					"category": "industrial",
+					"categoryName": "Przemysł",
+					"specs": ["Stal narzędziowa", "Żywotność: 100k cykli", "Chłodzenie: 8 kanałów"]
+				},
+				{
+					"title": "Elementy podwozia",
+					"description": "Wytrzymałe komponenty zawieszenia",
+					"category": "automotive",
+					"categoryName": "Motoryzacja",
+					"specs": ["Stal CrMo", "Obciążenie: do 2000kg", "Powłoka: Cynkowanie"]
+				},
+				{
+					"title": "Łopatki turbiny",
+					"description": "Aerodynamiczne profile z superstopów",
+					"category": "aerospace",
+					"categoryName": "Lotnictwo",
+					"specs": ["Inconel 718", "Temp. pracy: 850°C", "Profil 5-osiowy"]
+				}
+			]
+		}
+	}
+}
