@@ -44,6 +44,11 @@
 			"title": "EDM Machining",
 			"description": "Electrical Discharge Machining for hard metals and complex shapes that conventional machining can't handle.",
 			"features": ["Wire and sinker EDM capabilities", "Tolerances to ±0.0001\"", "Hardened steels up to 65 HRC"]
+		},
+		"bandsaw": {
+			"title": "Automatic bandsaw cutting",
+			"description": "Precise cutting of materials of various shapes and sizes using advanced bandsaws.",
+			"features": ["Ø255mm, □230mm, ▭300x180mm", "Automatic cutting control", "High precision and repeatability"]
 		}
 	},
 	"capabilities": {
@@ -79,6 +84,14 @@
 		"subtitle": "Browse our portfolio of precision machined components for various industries.",
 		"viewDetails": "View Details",
 		"viewFull": "View Full Portfolio",
+		"materials": {
+			"all": "All Materials",
+			"titanium": "Titanium",
+			"aluminum": "Aluminum",
+			"steel": "Steel",
+			"stainless-steel": "Stainless Steel",
+			"cobalt-chrome": "Cobalt Chrome"
+		},
 		"parts": {
 			"aerospace": {
 				"title": "Aerospace Bracket",
@@ -285,6 +298,14 @@
 			"subtitle": "See sample projects completed on our CNC machines",
 			"viewDetails": "View details",
 			"loadMore": "Load more projects",
+			"materials": {
+				"all": "All Materials",
+				"titanium": "Titanium",
+				"aluminum": "Aluminum",
+				"steel": "Steel",
+				"stainless-steel": "Stainless Steel",
+				"cobalt-chrome": "Cobalt Chrome"
+			},
 			"categories": [
 				{ "id": "all", "name": "All" },
 				{ "id": "aerospace", "name": "Aerospace" },

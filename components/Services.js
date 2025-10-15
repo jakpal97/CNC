@@ -23,6 +23,12 @@ export default function Services() {
 			description: t.edm.description,
 			features: t.edm.features,
 		},
+		{
+			icon: 'fa-cut',
+			title: t.bandsaw.title,
+			description: t.bandsaw.description,
+			features: t.bandsaw.features,
+		},
 	]
 
 	return (
@@ -34,7 +40,7 @@ export default function Services() {
 					<p className="max-w-2xl mx-auto mt-3 sm:mt-4 text-gray-600 text-sm sm:text-base px-4">{t.subtitle}</p>
 				</div>
 
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
 					{services.map((service, index) => (
 						<div key={index} className="bg-gray-50 rounded-xl p-6 sm:p-8 hover:shadow-lg transition duration-300">
 							<div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-4 sm:mb-6">

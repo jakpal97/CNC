@@ -48,6 +48,11 @@
 			"title": "EDM-Bearbeitung",
 			"description": "Funkenerosion für harte Metalle und komplexe Formen, die konventionelle Bearbeitung nicht bewältigen kann.",
 			"features": ["Draht- und Senk-EDM-Fähigkeiten", "Toleranzen bis ±0.0001\"", "Gehärtete Stähle bis 65 HRC"]
+		},
+		"bandsaw": {
+			"title": "Automatisches Bandsägen",
+			"description": "Präzises Schneiden von Materialien verschiedener Formen und Größen mit fortschrittlichen Bandsägen.",
+			"features": ["Ø255mm, □230mm, ▭300x180mm", "Automatische Schneidkontrolle", "Hohe Präzision und Wiederholbarkeit"]
 		}
 	},
 	"capabilities": {
@@ -83,6 +88,14 @@
 		"subtitle": "Durchsuchen Sie unser Portfolio präzise bearbeiteter Komponenten für verschiedene Branchen.",
 		"viewDetails": "Details anzeigen",
 		"viewFull": "Vollständiges Portfolio anzeigen",
+		"materials": {
+			"all": "Alle Materialien",
+			"titanium": "Titan",
+			"aluminum": "Aluminium",
+			"steel": "Stahl",
+			"stainless-steel": "Edelstahl",
+			"cobalt-chrome": "Kobalt-Chrom"
+		},
 		"parts": {
 			"aerospace": {
 				"title": "Luft- und Raumfahrthalterung",
@@ -289,6 +302,14 @@
 			"subtitle": "Sehen Sie Beispielprojekte, die auf unseren CNC-Maschinen realisiert wurden",
 			"viewDetails": "Details anzeigen",
 			"loadMore": "Mehr Projekte laden",
+			"materials": {
+				"all": "Alle Materialien",
+				"titanium": "Titan",
+				"aluminum": "Aluminium",
+				"steel": "Stahl",
+				"stainless-steel": "Edelstahl",
+				"cobalt-chrome": "Kobalt-Chrom"
+			},
 			"categories": [
 				{ "id": "all", "name": "Alle" },
 				{ "id": "aerospace", "name": "Luftfahrt" },

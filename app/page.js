@@ -2,7 +2,7 @@
 
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import TrustedBy from '../components/TrustedBy'
+
 import Services from '../components/Services'
 import Capabilities from '../components/Capabilities'
 import Portfolio from '../components/Portfolio'
@@ -17,7 +17,7 @@ export default function Home() {
 		<>
 			<Navbar />
 			<Hero />
-			<TrustedBy />
+			
 			<Services />
 			<Capabilities />
 			<Portfolio />

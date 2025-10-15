@@ -1,12 +1,10 @@
-'use client'
-
 import { useLanguage } from '../../lib/LanguageContext'
 import { useState } from 'react'
 
 export default function ProjectsGallery() {
 	const { translations } = useLanguage()
 	const t = translations.machinesPage
-	const [selectedCategory, setSelectedCategory] = useState('all')
+	const [selectedMaterial, setSelectedMaterial] = useState('all')
 
 	// Placeholder images - można zastąpić prawdziwymi
 	const projectImages = [
@@ -18,10 +16,26 @@ export default function ProjectsGallery() {
 		'/images/image2.jpg',
 	]
 
+	// Materiały do wyboru
+	const materials = [
+		{ id: 'all', name: t.projects.materials?.all || 'Wszystkie materiały' },
+		{ id: 'titanium', name: t.projects.materials?.titanium || 'Tytan' },
+		{ id: 'aluminum', name: t.projects.materials?.aluminum || 'Aluminium' },
+		{ id: 'steel', name: t.projects.materials?.steel || 'Stal' },
+		{ id: 'stainless-steel', name: t.projects.materials?.['stainless-steel'] || 'Stal nierdzewna' },
+		{ id: 'cobalt-chrome', name: t.projects.materials?.['cobalt-chrome'] || 'Kobalt-chrom' },
+	]
+
+	// Dodajemy właściwość material do projektów
+	const projectsWithMaterials = t.projects.items.map((project, index) => ({
+		...project,
+		material: ['titanium', 'cobalt-chrome', 'stainless-steel', 'aluminum', 'steel', 'aluminum'][index % 6],
+	}))
+
 	const filteredProjects =
-		selectedCategory === 'all'
-			? t.projects.items
-			: t.projects.items.filter(project => project.category === selectedCategory)
+		selectedMaterial === 'all'
+			? projectsWithMaterials
+			: projectsWithMaterials.filter(project => project.material === selectedMaterial)
 
 	return (
 		<section className="py-16 sm:py-20 lg:py-24 bg-slate-50">
@@ -35,18 +49,18 @@ export default function ProjectsGallery() {
 					<p className="max-w-3xl mx-auto mt-4 text-lg text-gray-600">{t.projects.subtitle}</p>
 				</div>
 
-				{/* Category Filter */}
+				{/* Material Filter */}
 				<div className="flex flex-wrap justify-center gap-3 mb-12">
-					{t.projects.categories.map((category, index) => (
+					{materials.map((material, index) => (
 						<button
 							key={index}
-							onClick={() => setSelectedCategory(category.id)}
+							onClick={() => setSelectedMaterial(material.id)}
 							className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
-								selectedCategory === category.id
+								selectedMaterial === material.id
 									? 'bg-[#E10600] text-white shadow-lg scale-105'
 									: 'bg-white text-slate-900 hover:bg-slate-100 shadow-md hover:shadow-lg'
 							}`}>
-							{category.name}
+							{material.name}
 						</button>
 					))}
 				</div>
@@ -64,9 +78,9 @@ export default function ProjectsGallery() {
 									alt={project.title}
 									className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
 								/>
-								{/* Category Badge */}
+								{/* Material Badge */}
 								<div className="absolute top-4 right-4 bg-[#E10600] text-white px-3 py-1 rounded-full text-xs font-semibold uppercase">
-									{project.categoryName}
+									{materials.find(mat => mat.id === project.material)?.name || project.material}
 								</div>
 								{/* Hover Overlay */}
 								<div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">

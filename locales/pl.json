@@ -48,6 +48,11 @@
 			"title": "Obróbka EDM",
 			"description": "Elektroerozyjna obróbka metali twardych i złożonych kształtów, których konwencjonalna obróbka nie może obsłużyć.",
 			"features": ["Możliwości drutu i elektroody", "Tolerancje do ±0.0001\"", "Stale utwardzone do 65 HRC"]
+		},
+		"bandsaw": {
+			"title": "Automatyczne cięcie piłą taśmową",
+			"description": "Precyzyjne cięcie materiałów o różnych kształtach i rozmiarach z wykorzystaniem zaawansowanych pił taśmowych.",
+			"features": ["Ø255mm, □230mm, ▭300x180mm", "Automatyczna kontrola cięcia", "Wysoka precyzja i powtarzalność"]
 		}
 	},
 	"capabilities": {
@@ -83,6 +88,14 @@
 		"subtitle": "Przeglądaj nasze portfolio precyzyjnie obrobionych komponentów dla różnych branż.",
 		"viewDetails": "Zobacz szczegóły",
 		"viewFull": "Zobacz pełne portfolio",
+		"materials": {
+			"all": "Wszystkie materiały",
+			"titanium": "Tytan",
+			"aluminum": "Aluminium",
+			"steel": "Stal",
+			"stainless-steel": "Stal nierdzewna",
+			"cobalt-chrome": "Kobalt-chrom"
+		},
 		"parts": {
 			"aerospace": {
 				"title": "Wspornik lotniczy",
@@ -294,6 +307,14 @@
 			"subtitle": "Zobacz przykładowe projekty zrealizowane na naszych maszynach CNC",
 			"viewDetails": "Zobacz szczegóły",
 			"loadMore": "Załaduj więcej projektów",
+			"materials": {
+				"all": "Wszystkie materiały",
+				"titanium": "Tytan",
+				"aluminum": "Aluminium",
+				"steel": "Stal",
+				"stainless-steel": "Stal nierdzewna",
+				"cobalt-chrome": "Kobalt-chrom"
+			},
 			"categories": [
 				{ "id": "all", "name": "Wszystkie" },
 				{ "id": "aerospace", "name": "Lotnictwo" },
