@@ -1,3 +1,4 @@
+'use client'
 
 import { useLanguage } from '../lib/LanguageContext'
 import { useEffect, useRef } from 'react'
