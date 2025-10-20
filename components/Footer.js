@@ -18,15 +18,12 @@ export default function Footer() {
 		{ label: t.servicesList.milling, href: '#' },
 		{ label: t.servicesList.turning, href: '#' },
 		{ label: t.servicesList.edm, href: '#' },
-		{ label: t.servicesList.prototyping, href: '#' },
-		{ label: t.servicesList.production, href: '#' },
+		{ label: t.servicesList.bandsaw, href: '#' }
+		
 	]
 
 	const socialLinks = [
-		{ icon: 'fa-facebook-f', href: '#' },
-		{ icon: 'fa-twitter', href: '#' },
-		{ icon: 'fa-linkedin-in', href: '#' },
-		{ icon: 'fa-instagram', href: '#' },
+		{ icon: 'fa-facebook-f', href: '#' }
 	]
 
 	return (

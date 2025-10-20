@@ -33,13 +33,10 @@ export default function Hero() {
 					{/* Left Content */}
 					<div className="space-y-8">
 						<div className="space-y-6">
-							
-
 							<h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
 								{t.title}{' '}
 								<span className="relative inline-block">
 									<span className="text-white">{t.titleHighlight}</span>
-									
 								</span>
 							</h1>
 
@@ -82,7 +79,7 @@ export default function Hero() {
 								className="absolute -bottom-4 -left-4 sm:bottom-12 sm:left-0 lg:-bottom-15 lg:-left-12 bg-slate-800/90 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-white/10 animate-float -z-10"
 								style={{ animationDelay: '1s' }}>
 								<div className="text-center">
-									<div className="text-4xl font-bold text-white mb-2">1000+</div>
+									<div className="text-4xl font-bold text-white mb-2">1000000+</div>
 									<div className="text-sm text-gray-400">{t.parts}</div>
 								</div>
 							</div>

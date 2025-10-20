@@ -10,7 +10,7 @@
 	"hero": {
 		"title": "Precyzyjne rozwiązania",
 		"titleHighlight": "obróbki CNC",
-		"subtitle": "Wysokiej jakości części obrabiane CNC z ciasłymi tolerancjami i wyjątkowym wykończeniem powierzchni dla przemysłu na całym świecie.",
+		"subtitle": "Wysokiej jakości części obrabiane CNC, z obróbką powierzchniową, przeznaczone dla przemysłu na całym świecie.",
 		"requestQuote": "Zapytaj o wycenę",
 		"ourCapabilities": "Nasze możliwości",
 		"simulator": "Symulator maszyny CNC",
@@ -25,10 +25,10 @@
 	"services": {
 		"tag": "NASZE USŁUGI",
 		"title": "Usługi precyzyjnej obróbki CNC",
-		"subtitle": "Specjalizujemy się w wysokoprecyzyjnych usługach obróbki CNC dla przemysłu wymagającego ciasłych tolerancji i wyjątkowej jakości.",
+		"subtitle": "Specjalizujemy się w precyzyjnych usługach obróbki CNC dla przemysłu wymagającego wyjątkowej jakości.",
 		"milling": {
 			"title": "Frezowanie CNC",
-			"description": "Wysokoprecyzyjne frezowanie 3-5 osiowe z tolerancjami do ±0.0005\" dla złożonych geometrii i prototypów.",
+			"description": "Wysokoprecyzyjne frezowanie 3, 4 i 5 osiowe z tolerancjami do ±0.0005\" dla złożonych geometrii i prototypów.",
 			"features": [
 				"Możliwości 3, 4 i 5 osi",
 				"Aluminium, stal, tytan, tworzywa sztuczne",
@@ -47,12 +47,12 @@
 		"edm": {
 			"title": "Obróbka EDM",
 			"description": "Elektroerozyjna obróbka metali twardych i złożonych kształtów, których konwencjonalna obróbka nie może obsłużyć.",
-			"features": ["Możliwości drutu i elektroody", "Tolerancje do ±0.0001\"", "Stale utwardzone do 65 HRC"]
+			"features": ["Możliwości drutu i elektrody", "Tolerancje do ±0.0001\"", "Stale utwardzone do 65 HRC"]
 		},
 		"bandsaw": {
 			"title": "Automatyczne cięcie piłą taśmową",
 			"description": "Precyzyjne cięcie materiałów o różnych kształtach i rozmiarach z wykorzystaniem zaawansowanych pił taśmowych.",
-			"features": ["Ø255mm, □230mm, ▭300x180mm", "Automatyczna kontrola cięcia", "Wysoka precyzja i powtarzalność"]
+			"features": ["Ø255mm, 230mm, 300x180mm", "Automatyczna kontrola cięcia", "Wysoka precyzja i powtarzalność"]
 		}
 	},
 	"capabilities": {
@@ -61,23 +61,23 @@
 		"subtitle": "Wykorzystujemy najnowocześniejsze maszyny CNC do zapewnienia najwyższej jakości i precyzji obróbki.",
 		"services": [
 			{
-				"title": "Frezarki CNC 5-osiowe",
-				"description": "Zaawansowane frezarki CNC 5-osiowe DMG MORI i HAAS z obszarem roboczym 1000x600x500mm i precyzją ±0.003mm.",
+				"title": "Frezarki CNC",
+				"description": "Zaawansowane frezarki CNC 3, 4 i 5-osiowe Hurco z obszarem roboczym do 1067x610x610mm.",
 				"learnMore": "Dowiedz się więcej"
 			},
 			{
-				"title": "Tokarki CNC",
-				"description": "Profesjonalne tokarki CNC MAZAK i OKUMA z narzędziami napędzanymi, średnica toczenia max Ø500mm.",
+				"title": "Tokarka CNC",
+				"description": "Profesjonalna tokarka CNC Hyundai z przeciwwrzecionem i napędzanymi narzędziami, średnica toczenia max Ø310mm.",
 				"learnMore": "Dowiedz się więcej"
 			},
 			{
-				"title": "Centra obróbcze",
-				"description": "Wielofunkcyjne centra obróbcze do kompleksowej produkcji części z pełną automatyzacją 24/7.",
+				"title": "Automatyczne cięcie piłą taśmową",
+				"description": "Precyzyjne automatyczne cięcie piłą taśmową o maksymalnych gabarytach Ø255mm, 230mm, 300x180mm, o dokładności do 0,1mm.",
 				"learnMore": "Dowiedz się więcej"
 			},
 			{
-				"title": "Systemy pomiarowe",
-				"description": "Zaawansowane systemy kontroli jakości z pomiarami 3D i analizą metrologiczną zgodną z ISO 9001.",
+				"title": "Narzędzia",
+				"description": "Posiadamy profesjonalne narzędzia umożliwiające wykonanie usług PEMowania, nitowania, a także wbijania oraz zgrzewania kołków. Dysponujemy również zaginarką do elementów ołowianych.",
 				"learnMore": "Dowiedz się więcej"
 			}
 		]
@@ -85,16 +85,16 @@
 	"portfolio": {
 		"tag": "NASZA PRACA",
 		"title": "Precyzyjnie obrobione części CNC",
-		"subtitle": "Przeglądaj nasze portfolio precyzyjnie obrobionych komponentów dla różnych branż.",
+		"subtitle": "Przeglądaj nasze portfolio precyzyjnie obrobionych komponentów wykonanych z różnych materiałów.",
 		"viewDetails": "Zobacz szczegóły",
 		"viewFull": "Zobacz pełne portfolio",
 		"materials": {
 			"all": "Wszystkie materiały",
-			"titanium": "Tytan",
+			"lead": "Ołów",
 			"aluminum": "Aluminium",
 			"steel": "Stal",
 			"stainless-steel": "Stal nierdzewna",
-			"cobalt-chrome": "Kobalt-chrom"
+			"plastics": "Tworzywa sztuczne"
 		},
 		"parts": {
 			"aerospace": {
@@ -125,8 +125,8 @@
 	},
 	"about": {
 		"tag": "O NAS",
-		"title": "Precyzyjna obróbka CNC od 2005",
-		"description": "ExactCut Parts została założona z zaangażowaniem w dostarczanie komponentów obrabianych CNC najwyższej jakości z niezrównaną precyzją i niezawodnością.",
+		"title": "Precyzyjna obróbka CNC od 2017",
+		"description": "eMKa Metal to prężnie rozwijająca się firma działająca w sektorze metalowym. Tworzy ją ambitny i doświadczony zespół specjalistów, którzy od kilkunastu lat doskonalą swoje umiejętności w zakresie przetwórstwa metalurgicznego i obróbki metalu, w tym także w tworzeniu precyzyjnych detali z ołowiu. Nie obawiamy się nowych wyzwań - każde zlecenie traktujemy indywidualnie, dbając o najwyższą jakość realizacji, profesjonalną obsługę oraz terminowe wykonanie. Nasze usługi kierujemy zarówno do firm z branży budowlanej, energetycznej, maszynowej, medycznej i motoryzacyjnej, jak i do klientów indywidualnych. Precyzja i doświadczenie w każdym detalu - eMKa Metal, Twój partner w obróbce metali.",
 		"features": {
 			"certified": {
 				"title": "Certyfikat ISO 9001:2015",
@@ -180,21 +180,21 @@
 		"info": {
 			"location": {
 				"title": "Nasza lokalizacja",
-				"address": "ul. Przemysłowa 123\n00-001 Warszawa"
+				"address": "ul. Kazimierza Zachnika 10\n42-600 Tarnowskie Góry"
 			},
 			"phone": {
 				"title": "Telefon",
-				"main": "Główny: (555) 123-4567",
-				"sales": "Sprzedaż: (555) 123-4568"
+				"main": "(+48) 510325466 PL",
+				"sales": "(+48) 517911771 PL/EN"
 			},
 			"email": {
 				"title": "Email",
-				"sales": "sprzedaz@exactcutparts.pl",
-				"support": "wsparcie@exactcutparts.pl"
+				"sales": "biuro@emkametal.pl"
+				
 			},
 			"hours": {
 				"title": "Godziny pracy",
-				"weekdays": "Poniedziałek - Piątek: 7:00 - 17:00",
+				"weekdays": "Poniedziałek - Piątek: 8:00 - 16:00",
 				"weekend": "Sobota - Niedziela: Zamknięte"
 			}
 		},
@@ -224,8 +224,8 @@
 			"milling": "Frezowanie CNC",
 			"turning": "Toczenie CNC",
 			"edm": "Obróbka EDM",
-			"prototyping": "Prototypowanie",
-			"production": "Serie produkcyjne"
+			"bandsaw": "Automatyczne cięcie piłą taśmową"
+			
 		},
 		"legal": {
 			"privacy": "Polityka prywatności",
@@ -243,7 +243,7 @@
 				{ "value": "10+", "label": "Maszyn CNC" },
 				{ "value": "±0.003mm", "label": "Precyzja" },
 				{ "value": "24/7", "label": "Produkcja" },
-				{ "value": "1000+", "label": "Projektów" }
+				{ "value": "1000000+", "label": "Projektów" }
 			]
 		},
 		"machines": {

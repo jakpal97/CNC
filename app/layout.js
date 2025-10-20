@@ -3,9 +3,16 @@ import { LanguageProvider } from '../lib/LanguageContext'
 import Script from 'next/script'
 
 export const metadata = {
-	title: 'ExactCut Parts - Precision CNC Machining Solutions',
-	description:
-		'High-quality CNC machined parts with tight tolerances and exceptional surface finishes for industries worldwide.',
+	title: 'eMKa Metal - Precyzja w obróbce metali | Twój partner CNC',
+	description: 'Precyzja i doświadczenie w każdym detalu. eMKa Metal to Twój zaufany partner w obróbce metali CNC. Wysokiej jakości części o ścisłych tolerancjach dla przemysłu.',
+	keywords: 'obróbka metali, CNC, precyzyjna obróbka, eMKa Metal, frezowanie CNC, toczenie CNC',
+	authors: [{ name: 'eMKa Metal' }],
+	openGraph: {
+		title: 'eMKa Metal - Precyzja w obróbce metali',
+		description: 'Twój partner w profesjonalnej obróbce metali CNC',
+		locale: 'pl_PL',
+		type: 'website',
+	},
 }
 
 export default function RootLayout({ children }) {

@@ -43,7 +43,7 @@ export default function Contact() {
 		{
 			icon: 'fa-envelope',
 			title: t.info.email.title,
-			content: `${t.info.email.sales}\n${t.info.email.support}`,
+			content: t.info.email.sales,
 		},
 		{
 			icon: 'fa-clock',

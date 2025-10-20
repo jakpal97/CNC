@@ -63,7 +63,7 @@ export default function About() {
 							<div className="text-xs sm:text-sm">{t.stats.years}</div>
 						</div>
 						<div className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 bg-white text-primary p-3 sm:p-4 rounded-lg shadow-lg hidden md:block">
-							<div className="text-2xl sm:text-3xl font-bold">1000+</div>
+							<div className="text-2xl sm:text-3xl font-bold">1000000+</div>
 							<div className="text-xs sm:text-sm">{t.stats.parts}</div>
 						</div>
 					</div>

@@ -10,7 +10,7 @@
 	"hero": {
 		"title": "Präzise CNC-Bearbeitung",
 		"titleHighlight": "Lösungen",
-		"subtitle": "Hochwertige CNC-bearbeitete Teile mit engen Toleranzen und außergewöhnlichen Oberflächengüten für Industrien weltweit.",
+		"subtitle": "Hochwertige CNC-bearbeitete Teile, mit Oberflächenbehandlung, für die Industrie weltweit bestimmt.",
 		"requestQuote": "Angebot anfordern",
 		"ourCapabilities": "Unsere Fähigkeiten",
 		"simulator": "CNC-Maschinen-Simulator",
@@ -25,10 +25,10 @@
 	"services": {
 		"tag": "UNSERE DIENSTLEISTUNGEN",
 		"title": "Präzisions-CNC-Bearbeitungsdienstleistungen",
-		"subtitle": "Wir sind spezialisiert auf hochpräzise CNC-Bearbeitungsdienstleistungen für Industrien, die enge Toleranzen und außergewöhnliche Qualität erfordern.",
+		"subtitle": "Wir sind spezialisiert auf präzise CNC-Bearbeitungsdienstleistungen für Industrien, die außergewöhnliche Qualität erfordern.",
 		"milling": {
 			"title": "CNC-Fräsen",
-			"description": "Hochpräzises 3-5-Achs-Fräsen mit Toleranzen bis ±0.0005\" für komplexe Geometrien und Prototypen.",
+			"description": "Hochpräzises 3, 4 und 5-Achs-Fräsen mit Toleranzen bis ±0.0005\" für komplexe Geometrien und Prototypen.",
 			"features": [
 				"3-, 4- & 5-Achs-Fähigkeiten",
 				"Aluminium, Stahl, Titan, Kunststoffe",
@@ -47,12 +47,12 @@
 		"edm": {
 			"title": "EDM-Bearbeitung",
 			"description": "Funkenerosion für harte Metalle und komplexe Formen, die konventionelle Bearbeitung nicht bewältigen kann.",
-			"features": ["Draht- und Senk-EDM-Fähigkeiten", "Toleranzen bis ±0.0001\"", "Gehärtete Stähle bis 65 HRC"]
+			"features": ["Draht- und Elektroden-EDM-Fähigkeiten", "Toleranzen bis ±0.0001\"", "Gehärtete Stähle bis 65 HRC"]
 		},
 		"bandsaw": {
 			"title": "Automatisches Bandsägen",
 			"description": "Präzises Schneiden von Materialien verschiedener Formen und Größen mit fortschrittlichen Bandsägen.",
-			"features": ["Ø255mm, □230mm, ▭300x180mm", "Automatische Schneidkontrolle", "Hohe Präzision und Wiederholbarkeit"]
+			"features": ["Ø255mm, 230mm, 300x180mm", "Automatische Schneidkontrolle", "Hohe Präzision und Wiederholbarkeit"]
 		}
 	},
 	"capabilities": {
@@ -61,23 +61,23 @@
 		"subtitle": "Wir verwenden modernste CNC-Maschinen, um höchste Qualität und Präzision in der Bearbeitung zu gewährleisten.",
 		"services": [
 			{
-				"title": "5-Achsen CNC-Fräsmaschinen",
-				"description": "Fortschrittliche 5-Achsen CNC-Fräsmaschinen DMG MORI und HAAS mit Arbeitsbereich 1000x600x500mm und Präzision ±0.003mm.",
+				"title": "CNC-Fräsmaschinen",
+				"description": "Fortschrittliche 3, 4 und 5-Achsen Hurco CNC-Fräsmaschinen mit Arbeitsbereich bis zu 1067x610x610mm.",
 				"learnMore": "Mehr erfahren"
 			},
 			{
-				"title": "CNC-Drehmaschinen",
-				"description": "Professionelle CNC-Drehmaschinen MAZAK und OKUMA mit angetriebenen Werkzeugen, max. Drehdurchmesser Ø500mm.",
+				"title": "CNC-Drehmaschine",
+				"description": "Professionelle Hyundai CNC-Drehmaschine mit Gegenspindel und angetriebenen Werkzeugen, max. Drehdurchmesser Ø310mm.",
 				"learnMore": "Mehr erfahren"
 			},
 			{
-				"title": "Bearbeitungszentren",
-				"description": "Multifunktionale Bearbeitungszentren für umfassende Teileproduktion mit voller 24/7-Automatisierung.",
+				"title": "Automatisches Bandsägen",
+				"description": "Präzises automatisches Bandsägen mit maximalen Abmessungen Ø255mm, 230mm, 300x180mm, mit Genauigkeit bis zu 0,1mm.",
 				"learnMore": "Mehr erfahren"
 			},
 			{
-				"title": "Messsysteme",
-				"description": "Fortschrittliche Qualitätskontrollsysteme mit 3D-Messungen und metrologischer Analyse gemäß ISO 9001.",
+				"title": "Werkzeuge",
+				"description": "Wir verfügen über professionelle Werkzeuge für PEMing, Nieten sowie das Einschlagen und Schweißen von Stiften. Wir haben auch eine Biegemaschine für Bleielemente.",
 				"learnMore": "Mehr erfahren"
 			}
 		]
@@ -85,16 +85,16 @@
 	"portfolio": {
 		"tag": "UNSERE ARBEIT",
 		"title": "Präzisions-CNC-bearbeitete Teile",
-		"subtitle": "Durchsuchen Sie unser Portfolio präzise bearbeiteter Komponenten für verschiedene Branchen.",
+		"subtitle": "Durchsuchen Sie unser Portfolio präzise bearbeiteter Komponenten aus verschiedenen Materialien.",
 		"viewDetails": "Details anzeigen",
 		"viewFull": "Vollständiges Portfolio anzeigen",
 		"materials": {
 			"all": "Alle Materialien",
-			"titanium": "Titan",
+			"lead": "Blei",
 			"aluminum": "Aluminium",
 			"steel": "Stahl",
 			"stainless-steel": "Edelstahl",
-			"cobalt-chrome": "Kobalt-Chrom"
+			"plastics": "Kunststoffe"
 		},
 		"parts": {
 			"aerospace": {
@@ -125,8 +125,8 @@
 	},
 	"about": {
 		"tag": "ÜBER UNS",
-		"title": "Präzisions-CNC-Bearbeitung seit 2005",
-		"description": "ExactCut Parts wurde mit dem Engagement gegründet, CNC-bearbeitete Komponenten höchster Qualität mit unübertroffener Präzision und Zuverlässigkeit zu liefern.",
+		"title": "Präzisions-CNC-Bearbeitung seit 2017",
+		"description": "eMKa Metal ist ein dynamisch wachsendes Unternehmen im Metallsektor. Es wird von einem ehrgeizigen und erfahrenen Team von Spezialisten gebildet, die seit über einem Dutzend Jahren ihre Fähigkeiten in der metallurgischen Verarbeitung und Metallbearbeitung perfektionieren, einschließlich der Herstellung präziser Bleidetails. Wir haben keine Angst vor neuen Herausforderungen - wir behandeln jeden Auftrag individuell und sorgen für höchste Ausführungsqualität, professionellen Service und termingerechte Fertigstellung. Unsere Dienstleistungen richten sich an Unternehmen aus den Bereichen Bau, Energie, Maschinenbau, Medizin und Automobilindustrie sowie an Privatkunden. Präzision und Erfahrung in jedem Detail - eMKa Metal, Ihr Partner in der Metallbearbeitung.",
 		"features": {
 			"certified": {
 				"title": "ISO 9001:2015 zertifiziert",
@@ -180,21 +180,20 @@
 		"info": {
 			"location": {
 				"title": "Unser Standort",
-				"address": "Industrieparkstraße 123\n12345 Berlin"
+				"address": "ul. Kazimierza Zachnika 10\n42-600 Tarnowskie Góry, Polen"
 			},
 			"phone": {
 				"title": "Telefon",
-				"main": "Hauptnummer: (555) 123-4567",
-				"sales": "Vertrieb: (555) 123-4568"
+				"main": "(+48) 510325466 PL",
+				"sales": "(+48) 517911771 PL/EN"
 			},
 			"email": {
 				"title": "E-Mail",
-				"sales": "verkauf@exactcutparts.de",
-				"support": "support@exactcutparts.de"
+				"sales": "biuro@emkametal.pl"
 			},
 			"hours": {
 				"title": "Öffnungszeiten",
-				"weekdays": "Montag - Freitag: 7:00 - 17:00 Uhr",
+				"weekdays": "Montag - Freitag: 8:00 - 16:00 Uhr",
 				"weekend": "Samstag - Sonntag: Geschlossen"
 			}
 		},
@@ -243,7 +242,7 @@
 				{ "value": "10+", "label": "CNC-Maschinen" },
 				{ "value": "±0.003mm", "label": "Präzision" },
 				{ "value": "24/7", "label": "Produktion" },
-				{ "value": "1000+", "label": "Projekte" }
+				{ "value": "1000000+", "label": "Projekte" }
 			]
 		},
 		"machines": {

@@ -10,7 +10,7 @@
 	"hero": {
 		"title": "Precision CNC Machining",
 		"titleHighlight": "Solutions",
-		"subtitle": "High-quality CNC machined parts with tight tolerances and exceptional surface finishes for industries worldwide.",
+		"subtitle": "High-quality CNC machined parts, with surface treatment, intended for industry worldwide.",
 		"requestQuote": "Request a Quote",
 		"ourCapabilities": "Our Capabilities",
 		"simulator": "CNC Machine Simulator",
@@ -25,10 +25,10 @@
 	"services": {
 		"tag": "OUR SERVICES",
 		"title": "Precision CNC Machining Services",
-		"subtitle": "We specialize in high-precision CNC machining services for industries requiring tight tolerances and exceptional quality.",
+		"subtitle": "We specialize in precision CNC machining services for industries requiring exceptional quality.",
 		"milling": {
 			"title": "CNC Milling",
-			"description": "High-precision 3-5 axis milling with tolerances down to ±0.0005\" for complex geometries and prototypes.",
+			"description": "High-precision 3, 4 and 5 axis milling with tolerances down to ±0.0005\" for complex geometries and prototypes.",
 			"features": ["3, 4 & 5-axis capabilities", "Aluminum, steel, titanium, plastics", "Prototype to production runs"]
 		},
 		"turning": {
@@ -43,12 +43,12 @@
 		"edm": {
 			"title": "EDM Machining",
 			"description": "Electrical Discharge Machining for hard metals and complex shapes that conventional machining can't handle.",
-			"features": ["Wire and sinker EDM capabilities", "Tolerances to ±0.0001\"", "Hardened steels up to 65 HRC"]
+			"features": ["Wire and electrode EDM capabilities", "Tolerances to ±0.0001\"", "Hardened steels up to 65 HRC"]
 		},
 		"bandsaw": {
 			"title": "Automatic bandsaw cutting",
 			"description": "Precise cutting of materials of various shapes and sizes using advanced bandsaws.",
-			"features": ["Ø255mm, □230mm, ▭300x180mm", "Automatic cutting control", "High precision and repeatability"]
+			"features": ["Ø255mm, 230mm, 300x180mm", "Automatic cutting control", "High precision and repeatability"]
 		}
 	},
 	"capabilities": {
@@ -57,23 +57,23 @@
 		"subtitle": "We use state-of-the-art CNC machines to ensure the highest quality and precision in machining.",
 		"services": [
 			{
-				"title": "5-Axis CNC Milling Machines",
-				"description": "Advanced 5-axis CNC milling machines DMG MORI and HAAS with working area 1000x600x500mm and precision ±0.003mm.",
+				"title": "CNC Milling Machines",
+				"description": "Advanced 3, 4 and 5-axis Hurco CNC milling machines with working area up to 1067x610x610mm.",
 				"learnMore": "Learn More"
 			},
 			{
-				"title": "CNC Lathes",
-				"description": "Professional CNC lathes MAZAK and OKUMA with live tooling, max turning diameter Ø500mm.",
+				"title": "CNC Lathe",
+				"description": "Professional Hyundai CNC lathe with counter-spindle and live tooling, max turning diameter Ø310mm.",
 				"learnMore": "Learn More"
 			},
 			{
-				"title": "Machining Centers",
-				"description": "Multi-functional machining centers for comprehensive parts production with full 24/7 automation.",
+				"title": "Automatic band saw cutting",
+				"description": "Precise automatic band saw cutting with maximum dimensions Ø255mm, 230mm, 300x180mm, with accuracy up to 0.1mm.",
 				"learnMore": "Learn More"
 			},
 			{
-				"title": "Measurement Systems",
-				"description": "Advanced quality control systems with 3D measurements and metrological analysis compliant with ISO 9001.",
+				"title": "Tools",
+				"description": "We have professional tools enabling PEMing, riveting, as well as driving and welding of pins. We also have a bending machine for lead elements.",
 				"learnMore": "Learn More"
 			}
 		]
@@ -81,16 +81,16 @@
 	"portfolio": {
 		"tag": "OUR WORK",
 		"title": "Precision CNC Machined Parts",
-		"subtitle": "Browse our portfolio of precision machined components for various industries.",
+		"subtitle": "Browse our portfolio of precision machined components made from various materials.",
 		"viewDetails": "View Details",
 		"viewFull": "View Full Portfolio",
 		"materials": {
 			"all": "All Materials",
-			"titanium": "Titanium",
+			"lead": "Lead",
 			"aluminum": "Aluminum",
 			"steel": "Steel",
 			"stainless-steel": "Stainless Steel",
-			"cobalt-chrome": "Cobalt Chrome"
+			"plastics": "Plastics"
 		},
 		"parts": {
 			"aerospace": {
@@ -121,8 +121,8 @@
 	},
 	"about": {
 		"tag": "ABOUT US",
-		"title": "Precision CNC Machining Since 2005",
-		"description": "ExactCut Parts was founded with a commitment to delivering the highest quality CNC machined components with unparalleled precision and reliability.",
+		"title": "Precision CNC Machining Since 2017",
+		"description": "eMKa Metal is a dynamically developing company operating in the metal sector. It is formed by an ambitious and experienced team of specialists who have been perfecting their skills in metallurgical processing and metal machining for over a dozen years, including the creation of precise lead details. We are not afraid of new challenges - we treat each order individually, ensuring the highest quality of execution, professional service, and timely completion. Our services are directed to companies from the construction, energy, machinery, medical, and automotive industries, as well as to individual clients. Precision and experience in every detail - eMKa Metal, Your partner in metal machining.",
 		"features": {
 			"certified": {
 				"title": "ISO 9001:2015 Certified",
@@ -176,21 +176,20 @@
 		"info": {
 			"location": {
 				"title": "Our Location",
-				"address": "123 Industrial Park Drive\nSpringfield, MA 01101"
+				"address": "ul. Kazimierza Zachnika 10\n42-600 Tarnowskie Góry, Poland"
 			},
 			"phone": {
 				"title": "Phone",
-				"main": "Main: (555) 123-4567",
-				"sales": "Sales: (555) 123-4568"
+				"main": "(+48) 510325466 PL",
+				"sales": "(+48) 517911771 PL/EN"
 			},
 			"email": {
 				"title": "Email",
-				"sales": "sales@exactcutparts.com",
-				"support": "support@exactcutparts.com"
+				"sales": "biuro@emkametal.pl"
 			},
 			"hours": {
 				"title": "Hours",
-				"weekdays": "Monday - Friday: 7:00 AM - 5:00 PM",
+				"weekdays": "Monday - Friday: 8:00 AM - 4:00 PM",
 				"weekend": "Saturday - Sunday: Closed"
 			}
 		},
@@ -239,7 +238,7 @@
 				{ "value": "10+", "label": "CNC Machines" },
 				{ "value": "±0.003mm", "label": "Precision" },
 				{ "value": "24/7", "label": "Production" },
-				{ "value": "1000+", "label": "Projects" }
+				{ "value": "1000000+", "label": "Projects" }
 			]
 		},
 		"machines": {

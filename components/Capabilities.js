@@ -8,10 +8,10 @@ export default function Capabilities() {
 
 	// Obrazy maszyn CNC
 	const machineImages = [
-		'/images/image1.jpg', // Frezarki CNC 5-osiowe
-		'/images/image2.jpg', // Tokarki CNC
-		'/images/image3.jpg', // Centra obróbcze
-		'/images/image4.jpg', // Systemy pomiarowe
+		'/images/frezarkacnc.png', // Frezarki CNC 5-osiowe
+		'/images/tokarka.png', // Tokarki CNC
+		'/images/pila.png', // Centra obróbcze
+		'/images/narzedzia.png', // Systemy pomiarowe
 	]
 
 	return (
