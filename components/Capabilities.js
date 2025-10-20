@@ -40,18 +40,24 @@ export default function Capabilities() {
 							</div>
 
 							{/* Content */}
-							<div className="relative -mt-32 p-6 sm:p-8 z-10">
-								<h3 className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-[#E10600] transition-colors">
-									{service.title}
-								</h3>
-								<p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">{service.description}</p>
+							<div className="relative -mt-32 p-6 sm:p-8 z-10 flex flex-col h-64">
+								<div className="flex-grow overflow-hidden pb-8">
+									<h3 className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-[#E10600] transition-colors">
+										{service.title}
+									</h3>
+									<div className="max-h-24 overflow-hidden">
+										<p className="text-gray-300 text-sm sm:text-base leading-relaxed">{service.description}</p>
+									</div>
+								</div>
 
-								<button
-									onClick={() => (window.location.href = '/portfolio')}
-									className="inline-flex items-center text-white hover:text-[#E10600] transition-colors text-sm sm:text-base font-semibold group/btn cursor-pointer">
-									{service.learnMore}
-									<i className="fas fa-arrow-right ml-2 group-hover/btn:translate-x-2 transition-transform"></i>
-								</button>
+								<div className="mt-4 pt-2 flex-shrink-0">
+									<button
+										onClick={() => (window.location.href = '/portfolio')}
+										className="inline-flex items-center text-white hover:text-[#E10600] transition-colors text-sm sm:text-base font-semibold group/btn cursor-pointer">
+										{service.learnMore}
+										<i className="fas fa-arrow-right ml-2 group-hover/btn:translate-x-2 transition-transform"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					))}
