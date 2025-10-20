@@ -14,7 +14,7 @@ export default function Portfolio() {
 				'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
 			title: t.parts.aerospace.title,
 			description: t.parts.aerospace.description,
-			material: 'titanium',
+			material: 'lead',
 			tags: ['Titanium', '±0.001"', 'Anodized'],
 		},
 		{
@@ -22,7 +22,7 @@ export default function Portfolio() {
 				'https://images.unsplash.com/photo-1581093458171-5d3f3f720316?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
 			title: t.parts.medical.title,
 			description: t.parts.medical.description,
-			material: 'cobalt-chrome',
+			material: 'plastics',
 			tags: ['Cobalt Chrome', '±0.0005"', 'Mirror Polish'],
 		},
 		{
@@ -61,11 +61,11 @@ export default function Portfolio() {
 
 	const materials = [
 		{ id: 'all', name: t.materials.all },
-		{ id: 'titanium', name: t.materials.titanium },
+		{ id: 'lead', name: t.materials.lead },
 		{ id: 'aluminum', name: t.materials.aluminum },
 		{ id: 'steel', name: t.materials.steel },
 		{ id: 'stainless-steel', name: t.materials['stainless-steel'] },
-		{ id: 'cobalt-chrome', name: t.materials['cobalt-chrome'] },
+		{ id: 'plastics', name: t.materials.plastics },
 	]
 
 	const filteredParts = selectedMaterial === 'all' ? parts : parts.filter(part => part.material === selectedMaterial)
@@ -101,7 +101,7 @@ export default function Portfolio() {
 							<img src={part.image} alt={part.title} className="w-full h-48 sm:h-56 lg:h-64 object-cover" />
 							<div className="part-overlay absolute inset-0 bg-primary bg-opacity-90 flex flex-col justify-center items-center p-4 sm:p-6 text-white">
 								<h3 className="text-lg sm:text-xl font-bold mb-2">{part.title}</h3>
-								<p className="text-center mb-3 sm:mb-4 text-sm sm:text-base">{part.description}</p>
+								{/* Usunięty opis na hover dla strony głównej */}
 								<div className="flex flex-wrap justify-center gap-2 mb-3 sm:mb-4">
 									{part.tags.map((tag, idx) => (
 										<span

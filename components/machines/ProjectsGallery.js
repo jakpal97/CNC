@@ -17,20 +17,20 @@ export default function ProjectsGallery() {
 		'/images/image2.jpg',
 	]
 
-	// Materiały do wyboru
+	// Materiały do wyboru (zaktualizowane)
 	const materials = [
 		{ id: 'all', name: t.projects.materials?.all || 'Wszystkie materiały' },
-		{ id: 'titanium', name: t.projects.materials?.titanium || 'Tytan' },
+		{ id: 'lead', name: t.projects.materials?.lead || 'Ołów' },
 		{ id: 'aluminum', name: t.projects.materials?.aluminum || 'Aluminium' },
 		{ id: 'steel', name: t.projects.materials?.steel || 'Stal' },
 		{ id: 'stainless-steel', name: t.projects.materials?.['stainless-steel'] || 'Stal nierdzewna' },
-		{ id: 'cobalt-chrome', name: t.projects.materials?.['cobalt-chrome'] || 'Kobalt-chrom' },
+		{ id: 'plastics', name: t.projects.materials?.plastics || 'Tworzywa sztuczne' },
 	]
 
-	// Dodajemy właściwość material do projektów
+	// Dodajemy właściwość material do projektów (zaktualizowane ID materiałów)
 	const projectsWithMaterials = t.projects.items.map((project, index) => ({
 		...project,
-		material: ['titanium', 'cobalt-chrome', 'stainless-steel', 'aluminum', 'steel', 'aluminum'][index % 6],
+		material: ['lead', 'plastics', 'stainless-steel', 'aluminum', 'steel', 'aluminum'][index % 6],
 	}))
 
 	const filteredProjects =
