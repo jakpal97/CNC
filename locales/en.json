@@ -357,5 +357,12 @@
 				}
 			]
 		}
+	},
+	"notFound": {
+		"title": "Page Not Found",
+		"description": "Sorry, but the page you are looking for does not exist or has been moved.",
+		"homeButton": "Return to Homepage",
+		"contactButton": "Contact Us",
+		"helpText": "If you believe this is an error, please contact our technical team."
 	}
 }

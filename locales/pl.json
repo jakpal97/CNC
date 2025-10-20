@@ -190,7 +190,6 @@
 			"email": {
 				"title": "Email",
 				"sales": "biuro@emkametal.pl"
-				
 			},
 			"hours": {
 				"title": "Godziny pracy",
@@ -225,7 +224,6 @@
 			"turning": "Toczenie CNC",
 			"edm": "Obróbka EDM",
 			"bandsaw": "Automatyczne cięcie piłą taśmową"
-			
 		},
 		"legal": {
 			"privacy": "Polityka prywatności",
@@ -367,5 +365,12 @@
 				}
 			]
 		}
+	},
+	"notFound": {
+		"title": "Strona nie została znaleziona",
+		"description": "Przepraszamy, ale strona której szukasz nie istnieje lub została przeniesiona.",
+		"homeButton": "Powrót do strony głównej",
+		"contactButton": "Skontaktuj się z nami",
+		"helpText": "Jeśli uważasz, że to błąd, skontaktuj się z naszym zespołem technicznym."
 	}
 }

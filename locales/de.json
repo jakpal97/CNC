@@ -361,5 +361,12 @@
 				}
 			]
 		}
+	},
+	"notFound": {
+		"title": "Seite nicht gefunden",
+		"description": "Entschuldigung, aber die Seite, die Sie suchen, existiert nicht oder wurde verschoben.",
+		"homeButton": "Zurück zur Startseite",
+		"contactButton": "Kontaktieren Sie uns",
+		"helpText": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an unser technisches Team."
 	}
 }

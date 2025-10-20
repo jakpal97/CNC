@@ -30,7 +30,7 @@ export default function Navbar() {
 		{ label: t.services, href: '#services' },
 		{ label: t.capabilities, href: '/portfolio' },
 		{ label: t.about, href: '#about' },
-		{ label: t.contact, href: '#contact' },
+		{ label: t.contact, href: '/contact' },
 	]
 
 	return (
@@ -39,7 +39,7 @@ export default function Navbar() {
 				<div className="flex justify-between h-16">
 					<div className="flex items-center">
 						<div className="flex-shrink-0 flex items-center gap-5">
-							<img src='images/logo.jpg' alt='eMKaMetal logo' className='h-10 w-20'/>
+							<img src="images/logo.jpg" alt="eMKaMetal logo" className="h-10 w-20" />
 							<span className="text-lg sm:text-xl font-bold text-dark">
 								eMKa<span className="text-primary">Metal</span>
 							</span>
