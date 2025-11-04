@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 
 import Services from '../components/Services'
 import Capabilities from '../components/Capabilities'
-import Portfolio from '../components/Portfolio'
+import PortfolioGallery from '../components/PortfolioGallery'
 import About from '../components/About'
 
 import CTA from '../components/CTA'
@@ -20,7 +20,7 @@ export default function Home() {
 			
 			<Services />
 			<Capabilities />
-			<Portfolio />
+			<PortfolioGallery isHomePage={true} />
 			<About />
 			
 			<CTA />

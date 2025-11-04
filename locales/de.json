@@ -45,9 +45,13 @@
 			]
 		},
 		"edm": {
-			"title": "EDM-Bearbeitung",
-			"description": "Funkenerosion für harte Metalle und komplexe Formen, die konventionelle Bearbeitung nicht bewältigen kann.",
-			"features": ["Draht- und Elektroden-EDM-Fähigkeiten", "Toleranzen bis ±0.0001\"", "Gehärtete Stähle bis 65 HRC"]
+			"title": "Dienstleistungen",
+			"description": "Für gefertigte Elemente können wir Nieten, Einpressen von Bolzen und Muttern sowie das Biegen von Bleiblechen anbieten.",
+			"features": [
+				"Nieten",
+				"Einpressen von Bolzen und Muttern",
+				"Biegen von Bleiblechen"
+			]
 		},
 		"bandsaw": {
 			"title": "Automatisches Bandsägen",
@@ -92,7 +96,7 @@
 			"all": "Alle Materialien",
 			"lead": "Blei",
 			"aluminum": "Aluminium",
-			"steel": "Stahl",
+			"steel": "Schwarzstahl",
 			"stainless-steel": "Edelstahl",
 			"plastics": "Kunststoffe"
 		},

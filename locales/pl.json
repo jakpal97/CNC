@@ -45,9 +45,9 @@
 			]
 		},
 		"edm": {
-			"title": "Obróbka EDM",
-			"description": "Elektroerozyjna obróbka metali twardych i złożonych kształtów, których konwencjonalna obróbka nie może obsłużyć.",
-			"features": ["Możliwości drutu i elektrody", "Tolerancje do ±0.0001\"", "Stale utwardzone do 65 HRC"]
+			"title": "Usługi",
+			"description": "Dla wykonanych elementów możemy świadczyć usługi nitowania, wciskania kołków i nakrętek oraz zaginania blach ołowianych.",
+			"features": ["Nitowanie", "Wciskanie kołków i nakrętek", "Zaginanie blach ołowianych"]
 		},
 		"bandsaw": {
 			"title": "Automatyczne cięcie piłą taśmową",
@@ -92,7 +92,7 @@
 			"all": "Wszystkie materiały",
 			"lead": "Ołów",
 			"aluminum": "Aluminium",
-			"steel": "Stal",
+			"steel": "Stal czarna",
 			"stainless-steel": "Stal nierdzewna",
 			"plastics": "Tworzywa sztuczne"
 		},
@@ -250,7 +250,7 @@
 			"subtitle": "Poznaj nasz zaawansowany park maszynowy, który umożliwia realizację nawet najbardziej wymagających projektów.",
 			"list": [
 				{
-					"name": "Frezarki CNC 5-osiowe",
+					"name": "Frezarki CNC",
 					"shortDesc": "Precyzyjne frezowanie wieloosiowe dla złożonych geometrii",
 					"manufacturer": "DMG MORI & HAAS",
 					"icon": "fa-cogs",
@@ -274,7 +274,7 @@
 					]
 				},
 				{
-					"name": "Centra obróbcze",
+					"name": "Cięcie piłą taśmową",
 					"shortDesc": "Wielofunkcyjne centra do kompleksowej produkcji",
 					"manufacturer": "DMG MORI",
 					"icon": "fa-cube",
@@ -286,7 +286,7 @@
 					]
 				},
 				{
-					"name": "Systemy pomiarowe",
+					"name": "Narzędzia",
 					"shortDesc": "Zaawansowana kontrola jakości i pomiary 3D",
 					"manufacturer": "ZEISS & MITUTOYO",
 					"icon": "fa-ruler-combined",

@@ -8,7 +8,17 @@ export default function MachinesList() {
 	const t = translations.machinesPage
 	const [selectedMachine, setSelectedMachine] = useState(0)
 
-	const machineImages = ['/images/image1.jpg', '/images/image2.jpg', '/images/image3.jpg', '/images/image4.jpg']
+	const machineImages = [
+		'/images/frezarkacnc.png',
+		'/images/tokarka.png',
+		'/images/pila.png',
+		'/images/narzedzia.png'
+	]
+
+	// Zabezpieczenie przed brakiem danych
+	if (!t?.machines?.list) {
+		return null
+	}
 
 	return (
 		<section className="py-16 sm:py-20 lg:py-24 bg-white">
@@ -16,17 +26,17 @@ export default function MachinesList() {
 				{/* Section Header */}
 				<div className="text-center mb-12 sm:mb-16">
 					<span className="text-[#E10600] font-semibold text-sm sm:text-base uppercase tracking-wide">
-						{t.machines.tag}
+						{t.machines?.tag}
 					</span>
-					<h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-3">{t.machines.title}</h2>
-					<p className="max-w-3xl mx-auto mt-4 text-lg text-gray-600">{t.machines.subtitle}</p>
+					<h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-3">{t.machines?.title}</h2>
+					<p className="max-w-3xl mx-auto mt-4 text-lg text-gray-600">{t.machines?.subtitle}</p>
 				</div>
 
 				{/* Machines Grid */}
 				<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 					{/* Machine Selection */}
 					<div className="space-y-4">
-						{t.machines.list.map((machine, index) => (
+						{t.machines?.list?.map((machine, index) => (
 							<div
 								key={index}
 								onClick={() => setSelectedMachine(index)}
@@ -91,14 +101,14 @@ export default function MachinesList() {
 						<div className="relative rounded-2xl overflow-hidden shadow-2xl">
 							<img
 								src={machineImages[selectedMachine]}
-								alt={t.machines.list[selectedMachine].name}
+								alt={t.machines?.list?.[selectedMachine]?.name || 'Machine'}
 								className="w-full h-[500px] object-cover transition-all duration-500"
 							/>
 							{/* Overlay with machine name */}
 							<div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex items-end p-8">
 								<div className="text-white">
-									<h3 className="text-2xl sm:text-3xl font-bold mb-2">{t.machines.list[selectedMachine].name}</h3>
-									<p className="text-gray-300">{t.machines.list[selectedMachine].manufacturer}</p>
+									<h3 className="text-2xl sm:text-3xl font-bold mb-2">{t.machines?.list?.[selectedMachine]?.name}</h3>
+									<p className="text-gray-300">{t.machines?.list?.[selectedMachine]?.manufacturer}</p>
 								</div>
 							</div>
 						</div>

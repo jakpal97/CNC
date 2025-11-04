@@ -41,9 +41,13 @@
 			]
 		},
 		"edm": {
-			"title": "EDM Machining",
-			"description": "Electrical Discharge Machining for hard metals and complex shapes that conventional machining can't handle.",
-			"features": ["Wire and electrode EDM capabilities", "Tolerances to ±0.0001\"", "Hardened steels up to 65 HRC"]
+			"title": "Services",
+			"description": "For manufactured components, we can provide riveting, press-fitting of studs and nuts, and bending of lead sheets.",
+			"features": [
+				"Riveting",
+				"Press-fitting of studs and nuts",
+				"Bending of lead sheets"
+			]
 		},
 		"bandsaw": {
 			"title": "Automatic bandsaw cutting",
@@ -88,7 +92,7 @@
 			"all": "All Materials",
 			"lead": "Lead",
 			"aluminum": "Aluminum",
-			"steel": "Steel",
+			"steel": "Black Steel",
 			"stainless-steel": "Stainless Steel",
 			"plastics": "Plastics"
 		},
