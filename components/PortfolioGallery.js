@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useLanguage } from '../lib/LanguageContext'
+import Image from 'next/image'
 
 // Dane zdjęć z podziałem na kategorie
 const portfolioImages = {
@@ -184,15 +185,18 @@ export default function PortfolioGallery({ isHomePage = false }) {
 							return (
 								<div
 									key={index}
-									className="relative overflow-hidden rounded-xl shadow-lg cursor-pointer will-change-transform"
-									style={{ contentVisibility: 'auto' }}>
-									<div className="w-full h-48 sm:h-56 lg:h-64 overflow-hidden bg-gray-200">
-										<img
+									className="relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
+									style={{ aspectRatio: '4/3' }}>
+									<div className="relative w-full h-full bg-gray-200">
+										<Image
 											src={item.image}
 											alt={getMaterialBadge(item.material)}
-											className="w-full h-full object-cover"
-											loading="lazy"
-											decoding="async"
+											fill
+											sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+											quality={75}
+											className="object-cover"
+											priority={index < 3}
+											loading={index < 3 ? undefined : 'lazy'}
 										/>
 									</div>
 									{/* Material Badge */}
