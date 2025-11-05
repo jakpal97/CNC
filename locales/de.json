@@ -255,47 +255,70 @@
 			"subtitle": "Entdecken Sie unseren fortschrittlichen Maschinenpark, der die Umsetzung auch der anspruchsvollsten Projekte ermöglicht.",
 			"list": [
 				{
-					"name": "5-Achsen CNC-Fräsmaschinen",
-					"shortDesc": "Präzises mehrachsiges Fräsen für komplexe Geometrien",
-					"manufacturer": "DMG MORI & HAAS",
-					"icon": "fa-cogs",
-					"specs": [
-						"Arbeitsbereich: 1000x600x500mm",
-						"Positioniergenauigkeit: ±0.003mm",
-						"Automatischer Werkzeugwechsler: 40 Positionen",
-						"Spindeldrehzahl: bis 24.000 U/min"
-					]
-				},
-				{
-					"name": "CNC-Drehmaschinen",
-					"shortDesc": "Professionelles Drehen mit angetriebenen Werkzeugen",
-					"manufacturer": "MAZAK & OKUMA",
+					"name": "CNC-Drehmaschine - Hyundai WIA L230LMSA",
+					"shortDesc": "Drehmaschine mit Gegenspindel und angetriebenen Werkzeugen",
+					"manufacturer": "Hyundai WIA",
 					"icon": "fa-sync",
 					"specs": [
-						"Drehdurchmesser: max Ø500mm",
-						"Bearbeitungslänge: bis 1000mm",
-						"Antriebswerkzeuge",
-						"Vollständige Prozessautomatisierung"
+						"Max. Drehdurchmesser: Ø310mm",
+						"Max. Drehlänge: 521mm",
+						"Spannfuttergröße: 8\"/203.2 / 6\"/152.4",
+						"Spindeldrehzahl Haupt/Sub: 4000/5000 U/min",
+						"Spindeldrehzahl zum Fräsen: 5000 U/min",
+						"Verfahrweg (X,Z,B): 220/560/590mm",
+						"Werkzeugmagazin: 12 Positionen"
 					]
 				},
 				{
-					"name": "Bearbeitungszentren",
-					"shortDesc": "Multifunktionale Zentren für umfassende Produktion",
-					"manufacturer": "DMG MORI",
-					"icon": "fa-cube",
+					"name": "5-Achsen CNC-Fräsmaschine - Hurco VMX42SR",
+					"shortDesc": "Fortschrittliche 5-Achsen-Fräsmaschine für präzise Bearbeitung",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
 					"specs": [
-						"24/7 Bearbeitung",
-						"Integriertes Messsystem",
-						"5-Achsen-Bearbeitungsfähigkeit",
-						"Automatischer Palettenwechsler"
+						"Verfahrweg (X,Y,Z): 1067/610/610mm",
+						"Tisch: 1270x610mm",
+						"Spindeldrehzahl: 12000 U/min",
+						"Werkzeugmagazin: 40 Positionen",
+						"Drehtisch: 610mm (C-Achse)",
+						"B-Achse +/- 90 Grad"
 					]
 				},
 				{
-					"name": "Messsysteme",
-					"shortDesc": "Fortschrittliche Qualitätskontrolle und 3D-Messungen",
-					"manufacturer": "ZEISS & MITUTOYO",
-					"icon": "fa-ruler-combined",
-					"specs": ["3D-Koordinatenmessungen", "Genauigkeit: ±0.001mm", "3D-Laserscanning", "ISO 9001 konform"]
+					"name": "4-Achsen CNC-Fräsmaschine - Hurco",
+					"shortDesc": "4-Achsen-Fräsmaschine mit Teilapparat für komplexe Bearbeitung",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
+					"specs": [
+						"Verfahrweg (X,Y,Z): 1067/610/610mm",
+						"Tisch: 1270x610mm",
+						"Spindeldrehzahl: 12000 U/min",
+						"Werkzeugmagazin: 30 Positionen",
+						"Teilapparat Ø200mm (A-Achse)"
+					]
+				},
+				{
+					"name": "3-Achsen CNC-Fräsmaschine Hurco VMX 24t",
+					"shortDesc": "Kompakte 3-Achsen-Fräsmaschine für präzise Bearbeitung",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
+					"specs": [
+						"Verfahrweg (X,Y,Z): 610/510/610mm",
+						"Tisch: 760x510mm",
+						"Spindeldrehzahl: 12000 U/min",
+						"Werkzeugmagazin: 24 Positionen"
+					]
+				},
+				{
+					"name": "Automatische Bandsäge IMET Cubo 300 e flat",
+					"shortDesc": "Präzise automatische Bandsäge zum Schneiden verschiedener Materialien",
+					"manufacturer": "IMET",
+					"icon": "fa-cut",
+					"specs": [
+						"Maximale Schnittkapazität:",
+						"Ø255mm",
+						"☐230mm",
+						"☐300x180mm"
+					]
 				}
 			]
 		},

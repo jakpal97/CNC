@@ -250,52 +250,65 @@
 			"subtitle": "Poznaj nasz zaawansowany park maszynowy, który umożliwia realizację nawet najbardziej wymagających projektów.",
 			"list": [
 				{
-					"name": "Frezarki CNC",
-					"shortDesc": "Precyzyjne frezowanie wieloosiowe dla złożonych geometrii",
-					"manufacturer": "DMG MORI & HAAS",
-					"icon": "fa-cogs",
-					"specs": [
-						"Obszar roboczy: 1000x600x500mm",
-						"Precyzja pozycjonowania: ±0.003mm",
-						"Automatyczna wymiana narzędzi: 40 pozycji",
-						"Prędkość obrotowa wrzeciona: do 24,000 RPM"
-					]
-				},
-				{
-					"name": "Tokarki CNC",
-					"shortDesc": "Profesjonalne toczenie z narzędziami napędzanymi",
-					"manufacturer": "MAZAK & OKUMA",
+					"name": "Tokarka CNC - Hyundai WIA L230LMSA",
+					"shortDesc": "Tokarka z przeciwwrzecionem i napędzanymi narzędziami",
+					"manufacturer": "Hyundai WIA",
 					"icon": "fa-sync",
 					"specs": [
-						"Średnica toczenia: max Ø500mm",
-						"Długość obróbki: do 1000mm",
-						"Narzędzia napędzane",
-						"Pełna automatyzacja procesu"
+						"Max średnica toczenia: Ø310mm",
+						"Max długość toczenia: 521mm",
+						"Rozmiar uchwytu: 8\"/203.2 / 6\"/152.4",
+						"Prędkość obrotowa wrzeciona główne/sub: 4000/5000 RPM",
+						"Prędkość obrotowa wrzeciona do frezowania: 5000 RPM",
+						"Przesuw (X,Z,B): 220/560/590mm",
+						"Magazyn narzędzi: 12 pozycji"
 					]
 				},
 				{
-					"name": "Cięcie piłą taśmową",
-					"shortDesc": "Wielofunkcyjne centra do kompleksowej produkcji",
-					"manufacturer": "DMG MORI",
-					"icon": "fa-cube",
+					"name": "Frezarka CNC 5-osiowa - Hurco VMX42SR",
+					"shortDesc": "Zaawansowana frezarka 5-osiowa do precyzyjnej obróbki",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
 					"specs": [
-						"Obróbka 24/7",
-						"Zintegrowany system pomiaru",
-						"Możliwość obróbki 5-osiowej",
-						"Automatyczna wymiana palet"
+						"Przesuw (X,Y,Z): 1067/610/610mm",
+						"Stół: 1270x610mm",
+						"Prędkość obrotowa wrzeciona: 12000 RPM",
+						"Magazyn narzędzi: 40 pozycji",
+						"Stół obrotowy: 610mm (oś C)",
+						"Oś B +/- 90 stopni"
 					]
 				},
 				{
-					"name": "Narzędzia",
-					"shortDesc": "Zaawansowana kontrola jakości i pomiary 3D",
-					"manufacturer": "ZEISS & MITUTOYO",
-					"icon": "fa-ruler-combined",
+					"name": "Frezarka CNC 4-osiowa - Hurco",
+					"shortDesc": "Frezarka 4-osiowa z podzielnicą do kompleksowej obróbki",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
 					"specs": [
-						"Pomiary współrzędnościowe 3D",
-						"Dokładność: ±0.001mm",
-						"Skanowanie laserowe 3D",
-						"Zgodność z ISO 9001"
+						"Przesuw (X,Y,Z): 1067/610/610mm",
+						"Stół: 1270x610mm",
+						"Prędkość obrotowa wrzeciona: 12000 RPM",
+						"Magazyn narzędzi: 30 pozycji",
+						"Podzielnica Ø200mm (oś A)"
 					]
+				},
+				{
+					"name": "Frezarka CNC 3-osiowa Hurco VMX 24t",
+					"shortDesc": "Kompaktowa frezarka 3-osiowa do precyzyjnej obróbki",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
+					"specs": [
+						"Przesuw (X,Y,Z): 610/510/610mm",
+						"Stół: 760x510mm",
+						"Prędkość obrotowa wrzeciona: 12000 RPM",
+						"Magazyn narzędzi: 24 pozycje"
+					]
+				},
+				{
+					"name": "Automatyczna piła taśmowa IMET Cubo 300 e flat",
+					"shortDesc": "Precyzyjna automatyczna piła taśmowa do cięcia różnych materiałów",
+					"manufacturer": "IMET",
+					"icon": "fa-cut",
+					"specs": ["Maksymalne gabaryty cięcia:", "Ø255mm", "☐230mm", "☐300x180mm"]
 				}
 			]
 		},

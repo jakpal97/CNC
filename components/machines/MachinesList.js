@@ -9,10 +9,11 @@ export default function MachinesList() {
 	const [selectedMachine, setSelectedMachine] = useState(0)
 
 	const machineImages = [
-		'/images/frezarkacnc.png',
-		'/images/tokarka.png',
-		'/images/pila.png',
-		'/images/narzedzia.png'
+		'/images/hyundai-wia.jpg',
+		'/images/huraco.jpg',
+		'/images/huraco-4.jpg',
+		'/images/hurco-3.jpg',
+		'/images/pila-imet.jpg'
 	]
 
 	// Zabezpieczenie przed brakiem danych

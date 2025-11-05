@@ -251,47 +251,70 @@
 			"subtitle": "Discover our advanced machine park that enables the implementation of even the most demanding projects.",
 			"list": [
 				{
-					"name": "5-Axis CNC Milling Machines",
-					"shortDesc": "Precise multi-axis milling for complex geometries",
-					"manufacturer": "DMG MORI & HAAS",
-					"icon": "fa-cogs",
-					"specs": [
-						"Working area: 1000x600x500mm",
-						"Positioning accuracy: ±0.003mm",
-						"Automatic tool changer: 40 positions",
-						"Spindle speed: up to 24,000 RPM"
-					]
-				},
-				{
-					"name": "CNC Lathes",
-					"shortDesc": "Professional turning with live tooling",
-					"manufacturer": "MAZAK & OKUMA",
+					"name": "CNC Lathe - Hyundai WIA L230LMSA",
+					"shortDesc": "Lathe with counter-spindle and live tooling",
+					"manufacturer": "Hyundai WIA",
 					"icon": "fa-sync",
 					"specs": [
-						"Turning diameter: max Ø500mm",
-						"Machining length: up to 1000mm",
-						"Live tooling",
-						"Full process automation"
+						"Max turning diameter: Ø310mm",
+						"Max turning length: 521mm",
+						"Chuck size: 8\"/203.2 / 6\"/152.4",
+						"Spindle speed main/sub: 4000/5000 RPM",
+						"Spindle speed for milling: 5000 RPM",
+						"Travel (X,Z,B): 220/560/590mm",
+						"Tool magazine: 12 positions"
 					]
 				},
 				{
-					"name": "Machining Centers",
-					"shortDesc": "Multi-functional centers for comprehensive production",
-					"manufacturer": "DMG MORI",
-					"icon": "fa-cube",
+					"name": "5-Axis CNC Milling Machine - Hurco VMX42SR",
+					"shortDesc": "Advanced 5-axis milling machine for precision machining",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
 					"specs": [
-						"24/7 machining",
-						"Integrated measurement system",
-						"5-axis machining capability",
-						"Automatic pallet changer"
+						"Travel (X,Y,Z): 1067/610/610mm",
+						"Table: 1270x610mm",
+						"Spindle speed: 12000 RPM",
+						"Tool magazine: 40 positions",
+						"Rotary table: 610mm (C-axis)",
+						"B-axis +/- 90 degrees"
 					]
 				},
 				{
-					"name": "Measurement Systems",
-					"shortDesc": "Advanced quality control and 3D measurements",
-					"manufacturer": "ZEISS & MITUTOYO",
-					"icon": "fa-ruler-combined",
-					"specs": ["3D coordinate measurements", "Accuracy: ±0.001mm", "3D laser scanning", "ISO 9001 compliant"]
+					"name": "4-Axis CNC Milling Machine - Hurco",
+					"shortDesc": "4-axis milling machine with rotary table for complex machining",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
+					"specs": [
+						"Travel (X,Y,Z): 1067/610/610mm",
+						"Table: 1270x610mm",
+						"Spindle speed: 12000 RPM",
+						"Tool magazine: 30 positions",
+						"Rotary indexer Ø200mm (A-axis)"
+					]
+				},
+				{
+					"name": "3-Axis CNC Milling Machine Hurco VMX 24t",
+					"shortDesc": "Compact 3-axis milling machine for precision machining",
+					"manufacturer": "HURCO",
+					"icon": "fa-cogs",
+					"specs": [
+						"Travel (X,Y,Z): 610/510/610mm",
+						"Table: 760x510mm",
+						"Spindle speed: 12000 RPM",
+						"Tool magazine: 24 positions"
+					]
+				},
+				{
+					"name": "Automatic Bandsaw IMET Cubo 300 e flat",
+					"shortDesc": "Precise automatic bandsaw for cutting various materials",
+					"manufacturer": "IMET",
+					"icon": "fa-cut",
+					"specs": [
+						"Maximum cutting capacity:",
+						"Ø255mm",
+						"☐230mm",
+						"☐300x180mm"
+					]
 				}
 			]
 		},
