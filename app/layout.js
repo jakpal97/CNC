@@ -7,6 +7,11 @@ export const metadata = {
 	description: 'Precyzja i doświadczenie w każdym detalu. eMKa Metal to Twój zaufany partner w obróbce metali CNC. Wysokiej jakości części o ścisłych tolerancjach dla przemysłu.',
 	keywords: 'obróbka metali, CNC, precyzyjna obróbka, eMKa Metal, frezowanie CNC, toczenie CNC',
 	authors: [{ name: 'eMKa Metal' }],
+	icons: {
+		icon: '/images/logo.jpg',
+		shortcut: '/images/logo.jpg',
+		apple: '/images/logo.jpg',
+	},
 	openGraph: {
 		title: 'eMKa Metal - Precyzja w obróbce metali',
 		description: 'Twój partner w profesjonalnej obróbce metali CNC',
