@@ -207,7 +207,9 @@
 			"message": "Message",
 			"file": "Upload Files (CAD drawings, specs, PDF)",
 			"submit": "Send Message",
-			"required": "*"
+			"required": "*",
+			"successMessage": "Message sent successfully! We will contact you soon.",
+			"errorMessage": "An error occurred while sending the message. Please try again or contact us directly."
 		}
 	},
 	"footer": {

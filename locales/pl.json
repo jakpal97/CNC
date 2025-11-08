@@ -207,7 +207,9 @@
 			"message": "Wiadomość",
 			"file": "Prześlij pliki (rysunki CAD, specyfikacje, PDF)",
 			"submit": "Wyślij wiadomość",
-			"required": "*"
+			"required": "*",
+			"successMessage": "Wiadomość została wysłana pomyślnie! Skontaktujemy się z Tobą wkrótce.",
+			"errorMessage": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie lub skontaktuj się bezpośrednio."
 		}
 	},
 	"footer": {

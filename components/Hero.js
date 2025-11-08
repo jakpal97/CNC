@@ -28,7 +28,7 @@ export default function Hero() {
 			{/* Subtle gradient overlay */}
 			<div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
 
-			<div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+			<div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 md:pt-24 lg:py-16 lg:-mt-20 pb-8 sm:pb-12 mb-24 sm:mb-32 lg:mb-40">
 				<div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 					{/* Left Content */}
 					<div className="space-y-8">
@@ -57,30 +57,30 @@ export default function Hero() {
 					</div>
 
 					{/* Right Content - Robot with Stats */}
-					<div className="relative flex items-center justify-center" ref={parallaxRef}>
+					<div className="relative flex items-center justify-center lg:min-h-[750px] -mx-4 sm:mx-0" ref={parallaxRef}>
 						{/* Main Robot Image */}
-						<div className="relative w-full max-w-lg">
+						<div className="relative w-full max-w-full sm:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
 							<img
-								src="/images/frezarka.png"
+								src="/images/wewnatrz.jpg"
 								alt="CNC Machine"
-								className="w-full h-auto transform hover:scale-105 transition-transform duration-700 z-30"
+								className="w-full h-auto transform hover:scale-105 transition-transform duration-700 rounded-2xl shadow-2xl"
 							/>
 
 							{/* Floating Stat Card - Top Right */}
-							<div className="absolute -top-4 -right-4 sm:top-8 sm:right-0 lg:-top-12 lg:-right-12 bg-slate-800/90 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-white/10 animate-float z-20">
+							<div className="absolute top-4 right-4 sm:top-6 sm:right-6 lg:top-8 lg:right-8 xl:-top-4 xl:-right-4 bg-slate-800/95 backdrop-blur-md rounded-2xl p-4 sm:p-5 lg:p-6 shadow-2xl border border-white/10 animate-float z-20">
 								<div className="text-center">
-									<div className="text-4xl font-bold text-white mb-2">10+</div>
-									<div className="text-sm text-gray-400">{t.years}</div>
+									<div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 sm:mb-2">10+</div>
+									<div className="text-xs sm:text-sm text-gray-400 whitespace-nowrap">{t.years}</div>
 								</div>
 							</div>
 
 							{/* Floating Stat Card - Bottom Left */}
 							<div
-								className="absolute -bottom-4 -left-4 sm:bottom-12 sm:left-0 lg:-bottom-15 lg:-left-12 bg-slate-800/90 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-white/10 animate-float -z-10"
+								className="absolute bottom-2 left-4 sm:bottom-4 sm:left-6 lg:bottom-6 lg:left-8 xl:-bottom-8 xl:-left-4 2xl:-bottom-12 bg-slate-800/95 backdrop-blur-md rounded-2xl p-4 sm:p-5 lg:p-6 shadow-2xl border border-white/10 animate-float z-20"
 								style={{ animationDelay: '1s' }}>
 								<div className="text-center">
-									<div className="text-4xl font-bold text-white mb-2">1000000+</div>
-									<div className="text-sm text-gray-400">{t.parts}</div>
+									<div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 sm:mb-2">1000000+</div>
+									<div className="text-xs sm:text-sm text-gray-400 whitespace-nowrap">{t.parts}</div>
 								</div>
 							</div>
 						</div>

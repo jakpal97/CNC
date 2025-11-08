@@ -51,12 +51,13 @@ export default function About() {
 					</div>
 
 					<div className="lg:w-1/2 relative w-full">
-						<div className="bg-white p-2 rounded-xl shadow-xl">
-							<img
-								src="https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-								alt="CNC Machine Shop"
-								className="w-full h-auto rounded-lg"
-							/>
+						<div className="space-y-4">
+							<div className="bg-white p-2 rounded-xl shadow-xl">
+								<img src="/images/biuro1.jpg" alt="eMKa Metal Office 1" className="w-full h-auto rounded-lg" />
+							</div>
+							<div className="bg-white p-2 rounded-xl shadow-xl">
+								<img src="/images/biuro2.jpg" alt="eMKa Metal Office 2" className="w-full h-auto rounded-lg" />
+							</div>
 						</div>
 						<div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-primary text-white p-3 sm:p-4 rounded-lg shadow-lg hidden md:block">
 							<div className="text-2xl sm:text-3xl font-bold">10+</div>

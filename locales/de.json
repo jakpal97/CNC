@@ -211,7 +211,9 @@
 			"message": "Nachricht",
 			"file": "Dateien hochladen (CAD-Zeichnungen, Spezifikationen, PDF)",
 			"submit": "Nachricht senden",
-			"required": "*"
+			"required": "*",
+			"successMessage": "Nachricht erfolgreich gesendet! Wir werden uns bald bei Ihnen melden.",
+			"errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
 		}
 	},
 	"footer": {

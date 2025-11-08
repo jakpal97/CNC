@@ -20,16 +20,16 @@ export default function Services() {
 			features: t.turning.features,
 		},
 		{
-			icon: 'fa-bolt',
-			title: t.edm.title,
-			description: t.edm.description,
-			features: t.edm.features,
-		},
-		{
 			icon: 'fa-cut',
 			title: t.bandsaw.title,
 			description: t.bandsaw.description,
 			features: t.bandsaw.features,
+		},
+		{
+			icon: 'fa-bolt',
+			title: t.edm.title,
+			description: t.edm.description,
+			features: t.edm.features,
 		},
 	]
 
