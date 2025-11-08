@@ -4,6 +4,7 @@ import { useLanguage } from '../../lib/LanguageContext'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import ContactForm from '../../components/ContactForm'
+import Image from 'next/image'
 
 export default function ContactPage() {
 	const { translations } = useLanguage()
@@ -78,11 +79,12 @@ export default function ContactPage() {
 							</div>
 
 							{/* Zdjęcie firmy */}
-							<div className="mt-8 rounded-xl overflow-hidden shadow-2xl">
-								<img 
+							<div className="mt-8 rounded-xl overflow-hidden shadow-2xl relative h-64 sm:h-80">
+								<Image 
 									src="/images/zewnatrz.jpg" 
 									alt="eMKa Metal - Zakład produkcyjny" 
-									className="w-full h-64 sm:h-80 object-cover"
+									fill
+									className="object-cover"
 								/>
 							</div>
 						</div>

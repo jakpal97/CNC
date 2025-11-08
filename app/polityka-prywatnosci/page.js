@@ -3,6 +3,7 @@
 import { useLanguage } from '../../lib/LanguageContext'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import Link from 'next/link'
 
 export default function PrivacyPolicy() {
 	const { translations } = useLanguage()
@@ -67,11 +68,11 @@ export default function PrivacyPolicy() {
 				</div>
 
 				<div className="mt-6">
-					<a
+					<Link
 						href="/#contact"
 						className="inline-block bg-[#E10600] hover:bg-[#C10500] text-white px-6 py-3 rounded-lg transition-colors duration-300">
 						{t.contactButton}
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>

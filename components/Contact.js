@@ -2,6 +2,7 @@
 
 import { useLanguage } from '../lib/LanguageContext'
 import ContactForm from './ContactForm'
+import Image from 'next/image'
 
 export default function Contact() {
 	const { translations } = useLanguage()
@@ -56,11 +57,12 @@ export default function Contact() {
 						</div>
 
 						{/* Zdjęcie firmy */}
-						<div className="mt-6 sm:mt-8 rounded-xl overflow-hidden shadow-lg">
-							<img 
+						<div className="mt-6 sm:mt-8 rounded-xl overflow-hidden shadow-lg relative h-64 sm:h-80">
+							<Image 
 								src="/images/zewnatrz.jpg" 
 								alt="eMKa Metal - Zakład produkcyjny" 
-								className="w-full h-64 sm:h-80 object-cover"
+								fill
+								className="object-cover"
 							/>
 						</div>
 					</div>
