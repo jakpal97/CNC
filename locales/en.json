@@ -224,9 +224,8 @@
 		"servicesList": {
 			"milling": "CNC Milling",
 			"turning": "CNC Turning",
-			"edm": "EDM Machining",
-			"prototyping": "Prototyping",
-			"production": "Production Runs"
+			"bandsaw": "Automatic Band Saw Cutting",
+			"edm": "Services"
 		},
 		"legal": {
 			"privacy": "Privacy Policy",

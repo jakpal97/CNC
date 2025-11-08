@@ -228,9 +228,8 @@
 		"servicesList": {
 			"milling": "CNC-Fräsen",
 			"turning": "CNC-Drehen",
-			"edm": "EDM-Bearbeitung",
-			"prototyping": "Prototyping",
-			"production": "Serienproduktion"
+			"bandsaw": "Automatisches Bandsägenschneiden",
+			"edm": "Dienstleistungen"
 		},
 		"legal": {
 			"privacy": "Datenschutzrichtlinie",

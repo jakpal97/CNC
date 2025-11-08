@@ -15,11 +15,10 @@ export default function Footer() {
 	]
 
 	const servicesList = [
-		{ label: t.servicesList.milling, href: '#' },
-		{ label: t.servicesList.turning, href: '#' },
-		{ label: t.servicesList.edm, href: '#' },
-		{ label: t.servicesList.bandsaw, href: '#' }
-		
+		{ label: translations.services.milling.title, href: '#services' },
+		{ label: translations.services.turning.title, href: '#services' },
+		{ label: translations.services.bandsaw.title, href: '#services' },
+		{ label: translations.services.edm.title, href: '#services' }
 	]
 
 	const socialLinks = [

@@ -7,11 +7,12 @@ import { locales } from '../lib/i18n'
 export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 	const [languageDropdownOpen, setLanguageDropdownOpen] = useState(false)
+	const [mobileLanguageDropdownOpen, setMobileLanguageDropdownOpen] = useState(false)
 	const { locale, changeLanguage, translations } = useLanguage()
 	const t = translations.nav
 	const dropdownRef = useRef(null)
 
-	// Zamknij dropdown po kliknięciu poza nim
+	// Zamknij dropdown po kliknięciu poza nim (tylko dla desktop)
 	useEffect(() => {
 		const handleClickOutside = event => {
 			if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -99,7 +100,7 @@ export default function Navbar() {
 
 					<div className="md:hidden flex items-center space-x-2">
 						<button
-							onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
+							onClick={() => setMobileLanguageDropdownOpen(!mobileLanguageDropdownOpen)}
 							className="text-gray-500 hover:text-primary focus:outline-none p-2 relative"
 							aria-label="Select language">
 							<span className="text-xl">{currentLocale.flag}</span>
@@ -134,15 +135,15 @@ export default function Navbar() {
 			</div>
 
 			{/* Mobile Language Dropdown */}
-			{languageDropdownOpen && (
-				<div className="md:hidden bg-white border-t border-b">
+			{mobileLanguageDropdownOpen && (
+				<div className="md:hidden bg-white border-t border-b shadow-lg">
 					<div className="px-2 py-2 space-y-1">
 						{locales.map(lang => (
 							<button
 								key={lang.code}
 								onClick={() => {
 									changeLanguage(lang.code)
-									setLanguageDropdownOpen(false)
+									setMobileLanguageDropdownOpen(false)
 								}}
 								className={`w-full text-left px-3 py-2 text-base font-medium rounded-md transition-colors flex items-center gap-3 ${
 									locale === lang.code ? 'bg-primary text-white' : 'text-dark hover:bg-gray-50 hover:text-primary'
