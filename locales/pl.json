@@ -209,7 +209,23 @@
 			"submit": "Wyślij wiadomość",
 			"required": "*",
 			"successMessage": "Wiadomość została wysłana pomyślnie! Skontaktujemy się z Tobą wkrótce.",
-			"errorMessage": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie lub skontaktuj się bezpośrednio."
+			"errorMessage": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie lub skontaktuj się bezpośrednio.",
+			"gdpr": {
+				"infoTitle": "Klauzula informacyjna RODO",
+				"info": "Administratorem Twoich danych osobowych jest eMKa Metal, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry.",
+				"legalBasis": "Podstawa prawna: Twoja zgoda (art. 6 ust. 1 lit. a RODO)",
+				"purpose": "Twoje dane będą przetwarzane w celu udzielenia odpowiedzi na wysłane zapytanie oraz w celach kontaktu w sprawie zapytania.",
+				"voluntary": "Podanie danych jest dobrowolne, ale niezbędne do udzielenia odpowiedzi na zapytanie.",
+				"retention": "Dane będą przechowywane przez okres niezbędny do udzielenia odpowiedzi oraz przez 3 lata od zakończenia korespondencji.",
+				"rights": "Masz prawo do dostępu, sprostowania, usunięcia danych, ograniczenia przetwarzania, przenoszenia danych oraz wniesienia sprzeciwu.",
+				"withdraw": "Możesz w każdej chwili cofnąć zgodę, co nie wpłynie na zgodność z prawem przetwarzania dokonanego przed cofnięciem.",
+				"moreInfo": "Więcej informacji:",
+				"privacyLink": "Polityka prywatności",
+				"readMore": "Czytaj więcej",
+				"readLess": "Zwiń",
+				"consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych przez eMKa Metal w celu udzielenia odpowiedzi na wysłane zapytanie.",
+				"consentMarketing": "Wyrażam zgodę na otrzymywanie informacji handlowych od eMKa Metal drogą elektroniczną (newsletter, oferty) zgodnie z ustawą o świadczeniu usług drogą elektroniczną."
+			}
 		}
 	},
 	"footer": {
@@ -229,9 +245,9 @@
 		},
 		"legal": {
 			"privacy": "Polityka prywatności",
-			"terms": "Warunki świadczenia usług",
+			"terms": "Regulamin",
 			"sitemap": "Mapa strony",
-			"copyright": "© 2023 ExactCut Parts. Wszelkie prawa zastrzeżone."
+			"copyright": "© 2023 eMKaMetal. Wszelkie prawa zastrzeżone. Made by AppLike."
 		}
 	},
 	"machinesPage": {
@@ -387,5 +403,98 @@
 		"homeButton": "Powrót do strony głównej",
 		"contactButton": "Skontaktuj się z nami",
 		"helpText": "Jeśli uważasz, że to błąd, skontaktuj się z naszym zespołem technicznym."
+	},
+	"privacy": {
+		"title": "Polityka Prywatności",
+		"lastUpdated": "Ostatnia aktualizacja: Listopad 2025",
+		"contactButton": "Skontaktuj się z nami",
+		"section1": {
+			"title": "1. Administrator danych osobowych",
+			"content": "Administratorem Państwa danych osobowych jest eMKa Metal z siedzibą w Tarnowskich Górach, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, NIP: [numer], email: biuro@emkametal.pl, tel: (+48) 510325466."
+		},
+		"section2": {
+			"title": "2. Zakres przetwarzanych danych",
+			"content": "W ramach świadczonych usług przetwarzamy następujące kategorie danych osobowych:",
+			"list": [
+				"Dane identyfikacyjne (imię, nazwisko, nazwa firmy)",
+				"Dane kontaktowe (adres email, numer telefonu)",
+				"Dane przekazane w formularzach kontaktowych i zapytaniach ofertowych",
+				"Dane zawarte w plikach przesyłanych przez użytkowników (np. rysunki techniczne, specyfikacje)"
+			]
+		},
+		"section3": {
+			"title": "3. Cele i podstawy prawne przetwarzania",
+			"content": "Przetwarzamy dane osobowe w następujących celach: udzielania odpowiedzi na zapytania i obsługi korespondencji (podstawa: art. 6 ust. 1 lit. a RODO - zgoda, art. 6 ust. 1 lit. f RODO - uzasadniony interes administratora); przygotowania ofert i wycen dla potencjalnych klientów (podstawa: art. 6 ust. 1 lit. b RODO - wykonanie umowy); realizacji umów i świadczenia usług obróbki CNC (podstawa: art. 6 ust. 1 lit. b RODO); prowadzenia korespondencji handlowej i marketingu bezpośredniego (podstawa: art. 6 ust. 1 lit. f RODO - uzasadniony interes administratora); wypełnienia obowiązków prawnych, w szczególności podatkowych i rachunkowych (podstawa: art. 6 ust. 1 lit. c RODO)."
+		},
+		"section4": {
+			"title": "4. Prawa osób, których dane dotyczą",
+			"content": "Przysługuje Państwu prawo do:",
+			"list": [
+				"Dostępu do swoich danych osobowych",
+				"Sprostowania (poprawiania) danych",
+				"Usunięcia danych ('prawo do bycia zapomnianym')",
+				"Ograniczenia przetwarzania danych",
+				"Przenoszenia danych",
+				"Wniesienia sprzeciwu wobec przetwarzania",
+				"Cofnięcia zgody w dowolnym momencie (bez wpływu na zgodność z prawem przetwarzania przed cofnięciem)",
+				"Wniesienia skargi do organu nadzorczego (Prezes Urzędu Ochrony Danych Osobowych)"
+			]
+		},
+		"section5": {
+			"title": "5. Okres przechowywania danych",
+			"content": "Dane osobowe będą przechowywane przez okres niezbędny do realizacji celów, dla których zostały zebrane, a następnie przez okres wymagany przepisami prawa (np. przepisy podatkowe, rachunkowe) lub przez okres przedawnienia roszczeń. Dane przetwarzane na podstawie zgody będą przechowywane do momentu jej cofnięcia."
+		},
+		"section6": {
+			"title": "6. Odbiorcy danych",
+			"content": "Dane osobowe mogą być przekazywane podmiotom współpracującym z administratorem w zakresie niezbędnym do realizacji usług, w tym: dostawcom usług IT i hostingowych, dostawcom usług księgowych i prawnych, kurierom i firmom transportowym (w zakresie niezbędnym do dostawy). Wszystkie podmioty przetwarzają dane na podstawie umów powierzenia przetwarzania danych i wyłącznie zgodnie z naszymi poleceniami."
+		},
+		"section7": {
+			"title": "7. Kontakt w sprawach ochrony danych",
+			"content": "W sprawach dotyczących przetwarzania danych osobowych i realizacji swoich praw można kontaktować się z nami pod adresem: biuro@emkametal.pl lub pisemnie na adres siedziby firmy."
+		}
+	},
+	"terms": {
+		"title": "Regulamin Świadczenia Usług",
+		"lastUpdated": "Ostatnia aktualizacja: Listopad 2025",
+		"contactButton": "Skontaktuj się z nami",
+		"section1": {
+			"title": "1. Postanowienia ogólne",
+			"content": "Niniejszy regulamin określa zasady świadczenia usług obróbki CNC przez eMKa Metal z siedzibą w Tarnowskich Górach, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry. Akceptacja regulaminu następuje poprzez złożenie zamówienia lub zapytania ofertowego. Regulamin jest dostępny na stronie internetowej www.emkametal.pl oraz jest przekazywany na żądanie klienta."
+		},
+		"section2": {
+			"title": "2. Zakres usług",
+			"content": "Świadczymy następujące usługi:",
+			"list": [
+				"Frezowanie CNC (3, 4 i 5-osiowe)",
+				"Toczenie CNC",
+				"Automatyczne cięcie piłą taśmową",
+				"Usługi dodatkowe: nitowanie, wciskanie kołków i nakrętek, zaginanie blach ołowianych",
+				"Obróbka powierzchniowa (w zależności od uzgodnień)"
+			]
+		},
+		"section3": {
+			"title": "3. Składanie zapytań i zawieranie umów",
+			"content": "Zapytania ofertowe można składać poprzez formularz kontaktowy na stronie, email lub telefonicznie. Zapytanie powinno zawierać rysunki techniczne, specyfikacje materiałowe, wymagane ilości oraz termin realizacji. Oferta cenowa jest ważna przez 30 dni od daty wystawienia, chyba że wskazano inaczej. Umowa zostaje zawarta z chwilą akceptacji oferty przez Klienta i potwierdzenia zamówienia przez eMKa Metal."
+		},
+		"section4": {
+			"title": "4. Realizacja zamówień",
+			"content": "Terminy realizacji ustalane są indywidualnie dla każdego zamówienia. O gotowości zamówienia Klient zostanie poinformowany emailem lub telefonicznie. Odbiór gotowych elementów następuje w siedzibie firmy lub poprzez uzgodnionego kuriera/transport. Klient zobowiązany jest do odbioru zamówienia w terminie 14 dni od powiadomienia o gotowości."
+		},
+		"section5": {
+			"title": "5. Warunki płatności",
+			"content": "Podstawową formą płatności jest przelew bankowy na wskazany rachunek. Termin płatności wynosi 14 dni od daty wystawienia faktury, chyba że ustalono inaczej. W przypadku opóźnienia w płatności, eMKa Metal zastrzega sobie prawo do naliczania odsetek ustawowych. Realizacja kolejnych zamówień może być uzależniona od uregulowania wcześniejszych należności."
+		},
+		"section6": {
+			"title": "6. Reklamacje i odpowiedzialność",
+			"content": "Reklamacje dotyczące jakości wykonanych usług należy zgłaszać niezwłocznie, nie później niż w ciągu 7 dni od odbioru. Reklamacja powinna zawierać opis wady oraz dokumentację fotograficzną. eMKa Metal zobowiązuje się do rozpatrzenia reklamacji w ciągu 14 dni roboczych. W przypadku uznania reklamacji, eMKa Metal dokona naprawy, wymiany lub zwrotu zapłaconej kwoty według własnego uznania."
+		},
+		"section7": {
+			"title": "7. Własność intelektualna",
+			"content": "Wszystkie dokumenty techniczne, rysunki i specyfikacje dostarczone przez Klienta pozostają jego własnością. eMKa Metal zobowiązuje się do zachowania poufności przekazanych informacji i wykorzystywania ich wyłącznie w celu realizacji zamówienia. eMKa Metal może wykorzystywać zdjęcia wykonanych elementów w celach marketingowych, chyba że Klient wyrazi wyraźny sprzeciw."
+		},
+		"section8": {
+			"title": "8. Postanowienia końcowe",
+			"content": "W sprawach nieuregulowanych niniejszym regulaminem mają zastosowanie przepisy Kodeksu Cywilnego oraz inne właściwe przepisy prawa polskiego. Ewentualne spory będą rozstrzygane przez sąd właściwy dla siedziby eMKa Metal. eMKa Metal zastrzega sobie prawo do zmiany regulaminu. Zmiany wchodzą w życie po 14 dniach od opublikowania na stronie internetowej."
+		}
 	}
 }

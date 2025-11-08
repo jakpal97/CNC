@@ -18,12 +18,10 @@ export default function Footer() {
 		{ label: translations.services.milling.title, href: '#services' },
 		{ label: translations.services.turning.title, href: '#services' },
 		{ label: translations.services.bandsaw.title, href: '#services' },
-		{ label: translations.services.edm.title, href: '#services' }
+		{ label: translations.services.edm.title, href: '#services' },
 	]
 
-	const socialLinks = [
-		{ icon: 'fa-facebook-f', href: '#' }
-	]
+	const socialLinks = [{ icon: 'fa-facebook-f', href: '#' }]
 
 	return (
 		<footer className="bg-gray-900 text-white py-8 sm:py-12">
@@ -84,10 +82,14 @@ export default function Footer() {
 				<div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
 					<p className="text-gray-400 text-xs sm:text-sm text-center md:text-left">{t.legal.copyright}</p>
 					<div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-						<a href="#" className="text-gray-400 hover:text-primary transition duration-300 text-xs sm:text-sm">
+						<a
+							href="/polityka-prywatnosci"
+							className="text-gray-400 hover:text-primary transition duration-300 text-xs sm:text-sm">
 							{t.legal.privacy}
 						</a>
-						<a href="#" className="text-gray-400 hover:text-primary transition duration-300 text-xs sm:text-sm">
+						<a
+							href="/regulamin"
+							className="text-gray-400 hover:text-primary transition duration-300 text-xs sm:text-sm">
 							{t.legal.terms}
 						</a>
 					</div>

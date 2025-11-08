@@ -209,7 +209,23 @@
 			"submit": "Send Message",
 			"required": "*",
 			"successMessage": "Message sent successfully! We will contact you soon.",
-			"errorMessage": "An error occurred while sending the message. Please try again or contact us directly."
+			"errorMessage": "An error occurred while sending the message. Please try again or contact us directly.",
+			"gdpr": {
+				"infoTitle": "GDPR Information Clause",
+				"info": "The controller of your personal data is eMKa Metal, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, Poland.",
+				"legalBasis": "Legal basis: Your consent (Art. 6(1)(a) GDPR)",
+				"purpose": "Your data will be processed for the purpose of responding to your inquiry and for contact regarding your inquiry.",
+				"voluntary": "Providing data is voluntary but necessary to respond to your inquiry.",
+				"retention": "Data will be stored for the period necessary to respond and for 3 years from the end of correspondence.",
+				"rights": "You have the right to access, rectify, delete, restrict processing, data portability, and object to processing.",
+				"withdraw": "You can withdraw your consent at any time, which will not affect the lawfulness of processing before withdrawal.",
+				"moreInfo": "More information:",
+				"privacyLink": "Privacy Policy",
+				"readMore": "Read more",
+				"readLess": "Collapse",
+				"consent": "I consent to the processing of my personal data by eMKa Metal for the purpose of responding to the submitted inquiry.",
+				"consentMarketing": "I consent to receiving commercial information from eMKa Metal electronically (newsletter, offers) in accordance with the Act on the provision of services by electronic means."
+			}
 		}
 	},
 	"footer": {
@@ -229,7 +245,7 @@
 		},
 		"legal": {
 			"privacy": "Privacy Policy",
-			"terms": "Terms of Service",
+			"terms": "Terms & Conditions",
 			"sitemap": "Sitemap",
 			"copyright": "© 2023 ExactCut Parts. All rights reserved."
 		}
@@ -392,5 +408,98 @@
 		"homeButton": "Return to Homepage",
 		"contactButton": "Contact Us",
 		"helpText": "If you believe this is an error, please contact our technical team."
+	},
+	"privacy": {
+		"title": "Privacy Policy",
+		"lastUpdated": "Last updated: November 2025",
+		"contactButton": "Contact Us",
+		"section1": {
+			"title": "1. Data Controller",
+			"content": "The controller of your personal data is eMKa Metal, headquartered in Tarnowskie Góry, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, Poland, Tax ID: [number], email: biuro@emkametal.pl, phone: (+48) 510325466."
+		},
+		"section2": {
+			"title": "2. Scope of Processed Data",
+			"content": "As part of our services, we process the following categories of personal data:",
+			"list": [
+				"Identification data (name, surname, company name)",
+				"Contact data (email address, phone number)",
+				"Data provided in contact forms and quote requests",
+				"Data contained in files uploaded by users (e.g., technical drawings, specifications)"
+			]
+		},
+		"section3": {
+			"title": "3. Purposes and Legal Basis for Processing",
+			"content": "We process personal data for the following purposes: responding to inquiries and handling correspondence (basis: Art. 6(1)(a) GDPR - consent, Art. 6(1)(f) GDPR - legitimate interest of the controller); preparing quotes and estimates for potential clients (basis: Art. 6(1)(b) GDPR - contract performance); fulfilling contracts and providing CNC machining services (basis: Art. 6(1)(b) GDPR); conducting business correspondence and direct marketing (basis: Art. 6(1)(f) GDPR - legitimate interest of the controller); fulfilling legal obligations, particularly tax and accounting (basis: Art. 6(1)(c) GDPR)."
+		},
+		"section4": {
+			"title": "4. Rights of Data Subjects",
+			"content": "You have the right to:",
+			"list": [
+				"Access your personal data",
+				"Rectify (correct) data",
+				"Erase data ('right to be forgotten')",
+				"Restrict data processing",
+				"Data portability",
+				"Object to processing",
+				"Withdraw consent at any time (without affecting the lawfulness of processing before withdrawal)",
+				"Lodge a complaint with the supervisory authority (President of the Personal Data Protection Office)"
+			]
+		},
+		"section5": {
+			"title": "5. Data Retention Period",
+			"content": "Personal data will be stored for the period necessary to achieve the purposes for which they were collected, and then for the period required by law (e.g., tax, accounting regulations) or the limitation period for claims. Data processed based on consent will be stored until its withdrawal."
+		},
+		"section6": {
+			"title": "6. Data Recipients",
+			"content": "Personal data may be transferred to entities cooperating with the controller to the extent necessary to provide services, including: IT and hosting service providers, accounting and legal service providers, couriers and transport companies (to the extent necessary for delivery). All entities process data based on data processing agreements and only according to our instructions."
+		},
+		"section7": {
+			"title": "7. Contact for Data Protection Matters",
+			"content": "For matters concerning the processing of personal data and exercising your rights, you can contact us at: biuro@emkametal.pl or in writing to our company's registered address."
+		}
+	},
+	"terms": {
+		"title": "Terms of Service",
+		"lastUpdated": "Last updated: November 2025",
+		"contactButton": "Contact Us",
+		"section1": {
+			"title": "1. General Provisions",
+			"content": "These terms and conditions define the rules for providing CNC machining services by eMKa Metal, headquartered in Tarnowskie Góry, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, Poland. Acceptance of the terms occurs by placing an order or quote request. The terms are available on the website www.emkametal.pl and are provided upon customer request."
+		},
+		"section2": {
+			"title": "2. Scope of Services",
+			"content": "We provide the following services:",
+			"list": [
+				"CNC Milling (3, 4, and 5-axis)",
+				"CNC Turning",
+				"Automatic band saw cutting",
+				"Additional services: riveting, press-fitting of studs and nuts, bending of lead sheets",
+				"Surface treatment (depending on agreement)"
+			]
+		},
+		"section3": {
+			"title": "3. Submitting Inquiries and Concluding Contracts",
+			"content": "Quote requests can be submitted via the contact form on the website, email, or by phone. The inquiry should include technical drawings, material specifications, required quantities, and delivery time. The price quote is valid for 30 days from the date of issue unless otherwise stated. The contract is concluded upon acceptance of the offer by the Customer and confirmation of the order by eMKa Metal."
+		},
+		"section4": {
+			"title": "4. Order Fulfillment",
+			"content": "Delivery times are determined individually for each order. The Customer will be informed about order readiness by email or phone. Collection of finished items takes place at the company's headquarters or via an agreed courier/transport. The Customer is obliged to collect the order within 14 days of notification of readiness."
+		},
+		"section5": {
+			"title": "5. Payment Terms",
+			"content": "The primary form of payment is bank transfer to the specified account. The payment term is 14 days from the invoice date unless otherwise agreed. In case of payment delay, eMKa Metal reserves the right to charge statutory interest. Fulfillment of subsequent orders may depend on settlement of previous liabilities."
+		},
+		"section6": {
+			"title": "6. Complaints and Liability",
+			"content": "Complaints regarding the quality of services should be reported immediately, no later than within 7 days of receipt. The complaint should include a description of the defect and photographic documentation. eMKa Metal undertakes to review complaints within 14 business days. In case of complaint acceptance, eMKa Metal will repair, replace, or refund the paid amount at its discretion."
+		},
+		"section7": {
+			"title": "7. Intellectual Property",
+			"content": "All technical documents, drawings, and specifications provided by the Customer remain their property. eMKa Metal undertakes to maintain confidentiality of the provided information and use it solely for order fulfillment. eMKa Metal may use photos of manufactured items for marketing purposes unless the Customer expressly objects."
+		},
+		"section8": {
+			"title": "8. Final Provisions",
+			"content": "For matters not regulated by these terms, the provisions of the Civil Code and other applicable Polish law provisions apply. Any disputes will be resolved by the court with jurisdiction over eMKa Metal's headquarters. eMKa Metal reserves the right to change the terms. Changes take effect 14 days after publication on the website."
+		}
 	}
 }

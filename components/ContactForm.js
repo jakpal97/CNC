@@ -15,10 +15,13 @@ export default function ContactForm({ variant = 'dark' }) {
 		subject: '',
 		message: '',
 		file: null,
+		gdprConsent: false,
+		marketingConsent: false,
 	})
 
 	const [isSubmitting, setIsSubmitting] = useState(false)
 	const [submitStatus, setSubmitStatus] = useState(null)
+	const [showFullGdpr, setShowFullGdpr] = useState(false)
 
 	const handleFileChange = e => {
 		const file = e.target.files?.[0]
@@ -46,6 +49,9 @@ export default function ContactForm({ variant = 'dark' }) {
 			formDataToSend.append('company', formData.company)
 			formDataToSend.append('subject', formData.subject)
 			formDataToSend.append('message', formData.message)
+			formDataToSend.append('gdprConsent', formData.gdprConsent)
+			formDataToSend.append('marketingConsent', formData.marketingConsent)
+			formDataToSend.append('consentTimestamp', new Date().toISOString())
 			
 			if (formData.file) {
 				formDataToSend.append('file', formData.file)
@@ -68,6 +74,8 @@ export default function ContactForm({ variant = 'dark' }) {
 					subject: '',
 					message: '',
 					file: null,
+					gdprConsent: false,
+					marketingConsent: false,
 				})
 				// Reset file input
 				const fileInput = document.getElementById('file')
@@ -265,7 +273,74 @@ export default function ContactForm({ variant = 'dark' }) {
 					)}
 				</div>
 
-				<button type="submit" disabled={isSubmitting} className={styles.button}>
+				{/* Klauzula informacyjna RODO */}
+				<div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+					<p className="text-sm text-gray-700 mb-2 font-bold">{t.form.gdpr.infoTitle}</p>
+					<p className="text-xs text-gray-700 mb-2">{t.form.gdpr.info}</p>
+					
+					{showFullGdpr && (
+						<div className="text-xs text-gray-700 space-y-2 mb-2 bg-white p-3 rounded border border-blue-100">
+							<p><strong>•</strong> {t.form.gdpr.legalBasis}</p>
+							<p><strong>•</strong> {t.form.gdpr.purpose}</p>
+							<p><strong>•</strong> {t.form.gdpr.voluntary}</p>
+							<p><strong>•</strong> {t.form.gdpr.retention}</p>
+							<p><strong>•</strong> {t.form.gdpr.rights}</p>
+							<p><strong>•</strong> {t.form.gdpr.withdraw}</p>
+						</div>
+					)}
+					
+					<div className="flex items-center justify-between">
+						<button
+							type="button"
+							onClick={() => setShowFullGdpr(!showFullGdpr)}
+							className="text-xs text-[#E10600] hover:underline font-semibold flex items-center gap-1">
+							{showFullGdpr ? (
+								<>
+									<i className="fas fa-chevron-up"></i> {t.form.gdpr.readLess}
+								</>
+							) : (
+								<>
+									<i className="fas fa-chevron-down"></i> {t.form.gdpr.readMore}
+								</>
+							)}
+						</button>
+						<a href="/polityka-prywatnosci" className="text-xs text-[#E10600] hover:underline" target="_blank">
+							<i className="fas fa-external-link-alt mr-1"></i>
+							{t.form.gdpr.privacyLink}
+						</a>
+					</div>
+				</div>
+
+				{/* Checkbox zgody RODO - wymagany */}
+				<div className="flex items-start">
+					<input
+						type="checkbox"
+						id="gdprConsent"
+						required
+						checked={formData.gdprConsent}
+						onChange={e => setFormData({ ...formData, gdprConsent: e.target.checked })}
+						className="mt-1 h-4 w-4 text-[#E10600] focus:ring-[#E10600] border-gray-300 rounded cursor-pointer"
+					/>
+					<label htmlFor="gdprConsent" className="ml-3 text-sm text-gray-700 cursor-pointer">
+						{t.form.gdpr.consent} <span className={styles.required}>{t.form.required}</span>
+					</label>
+				</div>
+
+				{/* Checkbox zgody marketingowej - opcjonalny */}
+				<div className="flex items-start">
+					<input
+						type="checkbox"
+						id="marketingConsent"
+						checked={formData.marketingConsent}
+						onChange={e => setFormData({ ...formData, marketingConsent: e.target.checked })}
+						className="mt-1 h-4 w-4 text-[#E10600] focus:ring-[#E10600] border-gray-300 rounded cursor-pointer"
+					/>
+					<label htmlFor="marketingConsent" className="ml-3 text-sm text-gray-500 cursor-pointer">
+						{t.form.gdpr.consentMarketing} <span className="text-xs text-gray-400">(opcjonalne)</span>
+					</label>
+				</div>
+
+				<button type="submit" disabled={isSubmitting || !formData.gdprConsent} className={styles.button}>
 					{isSubmitting ? (
 						<>
 							<i className="fas fa-spinner fa-spin"></i>

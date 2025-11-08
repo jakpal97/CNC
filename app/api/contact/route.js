@@ -14,6 +14,9 @@ export async function POST(request) {
 		const subject = formData.get('subject')
 		const message = formData.get('message')
 		const file = formData.get('file')
+		const gdprConsent = formData.get('gdprConsent')
+		const marketingConsent = formData.get('marketingConsent')
+		const consentTimestamp = formData.get('consentTimestamp')
 
 		// Walidacja wymaganych pól
 		if (!name || !email || !subject || !message) {
@@ -136,7 +139,131 @@ export async function POST(request) {
 							` : ''}
 						</div>
 						<div class="footer">
-							<p>Ten email został wysłany z formularza kontaktowego na stronie eMKaMetal</p>
+							<hr style="border: none; border-top: 3px solid #E10600; margin: 25px 0;">
+							
+							<h2 style="color: #E10600; font-size: 16px; margin-bottom: 15px; text-align: center;">
+								━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+								✅ ZGODA RODO
+								<br>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+							</h2>
+							
+							<div style="background-color: #e8f5e9; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 5px solid #4caf50;">
+								<h3 style="color: #2e7d32; margin-top: 0; font-size: 14px;">
+									${gdprConsent === 'true' ? '✅ ZGODA WYRAŻONA' : '❌ BRAK ZGODY'}
+								</h3>
+								
+								<table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #c8e6c9;">
+											<strong style="color: #1b5e20;">Treść zgody:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											"Wyrażam zgodę na przetwarzanie moich danych osobowych przez eMKa Metal w celu udzielenia odpowiedzi na wysłane zapytanie."
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #c8e6c9;">
+											<strong style="color: #1b5e20;">Podstawa prawna:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											art. 6 ust. 1 lit. a RODO
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #c8e6c9;">
+											<strong style="color: #1b5e20;">Data wyrażenia:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											${new Date(consentTimestamp).toLocaleString('pl-PL', { 
+												timeZone: 'Europe/Warsaw',
+												year: 'numeric',
+												month: '2-digit',
+												day: '2-digit',
+												hour: '2-digit',
+												minute: '2-digit',
+												second: '2-digit'
+											})}
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #c8e6c9;">
+											<strong style="color: #1b5e20;">IP użytkownika:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											${request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'Nieznane'}
+										</td>
+									</tr>
+								</table>
+							</div>
+							
+							${marketingConsent === 'true' ? `
+							<div style="background-color: #fff3e0; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 5px solid #ff9800;">
+								<h3 style="color: #e65100; margin-top: 0; font-size: 14px;">
+									📧 ZGODA MARKETINGOWA (OPCJONALNA)
+								</h3>
+								
+								<table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #ffe0b2;">
+											<strong style="color: #bf360c;">Treść zgody:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											"Wyrażam zgodę na otrzymywanie informacji handlowych od eMKa Metal drogą elektroniczną (newsletter, oferty) zgodnie z ustawą o świadczeniu usług drogą elektroniczną."
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #ffe0b2;">
+											<strong style="color: #bf360c;">Status:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											✅ Wyrażona
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; border-bottom: 1px solid #ffe0b2;">
+											<strong style="color: #bf360c;">Data wyrażenia:</strong>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding: 8px 0; font-size: 12px; color: #424242;">
+											${new Date(consentTimestamp).toLocaleString('pl-PL', { 
+												timeZone: 'Europe/Warsaw',
+												year: 'numeric',
+												month: '2-digit',
+												day: '2-digit',
+												hour: '2-digit',
+												minute: '2-digit',
+												second: '2-digit'
+											})}
+										</td>
+									</tr>
+								</table>
+							</div>
+							` : ''}
+							
+							<div style="background-color: #ffebee; padding: 15px; border-radius: 5px; border-left: 5px solid #d32f2f; margin-bottom: 20px;">
+								<p style="margin: 0; font-size: 12px; color: #c62828;">
+									⚠️ <strong>WAŻNE:</strong> Zachowaj ten email jako dowód wyrażenia zgody zgodnie z art. 7 RODO.
+								</p>
+							</div>
+							
+							<hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
+							<p style="font-size: 11px; color: #999; text-align: center;">
+								Ten email został wysłany z formularza kontaktowego na stronie <strong>eMKaMetal</strong><br>
+								ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry
+							</p>
 						</div>
 					</div>
 				</body>

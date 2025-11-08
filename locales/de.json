@@ -213,7 +213,23 @@
 			"submit": "Nachricht senden",
 			"required": "*",
 			"successMessage": "Nachricht erfolgreich gesendet! Wir werden uns bald bei Ihnen melden.",
-			"errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+			"errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+			"gdpr": {
+				"infoTitle": "DSGVO-Informationsklausel",
+				"info": "Der Verantwortliche für Ihre personenbezogenen Daten ist eMKa Metal, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, Polen.",
+				"legalBasis": "Rechtsgrundlage: Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)",
+				"purpose": "Ihre Daten werden zum Zweck der Beantwortung Ihrer Anfrage und für Kontakt bezüglich Ihrer Anfrage verarbeitet.",
+				"voluntary": "Die Angabe von Daten ist freiwillig, aber zur Beantwortung Ihrer Anfrage erforderlich.",
+				"retention": "Daten werden für den zur Beantwortung erforderlichen Zeitraum und für 3 Jahre nach Ende der Korrespondenz gespeichert.",
+				"rights": "Sie haben das Recht auf Zugang, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch.",
+				"withdraw": "Sie können Ihre Einwilligung jederzeit widerrufen, was die Rechtmäßigkeit der Verarbeitung vor dem Widerruf nicht berührt.",
+				"moreInfo": "Weitere Informationen:",
+				"privacyLink": "Datenschutzrichtlinie",
+				"readMore": "Mehr lesen",
+				"readLess": "Einklappen",
+				"consent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten durch eMKa Metal zum Zweck der Beantwortung der eingereichten Anfrage zu.",
+				"consentMarketing": "Ich stimme dem Erhalt von Werbeinformationen von eMKa Metal auf elektronischem Weg (Newsletter, Angebote) gemäß dem Gesetz über die Erbringung elektronischer Dienstleistungen zu."
+			}
 		}
 	},
 	"footer": {
@@ -233,7 +249,7 @@
 		},
 		"legal": {
 			"privacy": "Datenschutzrichtlinie",
-			"terms": "Nutzungsbedingungen",
+			"terms": "AGB",
 			"sitemap": "Sitemap",
 			"copyright": "© 2023 ExactCut Parts. Alle Rechte vorbehalten."
 		}
@@ -396,5 +412,98 @@
 		"homeButton": "Zurück zur Startseite",
 		"contactButton": "Kontaktieren Sie uns",
 		"helpText": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an unser technisches Team."
+	},
+	"privacy": {
+		"title": "Datenschutzrichtlinie",
+		"lastUpdated": "Letzte Aktualisierung: November 2025",
+		"contactButton": "Kontaktieren Sie uns",
+		"section1": {
+			"title": "1. Datenverantwortlicher",
+			"content": "Der Verantwortliche für Ihre personenbezogenen Daten ist eMKa Metal mit Sitz in Tarnowskie Góry, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, Polen, Steuernummer: [Nummer], E-Mail: biuro@emkametal.pl, Telefon: (+48) 510325466."
+		},
+		"section2": {
+			"title": "2. Umfang der verarbeiteten Daten",
+			"content": "Im Rahmen unserer Dienstleistungen verarbeiten wir folgende Kategorien personenbezogener Daten:",
+			"list": [
+				"Identifikationsdaten (Name, Nachname, Firmenname)",
+				"Kontaktdaten (E-Mail-Adresse, Telefonnummer)",
+				"In Kontaktformularen und Angebotsanfragen bereitgestellte Daten",
+				"In von Benutzern hochgeladenen Dateien enthaltene Daten (z. B. technische Zeichnungen, Spezifikationen)"
+			]
+		},
+		"section3": {
+			"title": "3. Zwecke und Rechtsgrundlagen der Verarbeitung",
+			"content": "Wir verarbeiten personenbezogene Daten für folgende Zwecke: Beantwortung von Anfragen und Bearbeitung von Korrespondenz (Grundlage: Art. 6 Abs. 1 lit. a DSGVO - Einwilligung, Art. 6 Abs. 1 lit. f DSGVO - berechtigtes Interesse des Verantwortlichen); Erstellung von Angeboten und Kostenvoranschlägen für potenzielle Kunden (Grundlage: Art. 6 Abs. 1 lit. b DSGVO - Vertragserfüllung); Erfüllung von Verträgen und Erbringung von CNC-Bearbeitungsdienstleistungen (Grundlage: Art. 6 Abs. 1 lit. b DSGVO); Durchführung von Geschäftskorrespondenz und Direktmarketing (Grundlage: Art. 6 Abs. 1 lit. f DSGVO - berechtigtes Interesse des Verantwortlichen); Erfüllung gesetzlicher Verpflichtungen, insbesondere steuerlicher und buchhalterischer (Grundlage: Art. 6 Abs. 1 lit. c DSGVO)."
+		},
+		"section4": {
+			"title": "4. Rechte der betroffenen Personen",
+			"content": "Sie haben das Recht auf:",
+			"list": [
+				"Zugang zu Ihren personenbezogenen Daten",
+				"Berichtigung (Korrektur) der Daten",
+				"Löschung der Daten ('Recht auf Vergessenwerden')",
+				"Einschränkung der Datenverarbeitung",
+				"Datenübertragbarkeit",
+				"Widerspruch gegen die Verarbeitung",
+				"Widerruf der Einwilligung jederzeit (ohne Auswirkung auf die Rechtmäßigkeit der Verarbeitung vor dem Widerruf)",
+				"Beschwerde bei der Aufsichtsbehörde (Präsident des Amtes für den Schutz personenbezogener Daten)"
+			]
+		},
+		"section5": {
+			"title": "5. Speicherdauer der Daten",
+			"content": "Personenbezogene Daten werden für den Zeitraum gespeichert, der zur Erreichung der Zwecke erforderlich ist, für die sie erhoben wurden, und anschließend für den gesetzlich vorgeschriebenen Zeitraum (z. B. Steuer-, Buchhaltungsvorschriften) oder die Verjährungsfrist für Ansprüche. Auf Grundlage der Einwilligung verarbeitete Daten werden bis zu deren Widerruf gespeichert."
+		},
+		"section6": {
+			"title": "6. Datenempfänger",
+			"content": "Personenbezogene Daten können an mit dem Verantwortlichen zusammenarbeitende Einrichtungen weitergegeben werden, soweit dies zur Erbringung von Dienstleistungen erforderlich ist, einschließlich: IT- und Hosting-Dienstleister, Buchhaltungs- und Rechtsdienstleister, Kuriere und Transportunternehmen (soweit für die Zustellung erforderlich). Alle Einrichtungen verarbeiten Daten auf der Grundlage von Auftragsverarbeitungsvereinbarungen und ausschließlich nach unseren Anweisungen."
+		},
+		"section7": {
+			"title": "7. Kontakt für Datenschutzangelegenheiten",
+			"content": "Für Angelegenheiten bezüglich der Verarbeitung personenbezogener Daten und der Ausübung Ihrer Rechte können Sie uns kontaktieren unter: biuro@emkametal.pl oder schriftlich an die Firmenadresse."
+		}
+	},
+	"terms": {
+		"title": "Nutzungsbedingungen",
+		"lastUpdated": "Letzte Aktualisierung: November 2025",
+		"contactButton": "Kontaktieren Sie uns",
+		"section1": {
+			"title": "1. Allgemeine Bestimmungen",
+			"content": "Diese Nutzungsbedingungen legen die Regeln für die Erbringung von CNC-Bearbeitungsdienstleistungen durch eMKa Metal mit Sitz in Tarnowskie Góry, ul. Kazimierza Zachnika 10, 42-600 Tarnowskie Góry, Polen fest. Die Annahme der Bedingungen erfolgt durch die Aufgabe einer Bestellung oder Angebotsanfrage. Die Bedingungen sind auf der Website www.emkametal.pl verfügbar und werden auf Anfrage des Kunden bereitgestellt."
+		},
+		"section2": {
+			"title": "2. Leistungsumfang",
+			"content": "Wir bieten folgende Dienstleistungen an:",
+			"list": [
+				"CNC-Fräsen (3, 4 und 5-Achsen)",
+				"CNC-Drehen",
+				"Automatisches Bandsägenschneiden",
+				"Zusätzliche Dienstleistungen: Nieten, Einpressen von Bolzen und Muttern, Biegen von Bleiblechen",
+				"Oberflächenbehandlung (je nach Vereinbarung)"
+			]
+		},
+		"section3": {
+			"title": "3. Einreichung von Anfragen und Vertragsabschluss",
+			"content": "Angebotsanfragen können über das Kontaktformular auf der Website, per E-Mail oder telefonisch eingereicht werden. Die Anfrage sollte technische Zeichnungen, Materialspezifikationen, erforderliche Mengen und Lieferzeit enthalten. Das Preisangebot ist 30 Tage ab Ausstellungsdatum gültig, sofern nicht anders angegeben. Der Vertrag kommt durch Annahme des Angebots durch den Kunden und Bestätigung der Bestellung durch eMKa Metal zustande."
+		},
+		"section4": {
+			"title": "4. Auftragserfüllung",
+			"content": "Lieferzeiten werden individuell für jeden Auftrag festgelegt. Der Kunde wird über die Fertigstellung per E-Mail oder Telefon informiert. Die Abholung der fertigen Artikel erfolgt am Firmensitz oder über einen vereinbarten Kurier/Transport. Der Kunde ist verpflichtet, die Bestellung innerhalb von 14 Tagen nach Benachrichtigung über die Fertigstellung abzuholen."
+		},
+		"section5": {
+			"title": "5. Zahlungsbedingungen",
+			"content": "Die primäre Zahlungsform ist die Banküberweisung auf das angegebene Konto. Die Zahlungsfrist beträgt 14 Tage ab Rechnungsdatum, sofern nicht anders vereinbart. Bei Zahlungsverzug behält sich eMKa Metal das Recht vor, gesetzliche Zinsen zu berechnen. Die Erfüllung nachfolgender Aufträge kann von der Begleichung früherer Verbindlichkeiten abhängen."
+		},
+		"section6": {
+			"title": "6. Beschwerden und Haftung",
+			"content": "Beschwerden über die Qualität der Dienstleistungen sollten unverzüglich, spätestens innerhalb von 7 Tagen nach Erhalt gemeldet werden. Die Beschwerde sollte eine Fehlerbeschreibung und fotografische Dokumentation enthalten. eMKa Metal verpflichtet sich, Beschwerden innerhalb von 14 Werktagen zu prüfen. Bei Anerkennung der Beschwerde wird eMKa Metal nach eigenem Ermessen reparieren, austauschen oder den gezahlten Betrag zurückerstatten."
+		},
+		"section7": {
+			"title": "7. Geistiges Eigentum",
+			"content": "Alle vom Kunden bereitgestellten technischen Dokumente, Zeichnungen und Spezifikationen bleiben sein Eigentum. eMKa Metal verpflichtet sich zur Vertraulichkeit der bereitgestellten Informationen und deren ausschließlicher Verwendung zur Auftragserfüllung. eMKa Metal kann Fotos der gefertigten Artikel zu Marketingzwecken verwenden, es sei denn, der Kunde widerspricht ausdrücklich."
+		},
+		"section8": {
+			"title": "8. Schlussbestimmungen",
+			"content": "Für Angelegenheiten, die durch diese Bedingungen nicht geregelt sind, gelten die Bestimmungen des Zivilgesetzbuches und andere anwendbare polnische Rechtsvorschriften. Eventuelle Streitigkeiten werden vom für den Sitz von eMKa Metal zuständigen Gericht entschieden. eMKa Metal behält sich das Recht vor, die Bedingungen zu ändern. Änderungen treten 14 Tage nach Veröffentlichung auf der Website in Kraft."
+		}
 	}
 }

@@ -76,6 +76,15 @@ export default function ContactPage() {
 									</div>
 								</div>
 							</div>
+
+							{/* Zdjęcie firmy */}
+							<div className="mt-8 rounded-xl overflow-hidden shadow-2xl">
+								<img 
+									src="/images/zewnatrz.jpg" 
+									alt="eMKa Metal - Zakład produkcyjny" 
+									className="w-full h-64 sm:h-80 object-cover"
+								/>
+							</div>
 						</div>
 
 						{/* Contact Form */}

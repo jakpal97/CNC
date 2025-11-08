@@ -54,6 +54,15 @@ export default function Contact() {
 								</div>
 							))}
 						</div>
+
+						{/* Zdjęcie firmy */}
+						<div className="mt-6 sm:mt-8 rounded-xl overflow-hidden shadow-lg">
+							<img 
+								src="/images/zewnatrz.jpg" 
+								alt="eMKa Metal - Zakład produkcyjny" 
+								className="w-full h-64 sm:h-80 object-cover"
+							/>
+						</div>
 					</div>
 
 					<div className="lg:w-1/2">
