@@ -141,13 +141,6 @@ const nextConfig = {
 		
 		return config
 	},
-	
-	// Locale dla i18n (jeśli będzie potrzebne)
-	i18n: {
-		locales: ['pl', 'en', 'de'],
-		defaultLocale: 'pl',
-		localeDetection: true,
-	},
 }
 
 module.exports = nextConfig

@@ -43,17 +43,16 @@ export default function sitemap() {
 			},
 		},
 		{
-			url: `${baseUrl}/machines`,
+			url: `${baseUrl}/polityka-prywatnosci`,
 			lastModified: currentDate,
-			changeFrequency: 'monthly',
-			priority: 0.7,
-			alternates: {
-				languages: {
-					pl: `${baseUrl}/machines`,
-					en: `${baseUrl}/en/machines`,
-					de: `${baseUrl}/de/machines`,
-				},
-			},
+			changeFrequency: 'yearly',
+			priority: 0.3,
+		},
+		{
+			url: `${baseUrl}/regulamin`,
+			lastModified: currentDate,
+			changeFrequency: 'yearly',
+			priority: 0.3,
 		},
 	]
 }
