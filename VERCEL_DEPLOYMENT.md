@@ -112,6 +112,15 @@ Sprawdź źródło strony (Ctrl+U) na każdej podstronie:
 Wejdź na: `https://emkametal.pl/sitemap.xml`
 Powinieneś zobaczyć wszystkie strony BEZ `/machines`
 
+### Test 5: Robots.txt
+
+Wejdź na: `https://emkametal.pl/robots.txt`
+Sprawdź czy:
+
+- ✅ **NIE MA** `/machines`
+- ✅ **JEST** `/polityka-prywatnosci` i `/regulamin`
+- ✅ `/404` jest zablokowany (`Disallow: /404`)
+
 ---
 
 ## 🔍 Weryfikacja w Google Search Console
@@ -158,6 +167,7 @@ app/regulamin/layout.js          ← Metadata dla regulaminu
 components/NotFoundContent.js    ← UI dla strony 404
 middleware.js                    ← Middleware dla obsługi requestów
 vercel.json                      ← Konfiguracja Vercel
+app/robots.js                    ← Dynamiczny robots.txt (Next.js 13+)
 ```
 
 ### Zmodyfikowane pliki:
@@ -166,6 +176,12 @@ vercel.json                      ← Konfiguracja Vercel
 next.config.js                   ← Usunięto nieprawidłową konfigurację i18n
 app/sitemap.js                   ← Naprawiono sitemap (usunięto /machines)
 app/not-found.js                 ← Przerobiono na Server Component z metadata
+```
+
+### Usunięte pliki:
+
+```
+public/robots.txt                ← Zastąpiony przez app/robots.js (dynamiczny)
 ```
 
 ---
