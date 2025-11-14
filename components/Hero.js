@@ -25,12 +25,12 @@ export default function Hero() {
 		<section
 			id="home"
 			className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-gray-900 via-slate-900 to-blue-900">
-			{/* Subtle gradient overlay */}
+			
 			<div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
 
 			<div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 md:pt-24 lg:py-16 lg:-mt-20 pb-8 sm:pb-12 mb-24 sm:mb-32 lg:mb-40">
 				<div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-					{/* Left Content */}
+					
 					<div className="space-y-8">
 						<div className="space-y-6">
 							<h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
@@ -43,7 +43,7 @@ export default function Hero() {
 							<p className="text-base sm:text-lg text-gray-300 max-w-xl leading-relaxed">{t.subtitle}</p>
 						</div>
 
-						{/* Buttons */}
+						
 						<div className="flex flex-wrap gap-4">
 							<button className="bg-[#E10600] hover:bg-white hover:text-[#E10600] text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 text-base shadow-lg ">
 								{t.requestQuote || 'Get Started'}
@@ -56,9 +56,9 @@ export default function Hero() {
 						</div>
 					</div>
 
-					{/* Right Content - Robot with Stats */}
+					
 					<div className="relative flex items-center justify-center lg:min-h-[750px] -mx-4 sm:mx-0" ref={parallaxRef}>
-						{/* Main Robot Image */}
+						
 						<div className="relative w-full max-w-full sm:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
 							<img
 								src="/images/wewnatrz.jpg"
@@ -66,7 +66,7 @@ export default function Hero() {
 								className="w-full h-auto transform hover:scale-105 transition-transform duration-700 rounded-2xl shadow-2xl"
 							/>
 
-							{/* Floating Stat Card - Top Right */}
+							
 							<div className="absolute top-4 right-4 sm:top-6 sm:right-6 lg:top-8 lg:right-8 xl:-top-4 xl:-right-4 bg-slate-800/95 backdrop-blur-md rounded-2xl p-4 sm:p-5 lg:p-6 shadow-2xl border border-white/10 animate-float z-20">
 								<div className="text-center">
 									<div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 sm:mb-2">10+</div>
@@ -74,7 +74,7 @@ export default function Hero() {
 								</div>
 							</div>
 
-							{/* Floating Stat Card - Bottom Left */}
+							
 							<div
 								className="absolute bottom-2 left-4 sm:bottom-4 sm:left-6 lg:bottom-6 lg:left-8 xl:-bottom-8 xl:-left-4 2xl:-bottom-12 bg-slate-800/95 backdrop-blur-md rounded-2xl p-4 sm:p-5 lg:p-6 shadow-2xl border border-white/10 animate-float z-20"
 								style={{ animationDelay: '1s' }}>

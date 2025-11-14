@@ -8,7 +8,7 @@ export default function MachineHero() {
 
 	return (
 		<section className="relative min-h-[60vh] flex items-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
-			{/* Animated background pattern */}
+			
 			<div className="absolute inset-0 opacity-10">
 				<div
 					className="absolute inset-0"
@@ -19,20 +19,20 @@ export default function MachineHero() {
 
 			<div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
 				<div className="text-center">
-					{/* Animated badge */}
+					
 					
 
-					{/* Main title with animation */}
+					
 					<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 animate-slide-up">
 						{t.hero.title}
 					</h1>
 
-					{/* Subtitle */}
+					
 					<p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mb-8 animate-slide-up animation-delay-200">
 						{t.hero.subtitle}
 					</p>
 
-					{/* Stats */}
+					
 					<div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mt-12 animate-fade-in animation-delay-400">
 						{t.hero.stats.map((stat, index) => (
 							<div key={index} className="text-center">

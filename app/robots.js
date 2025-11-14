@@ -32,11 +32,10 @@ export default function robots() {
 				crawlDelay: 0,
 			},
 			{
-				userAgent: 'Slurp', // Yahoo
+				userAgent: 'Slurp', 
 				allow: '/',
 				crawlDelay: 1,
 			},
-			// Boty scrapujące - ograniczenie
 			{
 				userAgent: 'AhrefsBot',
 				crawlDelay: 10,

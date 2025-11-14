@@ -13,7 +13,7 @@ export default function PortfolioPage() {
 	return (
 		<>
 			<Navbar />
-			{/* Hero Section */}
+			
 			<section className="py-16 sm:py-20 bg-gradient-to-b from-slate-800 to-slate-900">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 					<span className="text-[#E10600] font-semibold text-sm sm:text-base uppercase tracking-wide">{t.tag}</span>
@@ -22,10 +22,10 @@ export default function PortfolioPage() {
 				</div>
 			</section>
 			
-			{/* Sekcja z maszynami */}
+			
 			<MachinesList />
 			
-			{/* Galeria portfolio */}
+			
 			<PortfolioGallery isHomePage={false} />
 			
 			<Footer />

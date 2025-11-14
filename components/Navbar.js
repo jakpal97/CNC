@@ -12,7 +12,7 @@ export default function Navbar() {
 	const t = translations.nav
 	const dropdownRef = useRef(null)
 
-	// Zamknij dropdown po kliknięciu poza nim (tylko dla desktop)
+	
 	useEffect(() => {
 		const handleClickOutside = event => {
 			if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -57,7 +57,7 @@ export default function Navbar() {
 							</a>
 						))}
 
-						{/* Language Dropdown - Desktop */}
+						
 						<div className="relative" ref={dropdownRef}>
 							<button
 								onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
@@ -116,7 +116,7 @@ export default function Navbar() {
 				</div>
 			</div>
 
-			{/* Mobile menu */}
+			
 			<div className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden bg-white border-t`}>
 				<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 					{menuItems.map((item, index) => (
@@ -134,7 +134,7 @@ export default function Navbar() {
 				</div>
 			</div>
 
-			{/* Mobile Language Dropdown */}
+			
 			{mobileLanguageDropdownOpen && (
 				<div className="md:hidden bg-white border-t border-b shadow-lg">
 					<div className="px-2 py-2 space-y-1">

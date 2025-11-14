@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useLanguage } from '../lib/LanguageContext'
 import Image from 'next/image'
 
-// Dane zdjęć z podziałem na kategorie
+
 const portfolioImages = {
 	lead: [
 		'/olow/image00011.jpeg',
@@ -26,9 +26,6 @@ const portfolioImages = {
 		'/aluminium/20240214_174345.jpg',
 		'/aluminium/20250605_145025.jpg',
 		'/aluminium/20250605_145051.jpg',
-		'/aluminium/20250605_145125.jpg',
-		'/aluminium/20250605_145147.jpg',
-		'/aluminium/20250605_145215.jpg',
 		'/aluminium/20251027_134142.jpg',
 		'/aluminium/20251027_134226.jpg',
 	],
@@ -80,7 +77,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 	const [currentPage, setCurrentPage] = useState(1)
 	const imagesPerPage = 9
 
-	// Kategorie materiałów
+	
 	const materials = [
 		{ id: 'all', name: t.materials?.all || 'Wszystkie materiały' },
 		{ id: 'lead', name: t.materials?.lead || 'Ołów' },
@@ -90,10 +87,10 @@ export default function PortfolioGallery({ isHomePage = false }) {
 		{ id: 'plastics', name: t.materials?.plastics || 'Tworzywa sztuczne' },
 	]
 
-	// Funkcja do pobierania wszystkich zdjęć lub filtrowanych
+	
 	const getAllFilteredImages = () => {
 		if (selectedMaterial === 'all') {
-			// Dla "wszystkie" - pobierz wszystkie zdjęcia z wszystkich kategorii
+			
 			const allImages = []
 			Object.entries(portfolioImages).forEach(([material, images]) => {
 				images.forEach(image => {
@@ -102,7 +99,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 			})
 			return allImages
 		} else {
-			// Dla konkretnego materiału
+			
 			return (
 				portfolioImages[selectedMaterial]?.map(image => ({
 					image,
@@ -115,13 +112,13 @@ export default function PortfolioGallery({ isHomePage = false }) {
 	const allImages = getAllFilteredImages()
 	const totalPages = Math.ceil(allImages.length / imagesPerPage)
 
-	// Pobierz zdjęcia dla aktualnej strony
+	
 	const getCurrentPageImages = () => {
 		if (isHomePage) {
-			// Na stronie głównej zawsze pokazuj pierwsze 9
+			
 			return allImages.slice(0, 9)
 		} else {
-			// Na podstronie używaj paginacji
+			
 			const startIndex = (currentPage - 1) * imagesPerPage
 			const endIndex = startIndex + imagesPerPage
 			return allImages.slice(startIndex, endIndex)
@@ -130,13 +127,13 @@ export default function PortfolioGallery({ isHomePage = false }) {
 
 	const displayedImages = getCurrentPageImages()
 
-	// Reset strony po zmianie materiału
+	
 	const handleMaterialChange = materialId => {
 		setSelectedMaterial(materialId)
 		setCurrentPage(1)
 	}
 
-	// Mapowanie ID materiału na nazwę dla badge'a
+	
 	const getMaterialBadge = material => {
 		const materialMap = {
 			lead: t.materials?.lead || 'Ołów',
@@ -151,7 +148,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 	return (
 		<section className={`${isHomePage ? 'py-12 sm:py-16 lg:py-20 bg-white' : 'py-16 sm:py-20 bg-slate-50'}`}>
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				{/* Header */}
+				
 				{isHomePage && (
 					<div className="text-center mb-12 sm:mb-16">
 						<span className="text-primary font-semibold text-sm sm:text-base">{t.tag}</span>
@@ -160,7 +157,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 					</div>
 				)}
 
-				{/* Material Filter */}
+				
 				<div className="flex flex-wrap justify-center gap-3 mb-12">
 					{materials.map((material, index) => (
 						<button
@@ -199,7 +196,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 											loading={index < 3 ? undefined : 'lazy'}
 										/>
 									</div>
-									{/* Material Badge */}
+									
 									<div className="absolute top-3 right-3 bg-primary text-white px-3 py-1 rounded-full text-xs sm:text-sm font-semibold shadow-lg z-10">
 										{getMaterialBadge(item.material)}
 									</div>
@@ -213,7 +210,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 					</div>
 				)}
 
-				{/* Pagination - tylko na podstronie */}
+				
 				{!isHomePage && totalPages > 1 && (
 					<div className="flex flex-col items-center mt-12 space-y-4">
 						<div className="flex items-center space-x-2">
@@ -229,7 +226,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 								<i className="fas fa-chevron-left"></i>
 							</button>
 
-							{/* Numery stron */}
+							
 							{Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
 								<button
 									key={page}
@@ -243,7 +240,7 @@ export default function PortfolioGallery({ isHomePage = false }) {
 								</button>
 							))}
 
-							{/* Następna strona */}
+							
 							<button
 								onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
 								disabled={currentPage === totalPages}
@@ -256,14 +253,14 @@ export default function PortfolioGallery({ isHomePage = false }) {
 							</button>
 						</div>
 
-						{/* Informacja o stronie */}
+						
 						<p className="text-gray-600 text-sm">
 							Strona {currentPage} z {totalPages} ({allImages.length} zdjęć)
 						</p>
 					</div>
 				)}
 
-				{/* View Full Portfolio Button - tylko na stronie głównej */}
+				
 				{isHomePage && (
 					<div className="text-center mt-8 sm:mt-12">
 						<button

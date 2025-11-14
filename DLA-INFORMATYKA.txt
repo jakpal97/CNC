@@ -1,0 +1,202 @@
+═══════════════════════════════════════════════════════════════
+   INSTRUKCJA INSTALACJI - eMKa Metal (Next.js + PHP)
+═══════════════════════════════════════════════════════════════
+
+Witaj! Ta aplikacja to Next.js z formularzem kontaktowym przez PHP.
+
+═══════════════════════════════════════════════════════════════
+📦 PLIKI DO INSTALACJI NA SERWERZE:
+═══════════════════════════════════════════════════════════════
+
+1. .next/              → zbudowana aplikacja Next.js
+2. public/             → zdjęcia + plik send-email.php
+3. locales/            → tłumaczenia (pl, en, de)
+4. package.json        → zależności
+5. package-lock.json   → wersje pakietów
+6. next.config.js      → konfiguracja Next.js
+7. middleware.js       → middleware do i18n
+8. postcss.config.mjs  → konfiguracja Tailwind
+9. jsconfig.json       → konfiguracja ścieżek
+
+═══════════════════════════════════════════════════════════════
+🚀 INSTALACJA KROK PO KROKU:
+═══════════════════════════════════════════════════════════════
+
+KROK 1: Skopiuj wszystkie pliki na serwer
+-----------------------------------------------
+Rozpakuj archiwum do katalogu aplikacji (np. /home/user/emkametal/)
+
+KROK 2: Zainstaluj zależności Node.js
+-----------------------------------------------
+cd /home/user/emkametal/
+npm install --production
+
+KROK 3: Skonfiguruj plik send-email.php
+-----------------------------------------------
+Edytuj: public/send-email.php
+
+Linia 16 - ZMIEŃ EMAIL:
+$recipient_email = 'kontakt@emkametal.pl'; // ← WPISZ WŁAŚCIWY
+
+Linia 20-24 - DODAJ DOMENĘ:
+$allowed_origins = [
+    'http://localhost:3000',
+    'https://emkametal.pl',        // ← TWOJA DOMENA
+    'https://www.emkametal.pl'     // ← TWOJA DOMENA + WWW
+];
+
+KROK 4: Ustaw uprawnienia
+-----------------------------------------------
+chmod 644 public/send-email.php
+chown www-data:www-data public/send-email.php (lub użytkownik serwera)
+
+KROK 5: Uruchom aplikację Next.js
+-----------------------------------------------
+# Sposób 1: Bezpośrednio (dla testów)
+npm start
+# Aplikacja uruchomi się na porcie 3000
+
+# Sposób 2: Z PM2 (dla produkcji - POLECANE)
+npm install -g pm2
+pm2 start npm --name "emkametal" -- start
+pm2 save
+pm2 startup
+
+KROK 6: Konfiguracja Nginx/Apache
+-----------------------------------------------
+
+NGINX (przykładowa konfiguracja):
+-----------------------------------
+server {
+    listen 80;
+    server_name emkametal.pl www.emkametal.pl;
+    
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+    
+    location /send-email.php {
+        root /home/user/emkametal/public;
+        fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+}
+
+APACHE (przykładowa konfiguracja z .htaccess):
+------------------------------------------------
+Utwórz plik .htaccess w public/:
+
+RewriteEngine On
+RewriteBase /
+
+# Obsługa PHP
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+# Proxy do Next.js
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/send-email\.php
+RewriteRule ^(.*)$ http://localhost:3000/$1 [P,L]
+
+═══════════════════════════════════════════════════════════════
+✅ TESTOWANIE:
+═══════════════════════════════════════════════════════════════
+
+1. Sprawdź czy Next.js działa:
+   curl http://localhost:3000
+
+2. Sprawdź czy PHP działa:
+   Utwórz: public/test.php
+   <?php phpinfo(); ?>
+   
+   Otwórz: https://emkametal.pl/test.php
+
+3. Przetestuj wysyłanie emaila:
+   - Otwórz stronę w przeglądarce
+   - Wypełnij formularz kontaktowy
+   - Wyślij testową wiadomość
+   - Sprawdź czy email dotarł
+
+═══════════════════════════════════════════════════════════════
+⚠️ ROZWIĄZYWANIE PROBLEMÓW:
+═══════════════════════════════════════════════════════════════
+
+Problem: Email nie jest wysyłany
+Rozwiązanie:
+- Sprawdź czy funkcja mail() działa: php -r "mail('test@test.pl', 'Test', 'Test');"
+- Sprawdź logi PHP: tail -f /var/log/php-fpm/error.log
+- Jeśli mail() nie działa, skonfiguruj Postfix/Sendmail lub użyj PHPMailer
+
+Problem: CORS error w konsoli
+Rozwiązanie:
+- Dodaj domenę do $allowed_origins w send-email.php
+- Sprawdź nagłówki: curl -H "Origin: https://emkametal.pl" -I https://emkametal.pl/send-email.php
+
+Problem: 404 Not Found dla send-email.php
+Rozwiązanie:
+- Sprawdź ścieżkę: ls -la /home/user/emkametal/public/send-email.php
+- Sprawdź uprawnienia: chmod 644 send-email.php
+- Sprawdź konfigurację Nginx/Apache
+
+Problem: Next.js nie startuje
+Rozwiązanie:
+- Sprawdź logi: npm start 2>&1 | tee error.log
+- Sprawdź czy Node.js jest zainstalowany: node -v (min. v18)
+- Sprawdź czy port 3000 jest wolny: lsof -i :3000
+
+═══════════════════════════════════════════════════════════════
+📊 WYMAGANIA SYSTEMOWE:
+═══════════════════════════════════════════════════════════════
+
+✅ Node.js >= 18.0.0
+✅ PHP >= 7.4 (lepiej 8.0+)
+✅ Apache lub Nginx
+✅ Funkcja mail() włączona w PHP (lub PHPMailer + SMTP)
+✅ Moduł PHP: fileinfo (do obsługi załączników)
+
+═══════════════════════════════════════════════════════════════
+🔒 BEZPIECZEŃSTWO:
+═══════════════════════════════════════════════════════════════
+
+✅ Skrypt PHP ma walidację wszystkich danych
+✅ Zabezpieczenie przed XSS (htmlspecialchars)
+✅ CORS tylko dla dozwolonych domen
+✅ Limit rozmiaru pliku (10MB)
+✅ Walidacja RODO/GDPR
+
+OPCJONALNIE (dla lepszego bezpieczeństwa):
+- Przenieś send-email.php poza katalog public
+- Dodaj rate limiting (np. fail2ban)
+- Skonfiguruj certyfikat SSL (Let's Encrypt)
+
+═══════════════════════════════════════════════════════════════
+📧 W RAZIE PROBLEMÓW:
+═══════════════════════════════════════════════════════════════
+
+1. Sprawdź logi:
+   - Next.js: npm start (logi w terminalu)
+   - PHP: /var/log/php-fpm/error.log
+   - Nginx: /var/log/nginx/error.log
+   - Apache: /var/log/apache2/error.log
+
+2. Sprawdź status:
+   - Next.js: curl http://localhost:3000
+   - PHP: php -v
+   - Apache/Nginx: systemctl status nginx/apache2
+
+═══════════════════════════════════════════════════════════════
+
+Powodzenia! 🚀
+
+Aplikacja stworzona dla: eMKa Metal Sp. z o.o.
+Framework: Next.js 15 + React + PHP
+

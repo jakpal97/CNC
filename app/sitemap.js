@@ -1,12 +1,9 @@
-// sitemap.js dla eMKaMetal - Next.js 13+ App Router
-// Umieść w folderze: app/sitemap.js
-
 export default function sitemap() {
 	const baseUrl = 'https://www.emkametal.pl'
 	const currentDate = new Date().toISOString()
 
 	return [
-		// Strona główna
+
 		{
 			url: baseUrl,
 			lastModified: currentDate,
@@ -21,7 +18,7 @@ export default function sitemap() {
 			},
 		},
 
-		// Kontakt
+
 		{
 			url: `${baseUrl}/contact`,
 			lastModified: currentDate,
@@ -36,7 +33,7 @@ export default function sitemap() {
 			},
 		},
 
-		// Portfolio
+
 		{
 			url: `${baseUrl}/portfolio`,
 			lastModified: currentDate,
@@ -51,7 +48,6 @@ export default function sitemap() {
 			},
 		},
 
-		// Usługi - dodaj wszystkie!
 		{
 			url: `${baseUrl}/services/cnc-milling`,
 			lastModified: currentDate,
@@ -108,7 +104,7 @@ export default function sitemap() {
 			},
 		},
 
-		// Park maszynowy
+	
 		{
 			url: `${baseUrl}/machinery`,
 			lastModified: currentDate,
@@ -123,7 +119,7 @@ export default function sitemap() {
 			},
 		},
 
-		// O firmie
+	
 		{
 			url: `${baseUrl}/about`,
 			lastModified: currentDate,
@@ -137,16 +133,12 @@ export default function sitemap() {
 				},
 			},
 		},
-
-		// Polityka prywatności
 		{
 			url: `${baseUrl}/polityka-prywatnosci`,
 			lastModified: currentDate,
 			changeFrequency: 'yearly',
 			priority: 0.3,
 		},
-
-		// Regulamin
 		{
 			url: `${baseUrl}/regulamin`,
 			lastModified: currentDate,

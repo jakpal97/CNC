@@ -18,7 +18,7 @@ export async function POST(request) {
 		const marketingConsent = formData.get('marketingConsent')
 		const consentTimestamp = formData.get('consentTimestamp')
 
-		// Walidacja wymaganych pól
+	
 		if (!name || !email || !subject || !message) {
 			return NextResponse.json(
 				{ error: 'Brakuje wymaganych pól' },
@@ -26,7 +26,7 @@ export async function POST(request) {
 			)
 		}
 
-		// Przygotowanie załącznika jeśli istnieje
+		
 		let attachments = []
 		if (file && file.size > 0) {
 			const bytes = await file.arrayBuffer()
@@ -38,7 +38,7 @@ export async function POST(request) {
 			})
 		}
 
-		// Wysyłanie emaila przez Resend
+		
 		const data = await resend.emails.send({
 			from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
 			to: process.env.RESEND_TO_EMAIL || 'your-email@example.com',

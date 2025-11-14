@@ -26,12 +26,12 @@ export default function ContactPage() {
 			<section className="py-16 sm:py-20">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-						{/* Contact Information */}
+						
 						<div className="space-y-8">
 							<div>
 								<h2 className="text-2xl font-bold text-white mb-6">Informacje kontaktowe</h2>
 
-								{/* Location */}
+							
 								<div className="flex items-start space-x-4 mb-6">
 									<div className="flex-shrink-0 w-12 h-12 bg-[#E10600] rounded-lg flex items-center justify-center">
 										<i className="fas fa-map-marker-alt text-white text-lg"></i>
@@ -42,7 +42,7 @@ export default function ContactPage() {
 									</div>
 								</div>
 
-								{/* Phone */}
+							
 								<div className="flex items-start space-x-4 mb-6">
 									<div className="flex-shrink-0 w-12 h-12 bg-[#E10600] rounded-lg flex items-center justify-center">
 										<i className="fas fa-phone text-white text-lg"></i>
@@ -54,7 +54,7 @@ export default function ContactPage() {
 									</div>
 								</div>
 
-								{/* Email */}
+							
 								<div className="flex items-start space-x-4 mb-6">
 									<div className="flex-shrink-0 w-12 h-12 bg-[#E10600] rounded-lg flex items-center justify-center">
 										<i className="fas fa-envelope text-white text-lg"></i>
@@ -65,7 +65,7 @@ export default function ContactPage() {
 									</div>
 								</div>
 
-								{/* Hours */}
+							
 								<div className="flex items-start space-x-4">
 									<div className="flex-shrink-0 w-12 h-12 bg-[#E10600] rounded-lg flex items-center justify-center">
 										<i className="fas fa-clock text-white text-lg"></i>
@@ -78,7 +78,7 @@ export default function ContactPage() {
 								</div>
 							</div>
 
-							{/* Zdjęcie firmy */}
+						
 							<div className="mt-8 rounded-xl overflow-hidden shadow-2xl relative h-64 sm:h-80">
 								<Image 
 									src="/images/zewnatrz.jpg" 
@@ -89,7 +89,7 @@ export default function ContactPage() {
 							</div>
 						</div>
 
-						{/* Contact Form */}
+						
 						<ContactForm variant="dark" />
 					</div>
 				</div>

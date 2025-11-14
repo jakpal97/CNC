@@ -4,7 +4,7 @@ import NotFoundContent from '../components/NotFoundContent'
 
 const siteUrl = 'https://emkametal.pl'
 
-// Metadata dla strony 404
+
 export const metadata = {
 	title: '404 - Strona nie znaleziona | eMKaMetal',
 	description:
@@ -18,7 +18,7 @@ export const metadata = {
 	},
 }
 
-// Server Component - aby Vercel poprawnie wykrywał 404
+
 export default function NotFound() {
 	return (
 		<div className="min-h-screen bg-slate-900">

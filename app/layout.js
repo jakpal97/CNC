@@ -48,7 +48,7 @@ export const metadata = {
 	creator: 'eMKaMetal',
 	publisher: 'eMKaMetal',
 
-	// Robots
+
 	robots: {
 		index: true,
 		follow: true,
@@ -61,7 +61,6 @@ export const metadata = {
 		},
 	},
 
-	// Alternate languages
 	alternates: {
 		canonical: siteUrl,
 		languages: {
@@ -71,7 +70,7 @@ export const metadata = {
 		},
 	},
 
-	// Ikony i manifest
+
 	icons: {
 		icon: [
 			{ url: '/images/logo.jpg', sizes: '32x32', type: 'image/jpeg' },
@@ -88,7 +87,7 @@ export const metadata = {
 	},
 	manifest: '/manifest.json',
 
-	// Open Graph
+	
 	openGraph: {
 		type: 'website',
 		locale: 'pl_PL',
@@ -117,7 +116,7 @@ export const metadata = {
 		videos: [],
 	},
 
-	// Twitter Card
+
 	twitter: {
 		card: 'summary_large_image',
 		site: '@emkametal',
@@ -128,21 +127,20 @@ export const metadata = {
 		images: [`${siteUrl}/images/wewnatrz.jpg`],
 	},
 
-	// Verification
 	verification: {
 		google: 'twój-kod-weryfikacji-google',
 		yandex: 'twój-kod-weryfikacji-yandex',
 		bing: 'twój-kod-weryfikacji-bing',
 	},
 
-	// Geo location
+
 	other: {
 		'geo.region': 'PL-SL',
 		'geo.placename': 'Tarnowskie Góry',
 		'geo.position': '50.4417;18.8638',
 		ICBM: '50.4417, 18.8638',
 
-		// Business info
+
 		'business:contact_data:street_address': 'ul. Kazimierza Zachnika 10',
 		'business:contact_data:locality': 'Tarnowskie Góry',
 		'business:contact_data:postal_code': '42-600',
@@ -151,33 +149,31 @@ export const metadata = {
 		'business:contact_data:phone_number': '+48510325466',
 		'business:contact_data:website': siteUrl,
 
-		// Rating
+	
 		rating: '4.9',
 		review_count: '87',
 
-		// Language
 		language: 'Polish',
 		'content-language': 'pl',
 
-		// Category
 		category: 'Manufacturing, CNC Machining, Metal Fabrication',
 	},
 
-	// App links
+
 	appleWebApp: {
 		capable: true,
 		title: 'eMKaMetal',
 		statusBarStyle: 'black-translucent',
 	},
 
-	// Format detection
+
 	formatDetection: {
 		telephone: true,
 		email: true,
 		address: true,
 	},
 
-	// Category
+
 	category: 'Manufacturing',
 }
 
@@ -185,7 +181,6 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="pl">
 			<head>
-				{/* DNS Prefetch & Preconnect dla wydajności */}
 				<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 				<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
 				<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
@@ -193,7 +188,7 @@ export default function RootLayout({ children }) {
 				<link rel="dns-prefetch" href="https://www.google-analytics.com" />
 				<link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
 
-				{/* Stylesheets */}
+				
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -213,21 +208,21 @@ export default function RootLayout({ children }) {
 				{/* JSON-LD Structured Data - FAQ */}
 				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-				{/* Dodatkowe meta tagi dla SEO */}
+				
 				<meta name="theme-color" content="#E10600" />
 				<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 				<meta name="mobile-web-app-capable" content="yes" />
 				<meta name="apple-mobile-web-app-capable" content="yes" />
 				<meta name="apple-touch-fullscreen" content="yes" />
 
-				{/* Dodatkowe tagi bezpieczeństwa */}
+				
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="referrer" content="origin-when-cross-origin" />
 			</head>
 			<body className="font-sans text-gray-800">
 				<LanguageProvider>{children}</LanguageProvider>
 
-				{/* Google Analytics - zamień na swój tracking ID */}
+				
 				<Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
 				<Script id="google-analytics" strategy="afterInteractive">
 					{`
@@ -241,7 +236,7 @@ export default function RootLayout({ children }) {
 					`}
 				</Script>
 
-				{/* Facebook Pixel - opcjonalnie */}
+				
 				<Script id="facebook-pixel" strategy="afterInteractive">
 					{`
 						!function(f,b,e,v,n,t,s)
@@ -257,7 +252,7 @@ export default function RootLayout({ children }) {
 					`}
 				</Script>
 
-				{/* Smooth Scroll */}
+			
 				<Script id="smooth-scroll" strategy="afterInteractive">
 					{`
 						document.addEventListener('DOMContentLoaded', function() {
@@ -282,7 +277,7 @@ export default function RootLayout({ children }) {
 					`}
 				</Script>
 
-				{/* Performance - Lazy loading images */}
+				
 				<Script id="lazy-loading" strategy="afterInteractive">
 					{`
 						if ('loading' in HTMLImageElement.prototype) {

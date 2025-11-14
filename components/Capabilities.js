@@ -6,7 +6,7 @@ export default function Capabilities() {
 	const { translations } = useLanguage()
 	const t = translations.capabilities
 
-	// Obrazy maszyn CNC
+	
 	const machineImages = [
 		'/images/frezarkacnc.png', // Frezarki CNC 5-osiowe
 		'/images/tokarkacnc.jpg', // Tokarki CNC
@@ -28,18 +28,18 @@ export default function Capabilities() {
 						<div
 							key={index}
 							className="group relative bg-slate-800 rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-							{/* Machine Image Background */}
+							
 							<div className="relative h-64 sm:h-80 overflow-hidden">
 								<img
 									src={machineImages[index]}
 									alt={service.title}
 									className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
 								/>
-								{/* Dark Gradient Overlay */}
+								
 								<div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent"></div>
 							</div>
 
-							{/* Content */}
+							
 							<div className="relative -mt-32 p-6 sm:p-8 z-10 flex flex-col h-64">
 								<div className="flex-grow overflow-hidden pb-8">
 									<h3 className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-[#E10600] transition-colors">

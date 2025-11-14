@@ -16,7 +16,7 @@ export default function MachinesList() {
 		'/images/pila-imet.jpg'
 	]
 
-	// Zabezpieczenie przed brakiem danych
+	
 	if (!t?.machines?.list) {
 		return null
 	}
@@ -24,7 +24,7 @@ export default function MachinesList() {
 	return (
 		<section className="py-16 sm:py-20 lg:py-24 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				{/* Section Header */}
+				
 				<div className="text-center mb-12 sm:mb-16">
 					<span className="text-[#E10600] font-semibold text-sm sm:text-base uppercase tracking-wide">
 						{t.machines?.tag}
@@ -33,9 +33,9 @@ export default function MachinesList() {
 					<p className="max-w-3xl mx-auto mt-4 text-lg text-gray-600">{t.machines?.subtitle}</p>
 				</div>
 
-				{/* Machines Grid */}
+				
 				<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-					{/* Machine Selection */}
+					
 					<div className="space-y-4">
 						{t.machines?.list?.map((machine, index) => (
 							<div
@@ -47,7 +47,7 @@ export default function MachinesList() {
 										: 'bg-gray-50 hover:bg-gray-100 hover:shadow-lg'
 								}`}>
 								<div className="flex items-start gap-4">
-									{/* Icon */}
+								
 									<div
 										className={`flex-shrink-0 w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 ${
 											selectedMachine === index
@@ -57,7 +57,7 @@ export default function MachinesList() {
 										<i className={`fas ${machine.icon} text-2xl`}></i>
 									</div>
 
-									{/* Content */}
+									
 									<div className="flex-1">
 										<h3
 											className={`text-xl sm:text-2xl font-bold mb-2 transition-colors ${
@@ -72,7 +72,7 @@ export default function MachinesList() {
 											{machine.shortDesc}
 										</p>
 
-										{/* Specs preview */}
+										
 										{selectedMachine === index && (
 											<div className="mt-4 space-y-2 animate-fade-in">
 												{machine.specs.map((spec, idx) => (
@@ -85,7 +85,7 @@ export default function MachinesList() {
 										)}
 									</div>
 
-									{/* Arrow indicator */}
+									
 									<div className={`transition-transform duration-300 ${selectedMachine === index ? 'rotate-90' : ''}`}>
 										<i
 											className={`fas fa-chevron-right text-xl ${
@@ -97,7 +97,7 @@ export default function MachinesList() {
 						))}
 					</div>
 
-					{/* Machine Image Display */}
+					
 					<div className="relative">
 						<div className="relative rounded-2xl overflow-hidden shadow-2xl">
 							<img
@@ -105,7 +105,7 @@ export default function MachinesList() {
 								alt={t.machines?.list?.[selectedMachine]?.name || 'Machine'}
 								className="w-full h-[500px] object-cover transition-all duration-500"
 							/>
-							{/* Overlay with machine name */}
+							
 							<div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex items-end p-8">
 								<div className="text-white">
 									<h3 className="text-2xl sm:text-3xl font-bold mb-2">{t.machines?.list?.[selectedMachine]?.name}</h3>
@@ -114,7 +114,7 @@ export default function MachinesList() {
 							</div>
 						</div>
 
-						{/* Decorative element */}
+						
 						<div className="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-[#E10600] rounded-2xl opacity-20"></div>
 					</div>
 				</div>

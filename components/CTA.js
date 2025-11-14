@@ -17,7 +17,7 @@ export default function CTA() {
 			const offsetTop = rect.top + scrolled
 			const elementHeight = rect.height
 
-			// Sprawdź czy element jest w viewport
+			
 			if (scrolled + window.innerHeight > offsetTop && scrolled < offsetTop + elementHeight) {
 				const parallax = (scrolled - offsetTop) * 0.5
 				parallaxRef.current.style.transform = `translateY(${parallax}px)`
@@ -30,7 +30,7 @@ export default function CTA() {
 
 	return (
 		<section className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
-			{/* Background Image with Parallax */}
+		
 			<div className="absolute inset-0 z-0 will-change-transform">
 				<div
 					ref={parallaxRef}
@@ -44,7 +44,7 @@ export default function CTA() {
 				/>
 			</div>
 
-			{/* Content */}
+		
 			<div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
 				<div className="max-w-2xl">
 					{/* Text Box with fade-in animation */}
@@ -54,7 +54,7 @@ export default function CTA() {
 						</h2>
 						<p className="text-gray-200 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 leading-relaxed">{t.subtitle}</p>
 
-						{/* Buttons */}
+						
 						<div className="flex flex-col sm:flex-row gap-4">
 							<button
 								onClick={() => (window.location.href = '/contact')}

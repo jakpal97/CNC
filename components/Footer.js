@@ -1,27 +1,37 @@
 'use client'
 
 import { useLanguage } from '../lib/LanguageContext'
+import { useMemo } from 'react'
 
 export default function Footer() {
 	const { translations } = useLanguage()
 	const t = translations.footer
 
-	const quickLinks = [
-		{ label: translations.nav.home, href: '#home' },
-		{ label: translations.nav.services, href: '#services' },
-		{ label: translations.nav.capabilities, href: '#capabilities' },
-		{ label: translations.nav.about, href: '#about' },
-		{ label: translations.nav.contact, href: '#contact' },
-	]
+	const quickLinks = useMemo(
+		() => [
+			{ label: translations.nav?.home, href: '#home' },
+			{ label: translations.nav?.services, href: '#services' },
+			{ label: translations.nav?.capabilities, href: '#capabilities' },
+			{ label: translations.nav?.about, href: '#about' },
+			{ label: translations.nav?.contact, href: '#contact' },
+		],
+		[translations.nav]
+	)
 
-	const servicesList = [
-		{ label: translations.services.milling.title, href: '#services' },
-		{ label: translations.services.turning.title, href: '#services' },
-		{ label: translations.services.bandsaw.title, href: '#services' },
-		{ label: translations.services.edm.title, href: '#services' },
-	]
+	const servicesList = useMemo(
+		() => [
+			{ label: translations.services?.milling?.title, href: '#services' },
+			{ label: translations.services?.turning?.title, href: '#services' },
+			{ label: translations.services?.bandsaw?.title, href: '#services' },
+			{ label: translations.services?.edm?.title, href: '#services' },
+		],
+		[translations.services]
+	)
 
-	const socialLinks = [{ icon: 'fa-facebook-f', href: '#' }]
+	const socialLinks = useMemo(
+		() => [{ icon: 'fa-facebook-f', href: 'https://www.facebook.com/p/EMKA-Metal-Sp-zoo-100063916097648' }],
+		[]
+	)
 
 	return (
 		<footer className="bg-gray-900 text-white py-8 sm:py-12">

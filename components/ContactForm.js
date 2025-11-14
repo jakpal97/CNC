@@ -26,7 +26,7 @@ export default function ContactForm({ variant = 'dark' }) {
 	const handleFileChange = e => {
 		const file = e.target.files?.[0]
 		if (file) {
-			// Sprawdź rozmiar pliku (max 10MB)
+			
 			if (file.size > 10 * 1024 * 1024) {
 				setSubmitStatus('error')
 				alert('Plik jest zbyt duży. Maksymalny rozmiar to 10MB.')
@@ -57,10 +57,17 @@ export default function ContactForm({ variant = 'dark' }) {
 				formDataToSend.append('file', formData.file)
 			}
 
-			const response = await fetch('/api/contact', {
-				method: 'POST',
-				body: formDataToSend,
-			})
+		// UWAGA: Zmień URL poniżej na właściwy adres serwera produkcyjnego
+		// Dla localhost: '/send-email.php'
+		// Dla produkcji: 'https://twojadomena.pl/send-email.php'
+		const apiUrl = window.location.hostname === 'localhost' 
+			? 'http://localhost/send-email.php'  // ← dla testów lokalnych z XAMPP/WAMP
+			: '/send-email.php';  // ← dla serwera produkcyjnego
+		
+		const response = await fetch(apiUrl, {
+			method: 'POST',
+			body: formDataToSend,
+		})
 
 			const data = await response.json()
 
@@ -77,7 +84,7 @@ export default function ContactForm({ variant = 'dark' }) {
 					gdprConsent: false,
 					marketingConsent: false,
 				})
-				// Reset file input
+				
 				const fileInput = document.getElementById('file')
 				if (fileInput) fileInput.value = ''
 			} else {
@@ -92,7 +99,7 @@ export default function ContactForm({ variant = 'dark' }) {
 		}
 	}
 
-	// Wariant ciemny (dla podstrony kontaktowej)
+	
 	const darkStyles = {
 		container: 'bg-slate-800 rounded-2xl p-8 shadow-2xl',
 		label: 'block text-sm font-medium text-gray-300 mb-2',
@@ -106,7 +113,7 @@ export default function ContactForm({ variant = 'dark' }) {
 		required: 'text-[#E10600]',
 	}
 
-	// Wariant jasny (dla sekcji na stronie głównej)
+	
 	const lightStyles = {
 		container: 'bg-gray-50 rounded-xl p-6 sm:p-8 shadow-md',
 		label: 'block text-sm font-medium text-gray-700 mb-1',
@@ -273,7 +280,7 @@ export default function ContactForm({ variant = 'dark' }) {
 					)}
 				</div>
 
-				{/* Klauzula informacyjna RODO */}
+				
 				<div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
 					<p className="text-sm text-gray-700 mb-2 font-bold">{t.form.gdpr.infoTitle}</p>
 					<p className="text-xs text-gray-700 mb-2">{t.form.gdpr.info}</p>
@@ -311,7 +318,7 @@ export default function ContactForm({ variant = 'dark' }) {
 					</div>
 				</div>
 
-				{/* Checkbox zgody RODO - wymagany */}
+				
 				<div className="flex items-start">
 					<input
 						type="checkbox"
@@ -326,7 +333,7 @@ export default function ContactForm({ variant = 'dark' }) {
 					</label>
 				</div>
 
-				{/* Checkbox zgody marketingowej - opcjonalny */}
+				
 				<div className="flex items-start">
 					<input
 						type="checkbox"
